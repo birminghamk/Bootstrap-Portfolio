@@ -31,14 +31,14 @@ nav {
 	line-height: 18px;
 	color: #999;
 }
+.connect-panel {
+	width: 100%;
+}
 .connect-panel img {
 	width: 75px;
 }
-.panel.panel-default {
-	padding-right: 100px;
-}
 .panel-heading {
-	background-color: darkblue;
+	background-color: navy;
 }
 .panel-title {
 	padding: 20px;
