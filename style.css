@@ -1,3 +1,4 @@
+/* general*/
 body {
 	font-family: Arial, "Helvetica Neue",Helvetica, sans-serif;
 	font-size: 18px;
@@ -10,35 +11,48 @@ body {
 	display: block;
 	clear: both;
 }
+.height-fix {
+	min-height:calc(100vh - 135px);
+}
+
+/*navbar/navbar links*/
 .navbar-header {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-weight: 700;
 	color: #fff;
-	text-align: center;
 	background: lightblue;
 	font-size: 30px;
 	line-height: 90px;
-}
-.height-fix {
-	min-height:calc(100vh - 135px);
+	padding-left: 10px;
 }
 nav {
 	overflow: auto;
 	background-color: darkblue;
 	border-bottom: 2px solid #ccc;
 }
+nav a {
+	border-left: 2px solid navy;
+}
+
+.navbar-right a {
+	border-left: double navy;
+}
+
+/*sidebar*/
+.connect-panel {
+	width: 100%;
+	margin-top: 50px;
+}
+.connect-panel img {
+	width: 100%;
+	max-width: 75px;
+}
 .panel-body {
 	line-height: 18px;
 	color: #999;
 }
-.connect-panel {
-	width: 100%;
-}
-.connect-panel img {
-	width: 75px;
-}
 .panel-heading {
-	background-color: navy;
+	font-size: 30px;
 }
 .panel-title {
 	padding: 20px;
@@ -47,6 +61,8 @@ nav {
 	font-size: 20px;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
+
+/*portfolio page*/
 .work img {
 	max-width: 300px;
 	max-height: 300px;
@@ -67,9 +83,13 @@ nav {
 	width: 100%;
 	padding: 10px;
 }
+
+/*contact page*/
 .btn.btn-default {
 	margin-bottom: 20px;
 }
+
+/*footer*/
 .footer-fluid {
 	text-align: center;
 	margin: 0 auto;
@@ -81,3 +101,35 @@ nav {
 	position: static;
 	bottom: 0;
 }
+
+@media screen and (max-width: 1000px) {
+.img-thumbnail {
+	height: 30%;
+	width: 50%;
+}
+.about-bio {
+	width: 50%;
+	float: right;
+}
+.img-thumbnail {
+	float: left;
+}
+.work {
+	margin-right: -10px;
+	margin-left: 20px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+.img-thumbnail {
+	margin-bottom: 20px;
+	width: 100%;
+}
+.about-bio {
+	width: 100%;
+}
+.work {
+	margin-left: 20px;
+}
+
