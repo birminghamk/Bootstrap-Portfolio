@@ -3,9 +3,9 @@ body {
 	font-family: 'Federo', sans-serif;
 	color: grey;
 }
-/*body, html {
+body, html {
 	height: 100%;
-}*/
+}
 .clearfix:after {
 	content: " ";
 	display: block;
@@ -80,11 +80,11 @@ button.view-project {
 .parallax-container {
 	height: 100%;
 	margin: 10%;
-	margin-top: 5%;
+	margin-top: 10%;
 }
 .parallax {
 	background-image: url("../images/FaceAffect.PNG");
-	/*height: 90%;*/
+	height: 100%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
