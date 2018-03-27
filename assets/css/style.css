@@ -1,0 +1,98 @@
+/*GENERAL*/
+body {
+	font-family: 'Federo', sans-serif;
+	color: grey;
+}
+/*body, html {
+	height: 100%;
+}*/
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.bg {
+	background-image: url("../images/panel-background.jpg");
+	background-repeat: round;
+	width: 100%;
+}
+.nav-link {
+	border-left: double grey;
+}
+.dropdown-item {
+	color: grey;
+}
+.modal-title {
+	color: grey;
+	margin-left: 29%;
+	font-size: 28px;
+}
+.modal-body {
+	text-align: center;
+}
+.modal-footer {
+	float: left;
+	color: grey;
+}
+.email {
+	margin-right: 25%;
+}
+.dropdown-item:active {
+	background-color: grey;
+}
+/*HOME PAGE*/
+div .jumbotron {
+	position: relative;
+	background-image: url("../images/concrete_seamless.png");
+	color: grey;
+	margin-top: 10%;
+}
+div .absolute {
+	position: absolute;
+	left: 20px;
+	bottom: 0;
+}
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+}
+h4 .about-kate {
+	margin-top: 10px;
+}
+/*BIO PAGE*/
+.container-bio {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.bio-pic {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+}
+.bio {
+	margin-top: 20px;
+}
+/*PROJECTS ALL*/
+button.view-project {
+	margin-left: 43%;
+}
+/*PROJECTS FACEAFFECT */
+.parallax-container {
+	height: 100%;
+	margin: 10%;
+	margin-top: 5%;
+}
+.parallax {
+	background-image: url("../images/FaceAffect.PNG");
+	/*height: 90%;*/
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
