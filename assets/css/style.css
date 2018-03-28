@@ -15,9 +15,13 @@ body, html {
 	background-image: url("../images/panel-background.jpg");
 	background-repeat: round;
 	width: 100%;
+
 }
 .nav-link {
 	border-left: double grey;
+}
+.navbar {
+	position: fixed;
 }
 .dropdown-item {
 	color: grey;
@@ -60,7 +64,7 @@ h4 .about-kate {
 }
 /*BIO PAGE*/
 .container-bio {
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -72,23 +76,46 @@ h4 .about-kate {
 .bio {
 	margin-top: 20px;
 }
-/*PROJECTS ALL*/
-button.view-project {
-	margin-left: 43%;
+.bio-nav, .bio-bg {
+	position: static;
 }
-/*PROJECTS FACEAFFECT */
-.parallax-container {
-	height: 100%;
-	margin: 10%;
-	margin-top: 10%;
+.bio-header {
+	text-align: center;
+}
+/*PROJECTS ALL*/
+.project {
+	background: url("../images/concrete_seamless.png");
 }
 .parallax {
-	background-image: url("../images/FaceAffect.PNG");
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 2%;
+}
+.parallax-container {
+	height: 100%;
+	margin: 10%;
+	margin-top: 0%;
+	text-align: center;
+}
+.faceAffect-parallax {
+	background-image: url("../images/FaceAffect.PNG");
+}
+.dateKnight-parallax {
+	background-image: url("../images/DateKnight.PNG");
+}
+.bamazon-parallax {
+	background-image: url("../images/bamazon.PNG");
+}
+.parallax {
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
 }
 
 
