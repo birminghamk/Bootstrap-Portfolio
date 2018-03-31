@@ -39,10 +39,21 @@ body, html {
 	color: grey;
 }
 .email {
-	margin-right: 25%;
+	margin-right: 23%;
 }
 .dropdown-item:active {
 	background-color: grey;
+}
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background-color: lightgrey;
+	color: white;
+	margin-top: 50px;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 /*HOME PAGE*/
 div .jumbotron {
@@ -75,9 +86,6 @@ h4 .about-kate {
 }
 .bio {
 	margin-top: 20px;
-}
-.bio-nav, .bio-bg {
-	position: static;
 }
 .bio-header {
 	text-align: center;
@@ -116,6 +124,37 @@ h4 .about-kate {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 2%;
+}
+/*PORTFOLIO PAGE*/
+.portfolio-link {
+  display: inline-block;
+  width: 100px;
+  margin-right: 70px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.portfolio-nav, scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.portfolio-nav {
+  width: 100%;
+  padding: 5px;
+}
+scroll-container {
+  display: block;
+  width: 100%;
+  height: 900px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
 }
 
 

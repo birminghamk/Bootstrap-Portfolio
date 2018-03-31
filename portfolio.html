@@ -16,26 +16,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
+<body>
 
-<body class="project">
-
-  <div class="pos-f-t">
+ <div class="pos-f-t">
     <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg p-4">
+      <div class="bg p-4 bio-bg">
         <div class="btn-group" role="group">
-          <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle text-white nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Portfolio
-          </button>
-          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="FaceAffect.html">FaceAffect</a>
-            <a class="dropdown-item" href="DateKnight.html">DateKnight</a>
-            <a class="dropdown-item" href="bamazon.html">Bamazon</a>
-          </div>
+          <h4><a href="index.html" class="text-muted nav-link">Home</a></h4>
         </div>
         <h4><a href="bio.html" class="about-kate text-muted nav-link">About Kate</a></h4>
       </div>
   </div>
-    <nav class="navbar navbar-dark bg">
+    <nav class="navbar navbar-dark bg bio-nav">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,10 +35,40 @@
     </nav>
   </div>
 
-  <div class="parallax-container">
+  <nav class="portfolio-nav">
+    <a class="portfolio-link text-muted" href="#page-1">FaceAffect</a>
+    <a class="portfolio-link text-muted" href="#page-2">DateKnight</a>
+    <a class="portfolio-link text-muted" href="#page-3">Bamazon</a>
+  </nav>
 
-    <div class="parallax bamazon-parallax"></div>
+  <scroll-container>
+    <scroll-page id="page-1">
+      <div style="height:320px;background-color:grey;font-size:24px; color:white;">
+          <h1>FaceAffect</h1>
+          <h3>Project Description:</h3>
+          <p>Submit your name and a selfie for personalized music selections based on your mood</p>
+          <h3>Role: Front-end Developer of group of 3</h3>
+          <hr>
+          <a target="_blank" href="https://github.com/TakashiWaseda/FaceAffect" type="button" class="btn btn-outline-info btn-lg github-repo">Github Repo</a>
 
+          <a target="_blank" href="https://takashiwaseda.github.io/FaceAffect/index.html" type="button" class="btn btn-outline-info btn-lg view-project">View Project</a>
+        </div>
+    </scroll-page>
+
+    <scroll-page id="page-2">
+      <div style="height:330px;background-color:grey;font-size:36px;color:white;">
+        <h1>DateKnight</h1>
+        <h3>Project Description:</h3>
+          <h4>Sign in as a user, complete a questionnaire, and receive date night recommendations for food, drinks, and events based on your location.</h4>
+        <h3>Role: Front-end Developer of group of 4</h3>
+        <hr>
+          <a target="_blank" href="https://github.com/birminghamk/DateKnight" type="button" class="btn btn-outline-info btn-lg github-repo">Github Repo</a>
+
+          <a target="_blank" href="https://dateknightapp.herokuapp.com" type="button" class="btn btn-outline-info btn-lg view-project">View Project</a>
+      </div>
+    </scroll-page>
+
+    <scroll-page id="page-3">
       <div style="height:350px;background-color:grey;font-size:36px;color:white;">
         <h1>Bamazon</h1>
         <h3>Project Description:</h3>
@@ -55,10 +77,16 @@
         <hr>
           <a target="_blank" href="https://github.com/birminghamk/bamazon" type="button" class="btn btn-outline-info btn-lg github-repo">Github Repo</a>
       </div>
-
-  <div class="parallax"></div>
-
-</div>
+    </scroll-page>
+  </scroll-container>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <footer>
+            Copyright &copy; Kate Birmingham <span id="year"></span>
+        </footer>
+      </div>
+    </div>
 
   <div class="modal modal-connect" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
@@ -82,7 +110,9 @@
   </div>
 
 
-    <script type="text/javascript" src="assets/js/portfolio.js"></script>
+  <script type="text/javascript" src="assets/js/portfolio.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 
 </body>
