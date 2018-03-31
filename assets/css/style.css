@@ -20,9 +20,9 @@ body, html {
 .nav-link {
 	border-left: double grey;
 }
-.navbar {
+/*.navbar {
 	position: fixed;
-}
+}*/
 .dropdown-item {
 	color: grey;
 }
