@@ -90,41 +90,6 @@ h4 .about-kate {
 .bio-header {
 	text-align: center;
 }
-/*PROJECTS ALL*/
-.project {
-	background: url("../images/concrete_seamless.png");
-}
-.parallax {
-	height: 100%;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 2%;
-}
-.parallax-container {
-	height: 100%;
-	margin: 10%;
-	margin-top: 0%;
-	text-align: center;
-}
-.faceAffect-parallax {
-	background-image: url("../images/FaceAffect.PNG");
-}
-.dateKnight-parallax {
-	background-image: url("../images/DateKnight.PNG");
-}
-.bamazon-parallax {
-	background-image: url("../images/bamazon.PNG");
-}
-.parallax {
-	height: 100%;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 2%;
-}
 /*PORTFOLIO PAGE*/
 .portfolio-link {
   display: inline-block;
@@ -132,6 +97,12 @@ h4 .about-kate {
   margin-right: 70px;
   text-decoration: none;
   font-size: 30px;
+}
+.portfolio-page {
+	background-color: lightgrey;
+	border-radius: 50px;
+	padding-right:10px;
+	padding-left:10px;
 }
 .portfolio-nav, scroll-container {
   display: block;
