@@ -3,26 +3,27 @@ body {
 	font-family: 'Federo', sans-serif;
 	color: grey;
 }
-body, html {
-	height: 100%;
-}
 .clearfix:after {
 	content: " ";
 	display: block;
 	clear: both;
 }
+a.mainPortfolio-link:active {
+	color: white;
+	text-decoration: none;
+}
+a.mainPortfolio-link {
+	color: grey;
+	text-decoration: none;
+}
 .bg {
 	background-image: url("../images/panel-background.jpg");
 	background-repeat: round;
 	width: 100%;
-
 }
 .nav-link {
 	border-left: double grey;
 }
-/*.navbar {
-	position: fixed;
-}*/
 .dropdown-item {
 	color: grey;
 }
@@ -56,7 +57,7 @@ footer {
 	text-align: center;
 }
 /*HOME PAGE*/
-div .jumbotron {
+div.jumbotron {
 	position: relative;
 	background-image: url("../images/concrete_seamless.png");
 	color: grey;
@@ -91,12 +92,20 @@ h4 .about-kate {
 	text-align: center;
 }
 /*PORTFOLIO PAGE*/
+.portfolio-bg {
+	background-image: url("../images/concrete_seamless.png");
+}
 .portfolio-link {
   display: inline-block;
   width: 100px;
   margin-right: 70px;
   text-decoration: none;
   font-size: 30px;
+  color: lightgrey;
+}
+.portfolio-link:hover {
+	color: grey;
+	text-decoration: none;
 }
 .portfolio-page {
 	background-color: lightgrey;
@@ -116,15 +125,18 @@ h4 .about-kate {
 scroll-container {
   display: block;
   width: 100%;
-  height: 900px;
+  height: 800px;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  background-image: url("../images/portfolio-bg.png");
+  background-repeat: round;
 }
 scroll-page {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%;
   font-size: 5em;
 }
 
