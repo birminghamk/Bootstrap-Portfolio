@@ -111,7 +111,6 @@ footer {
 }
 /*HOME PAGE*/
 div.jumbotron {
-	/*position: relative;*/
 	background-image: url("../images/concrete_seamless.png");
 	color: grey;
 	margin-top: 10%;
@@ -228,7 +227,6 @@ scroll-page {
   font-size: 5em;
 }
 
-
 @keyframes unfoldIn {
   0% {
     transform: scaleY(0.005) scaleX(0);
@@ -330,7 +328,6 @@ scroll-page {
     transform: scale(0);
   }
 }
-
 
 
 
