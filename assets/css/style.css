@@ -7,31 +7,56 @@ body {
 	color: grey;
 	background-image: url("../images/concrete_seamless.png");
 }
-a.mainPortfolio-link:active {
-	color: white;
-	text-decoration: none;
-}
-a.mainPortfolio-link {
-	color: grey;
-	text-decoration: none;
-}
 .bg {
 	background-image: url("../images/panel-background.jpg");
 	background-repeat: round;
 	width: 100%;
 }
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: white;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/*navbar*/
 .nav-link {
 	border-left: double grey;
 }
-.navbar-toggler:hover {
-	border: 2px solid white;
-}
-.navbar-toggler:visited {
+.navbar-toggler:active {
 	border: 1px solid white;
 }
-.dropdown-item {
-	color: grey;
+.navbar-toggler:visited {
+  border: 1px solid white;
+  text-decoration: none;
 }
+a.mainPortfolio-link:active {
+  color: white;
+  text-decoration: none;
+}
+a.mainPortfolio-link:hover {
+  color: lightgrey;
+  text-decoration: none;
+}
+a.mainPortfolio-link {
+  color: grey;
+  text-decoration: none;
+}
+button.navbar-right {
+  color: grey;
+  background-color: rgb(0,0,0,0.0);
+  border: 1px solid white;
+}
+button.navbar-right:hover {
+  color: lightgrey;
+  background-color: white;
+  border: 2px solid lightgrey;
+}
+/*connect modal*/
 html.modal-active, body.modal-active {
   overflow: hidden;
 }
@@ -72,7 +97,7 @@ html.modal-active, body.modal-active {
   width: 100%;
   border-radius: 3px;
 }
-#modal-container .modal-background .modal .modal-svg rect {
+#modal-container .modal-background .modal {
   stroke: #fff;
   stroke-width: 2px;
   stroke-dasharray: 778;
@@ -80,7 +105,7 @@ html.modal-active, body.modal-active {
 }
 #modal-container .modal-background {
   display: table-cell;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(0,0,0,0.3);
   text-align: center;
   vertical-align: middle;
 }
@@ -95,20 +120,7 @@ html.modal-active, body.modal-active {
 .email {
 	text-align: center;
 }
-.dropdown-item:active {
-	background-color: grey;
-}
-footer {
-	position: relative;
-	bottom: 0;
-	width: 100%;
-	background-color: lightgrey;
-	color: white;
-	margin-top: 50px;
-	padding-top: 100px;
-	padding-bottom: 10px;
-	text-align: center;
-}
+
 /*HOME PAGE*/
 div.jumbotron {
 	background-image: url("../images/concrete_seamless.png");
@@ -227,6 +239,7 @@ scroll-page {
   font-size: 5em;
 }
 
+/*Modal animation*/
 @keyframes unfoldIn {
   0% {
     transform: scaleY(0.005) scaleX(0);
