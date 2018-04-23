@@ -5,6 +5,24 @@ $(function() {
 
 	$("#year").text(year);
 
+	const colorChanger = document.getElementById("color-changer");
+	const colors = ["lightblue", "purple", "darkblue", "blue", "green", "yellow", "orange", "grey"];
+	let counter = 0;
+
+	//changes text color of h1 on home page
+	function changeColor () {
+
+		if (counter >= colors.length) {
+			counter=0;
+		}
+
+		colorChanger.style.color = colors[counter];
+		counter++;
+
+	}
+
+	setInterval(changeColor, 3000);
+
 	// Click connect button, modal pops up
 	$(".connect").on("click", function() {
 		// $(".modal-connect").modal("show");
