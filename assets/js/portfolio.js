@@ -6,14 +6,14 @@ $(function() {
 	$("#year").text(year);
 
 	const colorChanger = document.getElementById("color-changer");
-	const colors = ["lightblue", "purple", "darkblue", "blue", "green", "yellow", "orange", "grey"];
+	const colors = ["lightblue", "purple", "darkblue", "blue", "green", "lightgreen", "yellow", "orange", "grey"];
 	let counter = 0;
 
 	//changes text color of h1 on home page
 	function changeColor () {
 
 		if (counter >= colors.length) {
-			counter=0;
+			counter = 0;
 		}
 
 		colorChanger.style.color = colors[counter];

@@ -193,9 +193,9 @@ h4 .about-kate {
   display: inline-block;
   text-decoration: none;
   font-size: 30px;
-  color: lightgrey;
+  color: white;
   margin-right: 15px;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px grey;
 }
 .portfolio-link:hover {
 	background-color: lightgrey;
@@ -206,11 +206,13 @@ h4 .about-kate {
   text-shadow: 0px 0px white;
 }
 .portfolio-page {
-	background-color: rgb(192,192,192, 0.4);
-	padding-right:10px;
-	padding-left:10px;
+	background-color: rgb(192,192,192,0.8);
+  padding-top: 45px;
+	padding-right:20px;
+	padding-left:20px;
 	width: 100%;
-  border-radius: 100%;
+  border-radius: 55%;
+  color: white;
 }
 .portfolio-nav, scroll-container {
   margin: 0 auto;
@@ -221,17 +223,23 @@ h4 .about-kate {
   display: inline-block;
   margin-top: 5px;
 }
+.portfolioNav-container {
+  background-color: rgb(192,192,192,0.4);
+  padding-bottom: 75px;
+  margin-right: 2%;
+  margin-left: 2%;
+}
 scroll-container {
   display: block;
   width: 70%;
   height: 600px;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  background-image: url("../images/portfolio-bg.png");
+  background-image: url("../images/geomtric-shapes.jpg");
   background-repeat: round;
   border-radius: 100%;
   border: 10px double lightblue;
-  margin-top: 5px;
+  margin-top: -70px;
 }
 scroll-page {
   display: flex;
@@ -239,7 +247,7 @@ scroll-page {
   justify-content: center;
   height: 100%;
   width: 100%;
-  font-size: 5em;
+  /*font-size: 5em;*/
 }
 
 /*Modal animation*/
