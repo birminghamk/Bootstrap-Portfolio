@@ -122,30 +122,23 @@ html.modal-active, body.modal-active {
 }
 
 /*HOME PAGE*/
-div.jumbotron {
-	background-image: url("../images/concrete_seamless.png");
-	color: grey;
-	margin-top: 10%;
-}
-div .absolute {
-	/*position: absolute;*/
-	left: 20px;
-	bottom: 0;
-}
 .container-home {
 	position: relative;
 	width: 100%;
-	background-image: gradient blue;
-}
-.container-home,.laptop {
-	width: 100%;
-	height: auto;
+ /* background-repeat: round;*/
+  /*padding-bottom: 500px;*/
 }
 h1 {
 	font-family: 'Fredericka the Great', cursive;
 }
-h4 .about-kate {
+h4.about-kate {
 	margin-top: 10px;
+}
+#gradient {
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
 }
 /*BIO PAGE*/
 .container-bio {
@@ -186,9 +179,9 @@ h4 .about-kate {
   opacity: 1;
   right: 0;
 }
-.portfolio-bg {
+/*.portfolio-bg {
 	background-image: url("../images/concrete_seamless.png");
-}
+}*/
 .portfolio-link {
   display: inline-block;
   text-decoration: none;
@@ -198,7 +191,7 @@ h4 .about-kate {
   text-shadow: 1px 1px grey;
 }
 .portfolio-link:hover {
-	background-color: lightgrey;
+	background-color: rgb(192,192,192, 0.4);
 	color: white;
 	text-decoration: none;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -224,10 +217,14 @@ h4 .about-kate {
   margin-top: 5px;
 }
 .portfolioNav-container {
-  background-color: rgb(192,192,192,0.4);
+  /*background-color: rgb(192,192,192,0.4);*/
+  background: url('../images/portfolio-bg.png');
+  background-repeat: round;
   padding-bottom: 75px;
   margin-right: 2%;
   margin-left: 2%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 scroll-container {
   display: block;
