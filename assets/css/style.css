@@ -5,7 +5,7 @@
 body {
 	font-family: 'Federo', sans-serif;
 	color: grey;
-	background-image: url("../images/concrete_seamless.png");
+	/*background-image: url("../images/concrete_seamless.png");*/
 }
 .bg {
 	background-image: url("../images/panel-background.jpg");
@@ -16,23 +16,19 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: lightgrey;
+  background-color: rgb(224,224,224);
   color: white;
-  margin-top: 50px;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
 }
 /*navbar*/
 .nav-link {
 	border-left: double grey;
+  margin-top: 5px;
 }
 .navbar-toggler:active {
 	border: 1px solid white;
-}
-.navbar-toggler:visited {
-  border: 1px solid white;
-  text-decoration: none;
 }
 a.mainPortfolio-link:active {
   color: white;
@@ -105,7 +101,7 @@ html.modal-active, body.modal-active {
 }
 #modal-container .modal-background {
   display: table-cell;
-  background: rgb(0,0,0,0.3);
+  background: lightgrey;
   text-align: center;
   vertical-align: middle;
 }
@@ -125,26 +121,64 @@ html.modal-active, body.modal-active {
 .container-home {
 	position: relative;
 	width: 100%;
- /* background-repeat: round;*/
-  /*padding-bottom: 500px;*/
 }
 h1 {
 	font-family: 'Fredericka the Great', cursive;
+}
+.hompageHeader {
+  color: white;
+  position: absolute;
+  top: 8.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 4s;
+  animation-duration: 6s;
+}
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  margin: 0 auto;
+}
+.homepageBio {
+  position: absolute;
+  top: 13.5rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 7s;
+  animation-duration: 6s;
 }
 h4.about-kate {
 	margin-top: 10px;
 }
 #gradient {
   width: 100%;
-  height: 800px;
+  height: 700px;
   padding: 0px;
   margin: 0px;
+  overflow: hidden;
+  position: relative;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: fadeInOut;
+  animation-delay: 2s;
+  animation-duration: 4s;
+  opacity: 0;
+}
+.dotSwitch {
+  background-color: white;
+}
+.dot-container {
+  margin-top: 20%;
+  margin-left: 47%;
 }
 /*BIO PAGE*/
 .container-bio {
-	margin-top: 2%;
-	margin-left: 10%;
-	margin-right: 10%;
+	background: url('../images/concrete_seamless.png');
 }
 .bio-pic {
 	width: 500px;
@@ -158,6 +192,12 @@ h4.about-kate {
 	text-align: center;
 }
 /*PORTFOLIO PAGE*/
+.container-portfolio {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-repeat: round;
+  padding-bottom: 100px;
+}
 .projectButton span {
   cursor: pointer;
   display: inline-block;
@@ -179,16 +219,13 @@ h4.about-kate {
   opacity: 1;
   right: 0;
 }
-/*.portfolio-bg {
-	background-image: url("../images/concrete_seamless.png");
-}*/
 .portfolio-link {
   display: inline-block;
   text-decoration: none;
   font-size: 30px;
-  color: white;
+  color: lightgrey;
   margin-right: 15px;
-  text-shadow: 1px 1px grey;
+  text-shadow: 1px 1px white;
 }
 .portfolio-link:hover {
 	background-color: rgb(192,192,192, 0.4);
@@ -199,26 +236,21 @@ h4.about-kate {
   text-shadow: 0px 0px white;
 }
 .portfolio-page {
-	background-color: rgb(192,192,192,0.8);
+	background-color: rgb(192,192,192,0.4);
   padding-top: 45px;
 	padding-right:20px;
 	padding-left:20px;
 	width: 100%;
-  border-radius: 55%;
+  border-radius: 2%;
   color: white;
+  margin: 12%;
 }
 .portfolio-nav, scroll-container {
   margin: 0 auto;
   text-align: center;
 }
-.portfolio-nav {
-  width: 100%;
-  display: inline-block;
-  margin-top: 5px;
-}
 .portfolioNav-container {
-  /*background-color: rgb(192,192,192,0.4);*/
-  background: url('../images/portfolio-bg.png');
+  background: rgb(192,192,192,0.6);
   background-repeat: round;
   padding-bottom: 75px;
   margin-right: 2%;
@@ -228,11 +260,11 @@ h4.about-kate {
 }
 scroll-container {
   display: block;
-  width: 70%;
+  width: 60%;
   height: 600px;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  background-image: url("../images/geomtric-shapes.jpg");
+  background: url('../images/grey-rose.jpg');
   background-repeat: round;
   border-radius: 100%;
   border: 10px double lightblue;
@@ -244,7 +276,41 @@ scroll-page {
   justify-content: center;
   height: 100%;
   width: 100%;
-  /*font-size: 5em;*/
+}
+
+/*dot animation*/
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/*homepageHeader animation*/
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
 }
 
 /*Modal animation*/
