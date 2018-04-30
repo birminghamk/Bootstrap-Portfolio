@@ -19,23 +19,23 @@ $(function() {
   		$('body').removeClass('modal-active');
 	})
 
-	// const colorChanger = document.getElementById("color-changer");
-	// const colors = ["lightblue", "purple", "darkblue", "blue", "green", "lightgreen", "yellow", "orange", "grey"];
-	// let counter = 0;
+	const colorChanger = document.getElementById("color-changer");
+	const textcolors = ["lightblue", "purple", "darkblue", "green", "yellow", "orange", "red"];
+	let counter = 0;
 
-	// //changes text color of h1 on home page
-	// function changeColor () {
+	//changes text color of github link on bio page
+	function changeColor () {
 
-	// 	if (counter >= colors.length) {
-	// 		counter = 0;
-	// 	}
+		if (counter >= textcolors.length) {
+			counter = 0;
+		}
 
-	// 	colorChanger.style.color = colors[counter];
-	// 	counter++;
+		colorChanger.style.color = textcolors[counter];
+		counter++;
 
-	// }
+	}
 
-	// setInterval(changeColor, 10000);
+	setInterval(changeColor, 5000);
 
 	var colors = new Array(
 	  [62,35,255],
@@ -99,9 +99,9 @@ $(function() {
 	//changes gradient on home page
 	setInterval(updateGradient,10);
 
-	$("#dropDownMenu li").each(function(i) {
-		$(this).delay(100 * i).fadeIn(500);
-	})
+	// $("#dropDownMenu li").each(function(i) {
+	// 	$(this).delay(100 * i).fadeIn(500);
+	// })
 
 
 }); 
