@@ -182,7 +182,7 @@ h4.about-kate {
 }
 #gradient {
   width: 100%;
-  height: 705px;
+  height: 900px;
   padding: 0px;
   margin: 0px;
   overflow: hidden;
@@ -238,7 +238,7 @@ h4.about-kate {
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   background-repeat: round;
-  padding-bottom: 55px;
+  padding-bottom: 200px;
 }
 .projectButton span {
   cursor: pointer;

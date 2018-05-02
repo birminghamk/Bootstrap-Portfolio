@@ -1,7 +1,7 @@
 $(function() {
 
 	// Generate and display the year at the footer
-	const year = moment().format('YYYY');
+	var year = moment().format('YYYY');
 
 	$("#year").text(year);
 
@@ -19,8 +19,8 @@ $(function() {
   		$('body').removeClass('modal-active');
 	})
 
-	const colorChanger = document.getElementById("color-changer");
-	const textcolors = ["lightblue", "purple", "darkblue", "green", "yellow", "orange", "red"];
+	var colorChanger = document.getElementById("color-changer");
+	var textcolors = ["lightblue", "purple", "darkblue", "green", "yellow", "orange", "red"];
 	let counter = 0;
 
 	//changes text color of github link on bio page
