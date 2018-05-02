@@ -8,7 +8,7 @@ $(function() {
 	// Click connect button, modal pops up
 	$(".connect").on("click", function() {
 		// $(".modal-connect").modal("show");
-		const buttonId = $(this).attr('id');
+		var buttonId = $(this).attr('id');
   		$('#modal-container').removeAttr('class').addClass(buttonId);
  		$('body').addClass('modal-active');
 	})
@@ -26,7 +26,7 @@ $(function() {
 
 	var colorChanger = document.getElementById("color-changer");
 	var textcolors = ["lightblue", "purple", "darkblue", "green", "yellow", "orange", "red"];
-	let counter = 0;
+	var counter = 0;
 
 	//changes text color of github link on bio page
 	function changeColor () {

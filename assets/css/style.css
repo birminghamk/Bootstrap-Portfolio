@@ -26,8 +26,8 @@ footer {
   right: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(224,224,224, 0.5);
-  color: grey;
+  background-color: lightgrey;
+  color: white;
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
@@ -40,15 +40,16 @@ footer {
   border-left: double grey;
   margin-top: 5px;
 }
-.navbar-toggler:active {
+/*.navbar-toggler {
   border: 1px solid white;
-}
-a.mainPortfolio-link:active {
+}*/
+.portfolioBtn {
+  background-color: grey;
   color: white;
-  text-decoration: none;
 }
-a.mainPortfolio-link:hover {
-  color: lightgrey;
+.portfolioBtn:hover {
+  color: grey;
+  background-color: rgb(224,224,224, 0.5);
   text-decoration: none;
 }
 a.mainPortfolio-link {
