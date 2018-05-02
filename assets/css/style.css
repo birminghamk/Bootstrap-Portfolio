@@ -40,9 +40,6 @@ footer {
   border-left: double grey;
   margin-top: 5px;
 }
-/*.navbar-toggler {
-  border: 1px solid white;
-}*/
 .portfolioBtn {
   background-color: lightgrey;
   color: white;
@@ -60,10 +57,7 @@ button.navbar-toggler {
   background-color: lightgrey;
 }
 button.navbar-toggler:visited {
-  text-decoration: none;
-}
-button.navbar-toggler {
-
+  text-decoration-style: none;
 }
 button.navbar-right {
   color: grey;
