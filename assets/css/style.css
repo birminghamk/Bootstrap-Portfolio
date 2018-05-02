@@ -44,7 +44,7 @@ footer {
   border: 1px solid white;
 }*/
 .portfolioBtn {
-  background-color: grey;
+  background-color: lightgrey;
   color: white;
 }
 .portfolioBtn:hover {
@@ -55,6 +55,15 @@ footer {
 a.mainPortfolio-link {
   color: grey;
   text-decoration: none;
+}
+button.navbar-toggler {
+  background-color: lightgrey;
+}
+button.navbar-toggler:visited {
+  text-decoration: none;
+}
+button.navbar-toggler {
+
 }
 button.navbar-right {
   color: grey;
