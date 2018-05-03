@@ -51,13 +51,20 @@ footer {
 }
 a.mainPortfolio-link {
   color: grey;
-  text-decoration: none;
 }
 button.navbar-toggler {
   background-color: lightgrey;
 }
-button.navbar-toggler:visited {
-  text-decoration-style: none;
+button.navbar-toggler:hover {
+  box-shadow: -5px -5px white;
+}
+span.navbar-toggler-icon {
+  border-radius: 50%;
+}
+button.navbar-toggler:focus {
+  border: 1px solid white;
+  text-shadow: -5px -5px white;
+  text-decoration: none;
 }
 button.navbar-right {
   color: grey;
