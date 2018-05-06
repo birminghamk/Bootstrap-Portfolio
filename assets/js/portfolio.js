@@ -19,6 +19,13 @@ $(function() {
   		$('body').removeClass('modal-active');
 	})
 
+	//navicon homepage onclick animation
+	$('.navicon').on('click', function (e) {
+  		e.preventDefault();
+  		$(this).toggleClass('navicon--active');
+  		$('.toggle').toggleClass('toggle--active');
+	});
+
 	//click portfolio button, go to portfolio page
 	$(".portfolioBtn").on("click", function() {
 		window.location = "http://birminghamk.github.io/Portfolio/portfolio.html";
