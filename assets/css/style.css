@@ -154,17 +154,18 @@ html.modal-active, body.modal-active {
   top: 0;
   opacity: 0;
   margin-top: 1%;
+  height: 650px;
   border: 2px solid white;
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
   border-left: 20px double lightgrey;
-  padding-right: 20%;
-  padding-left: 11%;
+  padding-right: 25%;
+  padding-left: 45%;
   -webkit-filter: blur(1px);
   filter: blur(1px);
-  animation-delay: 10s;
+  animation-delay: 8s;
 }
 .homepagePic-animation {
   -webkit-animation-duration: 5s;
@@ -300,6 +301,7 @@ h4.about-kate {
   font-size: 30px;
   color: lightgrey;
   margin-right: 15px;
+  margin-top: 10px;
   text-shadow: 1px 1px white;
 }
 .portfolio-link:hover {
