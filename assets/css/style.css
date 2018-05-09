@@ -206,6 +206,7 @@ html.modal-active, body.modal-active {
 .homepageBio {
   position: absolute;
   top: 4.5em;
+  text-shadow: 1px 1px white;
 }
 h4.about-kate {
   margin-top: 10px;
@@ -269,8 +270,7 @@ h4.about-kate {
 }
 /*PORTFOLIO PAGE*/
 .container-portfolio {
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-color: rgb(245,245,245);
   background-repeat: round;
   padding-bottom: 200px;
 }
@@ -302,7 +302,7 @@ h4.about-kate {
   color: lightgrey;
   margin-right: 15px;
   margin-top: 10px;
-  text-shadow: 1px 1px white;
+  /*text-shadow: 1px 1px grey;*/
 }
 .portfolio-link:hover {
   background-color: rgb(192,192,192, 0.4);
@@ -313,7 +313,7 @@ h4.about-kate {
   border-radius: 10%;
 }
 .portfolio-page {
-  background-color: rgb(192,192,192,0.4);
+  background-color: rgb(245,245,245,0.4);
   padding-top: 30px;
   padding-right:20px;
   padding-left:20px;
@@ -327,7 +327,7 @@ h4.about-kate {
   text-align: center;
 }
 .portfolioNav-container {
-  background: rgb(192,192,192,0.6);
+  background: white;
   background-repeat: round;
   padding-bottom: 75px;
   margin-right: 2%;
@@ -341,7 +341,8 @@ scroll-container {
   height: 600px;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  background-color: lightgrey;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   background-repeat: round;
   border-radius: 100%;
   border: 10px double lightblue;
@@ -354,7 +355,15 @@ scroll-page {
   height: 100%;
   width: 100%;
 }
-
+.tech {
+  color: grey;
+  font-size: 20px;
+  /*margin-left: 40%;*/
+}
+.tech .project-photo {
+  margin: 0 auto;
+  text-align: center;
+}
 /*dot animation*/
 @keyframes fadeInOut {
   0% {
@@ -524,6 +533,13 @@ scroll-page {
   }
 }
 
+@media screen and (max-width: 1400px) {
+  .homepagePic {
+    padding-right: 20%;
+    padding-left: 45%;
+  }
+}
+
 @media screen and (max-width: 1070px) {
   scroll-container{
       width: 60%;
@@ -559,13 +575,15 @@ scroll-page {
   }
   .homepageBio {
     top: 13.5rem;
+    text-shadow: 1px 1px white;
   }
   .dot-container {
     margin-left: 30%;
     margin-top: 20%;
   }
   .homepagePic {
-    margin-top: 30%;
+    padding-left: 10%;
+    padding-right: 5%;
   }
 }
 
