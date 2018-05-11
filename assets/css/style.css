@@ -301,8 +301,6 @@ h4.about-kate {
   font-size: 30px;
   color: lightgrey;
   margin-right: 15px;
-  margin-top: 10px;
-  /*text-shadow: 1px 1px grey;*/
 }
 .portfolio-link:hover {
   background-color: rgb(192,192,192, 0.4);
@@ -311,6 +309,10 @@ h4.about-kate {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   border: 1px double white;
   border-radius: 10%;
+  text-shadow: 1px 1px lightgrey;
+}
+.separator {
+  margin-top: 10px;
 }
 .portfolio-page {
   background-color: rgb(245,245,245,0.4);
@@ -326,18 +328,18 @@ h4.about-kate {
   margin: 0 auto;
   text-align: center;
 }
-.portfolioNav-container {
+.portfolio-nav {
   background: white;
-  background-repeat: round;
-  padding-bottom: 75px;
-  margin-right: 2%;
+  padding-left: 10%;
+  padding-bottom: 175px;
   margin-left: 2%;
-  border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+  border-right: 15px double lightblue;
+  padding-top: 5%;
 }
 scroll-container {
   display: block;
-  width: 40%;
+  width: 50%;
   height: 600px;
   overflow-y: hidden;
   scroll-behavior: smooth;
@@ -346,7 +348,7 @@ scroll-container {
   background-repeat: round;
   border-radius: 100%;
   border: 10px double lightblue;
-  margin-top: -70px;
+  margin-top: 40px;
 }
 scroll-page {
   display: flex;
@@ -564,9 +566,10 @@ scroll-page {
 @media screen and (max-width: 500px) {
   scroll-container{
       width: 100%;
+      margin-top: -50px;
   }
   .portfolio-page {
-    padding-top: 10px;
+    padding-top: 0px;
     font-size: 16px;
     margin: 2%;
   }
@@ -591,6 +594,9 @@ scroll-page {
   .homepagePic {
     padding-left: 0%;
     padding-right: 5%;
+  }
+  .portfolio-nav {
+    padding-bottom: 75px;
   }
 }
 

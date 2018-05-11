@@ -16,7 +16,7 @@ On this site you will find links to my main projects and their associated github
 
 ## Plans for future development 
 
-I plan to deploy this app to heroku with a server and Node.js to implement various NPM packages for added functionality. 
+I plan to deploy this app to AWS with a server and Node.js to implement various NPM packages for added functionality. 
 
 I will also be creating a slideshow for art and photos, as well as a music section of some music I enjoy listening to. 
 
