@@ -165,8 +165,8 @@ html.modal-active, body.modal-active {
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
   border-left: 20px double lightgrey;
-  padding-right: 28%;
-  padding-left: 44%;
+  padding-right: 25%;
+  padding-left: 45%;
   animation-delay: 8s;
 }
 .homepagePic-animation {
@@ -606,10 +606,11 @@ scroll-page {
   }
   .homepageHeader {
     top: 0rem;
+    width: 50%;
     margin-top: -30%;
   }
   .homepageBio {
-    top: 2.5rem;
+    top: 7.5rem;
     text-shadow: 1px 1px white;
   }
   .dot-container {
