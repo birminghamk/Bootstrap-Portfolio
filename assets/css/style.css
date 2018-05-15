@@ -1,4 +1,6 @@
-/*GENERAL*/
+/*==========================
+          GENERAL
+==========================*/
 html {
   height: 100%;
   box-sizing: border-box;
@@ -143,7 +145,9 @@ html.modal-active, body.modal-active {
 .email {
   text-align: center;
 }
-/*HOME PAGE*/
+/*==========================
+        HOME PAGE
+==========================*/
 .container-home {
   position: relative;
   width: 100%;
@@ -241,7 +245,11 @@ h4.about-kate {
   margin-top: 20%;
   margin-left: 46%;
 }
-/*BIO PAGE*/
+
+/*==========================
+        BIO PAGE
+==========================*/
+
 .container {
   background: url('../images/concrete_seamless.png');
   width: 100%;
@@ -366,6 +374,11 @@ scroll-page {
   margin: 0 auto;
   text-align: center;
 }
+
+/*==================
+    ANIMATIONS
+  ==================/*
+
 /*dot animation*/
 @keyframes fadeInOut {
   0% {
@@ -536,7 +549,9 @@ scroll-page {
 }
 
 
-
+/* =======================
+      MEDIA QUERIES 
+  ========================*/
 
 @media screen and (max-width: 1400px) {
   .homepagePic {
