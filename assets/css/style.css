@@ -284,7 +284,16 @@ h4.about-kate {
 }
 
 .projectButton {
-  border-radius: 50%;
+  border-radius: 10%;
+  color: grey;
+  border: 2px solid white;
+  text-decoration-line: none;
+  font-size: 20px;
+}
+.projectButton:hover {
+  color: white;
+  background-color: lightblue;
+  border: none;
 }
 .projectButton span {
   cursor: pointer;
@@ -299,6 +308,7 @@ h4.about-kate {
   top: 0;
   right: -20px;
   transition: 0.5s;
+  color: white;
 }
 .sub-menu li {
   list-style-type: none;
@@ -365,7 +375,7 @@ scroll-container {
   background-repeat: round;
   border-radius: 100%;
   border: 10px double lightblue;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 scroll-page {
   display: flex;
