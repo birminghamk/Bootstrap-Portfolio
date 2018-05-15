@@ -17,6 +17,10 @@ body {
   font-family: 'Federo', sans-serif;
   color: grey;
 }
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
 .bg {
   background-image: url("../images/panel-background.jpg");
   background-repeat: round;
@@ -248,7 +252,7 @@ h4.about-kate {
         BIO PAGE
 ==========================*/
 
-.container {
+.container-bio {
   background: url('../images/concrete_seamless.png');
   width: 100%;
   padding-bottom: 10px;
@@ -282,7 +286,9 @@ h4.about-kate {
   background-repeat: round;
   padding-bottom: 200px;
 }
-
+.portfolio-body {
+/*  background-color: rgb(245,245,245);*/
+}
 .projectButton {
   border-radius: 10%;
   color: grey;
@@ -366,7 +372,7 @@ h4.about-kate {
 }
 scroll-container {
   display: block;
-  width: 50%;
+  width: 70%;
   height: 600px;
   overflow-y: hidden;
   scroll-behavior: smooth;
@@ -610,7 +616,7 @@ scroll-page {
     margin-top: -30%;
   }
   .homepageBio {
-    top: 7.5rem;
+    top: 6.5rem;
     text-shadow: 1px 1px white;
   }
   .dot-container {
