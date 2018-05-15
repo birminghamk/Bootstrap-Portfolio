@@ -1,12 +1,13 @@
 $(function() {
 
-	//click portfolio button, go to portfolio page
-	$(".portfolioBtn").on("click", function() {
-		window.location = "http://birminghamk.github.io/Portfolio/portfolio.html";
+	//initial projectMenu not visible
+	$("#projectMenu li").css("display", "none"); 
+
+	//fade in animation for project list
+	$("#projectMenu li").each(function(i) {
+		var me =$(this);
+		setTimeout(function() { $(me).fadeIn(1000); }, (200 * i));
 	})
-
-	$(".portfolio-nav").slideDown('fast');
-
 
 }); 
 
