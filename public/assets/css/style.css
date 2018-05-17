@@ -181,8 +181,8 @@ html.modal-active, body.modal-active {
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
   border-left: 20px double lightgrey;
-  padding-right: 40%;
-  padding-left: 35%;
+  padding-right: 45%;
+  padding-left: 30%;
   animation-delay: 8s;
 }
 .homepagePic-animation {
@@ -196,6 +196,15 @@ html.modal-active, body.modal-active {
   animation-name: lightSpeedIn; 
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
+}
+.homepageLogo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20%;
+  margin-right: 30%;
 }
 .homepageHeader {
   color: white;
@@ -644,6 +653,11 @@ scroll-page {
   .homepagePic {
     padding-left: 0%;
     padding-right: 5%;
+  }
+  .homepageLogo {
+    margin-top: 90%;
+    margin-left: 20%;
+    margin-right: 5%;
   }
   .portfolio-nav {
     padding-bottom: 75px;
