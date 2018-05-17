@@ -20,52 +20,62 @@
 </head>
 <body>
 
- <div class="pos-f-t">
+  <div class="pos-f-t">
     <div class="collapse" id="navbarToggleExternalContent">
       <div class="bg p-4 bio-bg">
         <div class="btn-group" role="group">
-          <button class="btn btn-outline btn-lg nav-link portfolioBtn">Portfolio</button>
+          <a href="/portfolio" class="portfolioLink"><button class="btn btn-lg nav-link portfolioBtn">Portfolio</button></a>
         </div>
-        <h4><a href="bio.html" class="about-kate text-muted nav-link">About Kate</a></h4>
+        <h4><a href="/" class="about-kate text-muted nav-link">Home</a></h4>
+        <h4><a href="/contact" class="navbar-right text-muted nav-link contactBtn">Contact</a></h4>
       </div>
-  </div>
+    </div>
     <nav class="navbar navbar-dark bg bio-nav">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <span class="icon-bar"></span>
-        </span>
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button id="one" class="navbar-right btn connect">Connect</button>
+      <button id="one" class="navbar-right btn btn-outline-secondary connect">Connect</button>
+
     </nav>
   </div>
 
-  <div class="container-home" id="gradient">
+  <div class="container container-bio">
 
-    <div class="row">
-        <div class="col-md-12">
-            <img class="homepagePic homepagePic-animation lightSpeedIn" src="assets/images/abstract-polygon.jpg" alt="hompage-pic"/>
-        </div>
-    </div>
-
-    <div class="row dot-container">
+     <div class="row">
       <div class="col-md-12">
-        <span class="dot"></span>
-        <span class="dot dotSwitch"></span>
-        <span class="dot"></span>
-        <span class="dot dotSwitch"></span>
+        <h1 class="bio-header">Web Developer || Creative Designer</h1>
       </div>
-    </div>
+     </div>
 
     <div class="row">
-      <div class="col-md-12">
-        <h1 class="display-4 homepageHeader header-animation fadeInRight">Hey, it's Kate</h1>
-        <p class="lead homepageBio bio-animation fadeInRight">I am a Full Stack Web Developer.</p>
+      <div class="col-md-6">
+        <img src="assets/images/kate-pic.jpg" class="img-thumbnail bio-pic"/>
+      </div>
+      <div class="col-md-6 bio">
+        <p>
+          I have a Bachelor's Degree in Neuroscience from the University of Colorado Boulder, and I completed a 12-week Full Stack Web Development Coding Bootcamp at the University of Denver. 
+        </p>
+        <hr>
+        <p><strong>Stats</strong></p>
+        <p>____________</p>
+        <ul>
+          <li>long distance runner</li>
+          <li>world traveler</li>
+          <li>ping pong pro</li>
+          <li>bookworm</li>
+          <li>art and design enthusiast</li>
+        </ul>
+        <p><a id="color-changer" target="_blank" href="https://github.com/birminghamk/Portfolio">Portfolio Repo</a></p>
       </div>
     </div>
 
   </div>
 
-  <div id="modal-container">
+  <footer>
+      &copy; Kate Birmingham <span id="year"></span>
+  </footer>
+
+<div id="modal-container">
     <div class="modal-background">
       <div class="modal">
         <h2>Connect With Kate</h2>
@@ -74,13 +84,13 @@
         <a target="_blank" href="https://www.linkedin.com/in/kate-birmingham"><img src="assets/images/linkedin_circle_color-128.png" class="social" alt="LinkedIn" /></a>
         <hr>
         <p class="email">kate.birmingham212@gmail.com</p>
-      </div>
     </div>
   </div>
+</div>
 
   <script type="text/javascript" src="assets/js/main.js"></script>
 
-  <script type="text/javascript" src="assets/js/home.js"></script>
+  <script type="text/javascript" src="assets/js/bio.js"></script>
 
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 

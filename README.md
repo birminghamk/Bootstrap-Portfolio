@@ -14,11 +14,9 @@ On this site you will find links to my main projects and their associated github
 	- Google Fonts
 	- Media Queries
 
-## Plans for future development 
+## Plans for future development  
 
-I plan to deploy this app to AWS with a server and Node.js to implement various NPM packages for added functionality. 
-
-I will also be creating a slideshow for art and photos, as well as a music section of some music I enjoy listening to. 
+I will be creating a slideshow for art and photos, as well as a music section of some music I enjoy listening to. 
 
 I also have SASS set up to be utilized for future styling additions and animations. 
 

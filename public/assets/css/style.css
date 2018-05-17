@@ -49,9 +49,21 @@ footer {
   border-left: double grey;
   margin-top: 5px;
 }
+.contactBtn, .bioBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 2%;
+  margin-top: 30px;
+  border-left: none;
+  border-right: double grey;
+}
 .portfolioBtn {
   background-color: lightgrey;
   color: white;
+}
+.portfolioLink:hover {
+  text-decoration: none;
 }
 .portfolioBtn:hover {
   color: grey;
@@ -169,8 +181,8 @@ html.modal-active, body.modal-active {
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
   border-left: 20px double lightgrey;
-  padding-right: 25%;
-  padding-left: 45%;
+  padding-right: 40%;
+  padding-left: 35%;
   animation-delay: 8s;
 }
 .homepagePic-animation {
@@ -390,6 +402,12 @@ scroll-page {
   height: 100%;
   width: 100%;
 }
+
+/*==================
+      CONTACT
+  ==================*/
+
+
 
 /*==================
     ANIMATIONS
