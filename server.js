@@ -12,9 +12,9 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 // Static directory
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/app/public'));
 
-require("./routing/htmlRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 
 //LISTENER
