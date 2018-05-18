@@ -10,7 +10,7 @@ var favicon = require("express-favicon");
 var app = express();
 
 //tells node where to access favicon
-app.use(favicon(__dirname + '/public/assets/images/favicon.png'));
+// app.use(favicon(__dirname + '/public/assets/images/favicon.png'));
 
 // Sets an initial port
 var PORT = process.env.PORT || 3000;
