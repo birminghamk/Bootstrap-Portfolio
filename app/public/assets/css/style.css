@@ -677,15 +677,17 @@ scroll-page {
     padding-bottom: 75px;
   }
   /* Homepage */
+  #gradient {
+    height: 1300px;
+  }
   .homepageHeader {
-    top: 0;
+    top: 1em;
     width: 50%;
     margin-top: -48%;
     margin-left: 15%;
   }
-  .homepageBio {
-    top: 100;
-    margin-top: 99%;
+  .bioText {
+    top: 4em;
     margin-left: 10%;
   }
   .dot-container {
@@ -699,25 +701,25 @@ scroll-page {
 /*    height: 1000px;*/
   }
   .homepageLogo {
-    top: 100;
+    top: 7em;
     margin-top: 100%;
     margin-left: 20%;
     margin-right: 5%;
   }
   .homepagePortfolio {
     bottom: 0;
-    top: 15em;
+    top: 23em;
     margin-top: 100%;
   }
   .homepageBio {
     bottom: 0;
-    top: 26em;
+    top: 34em;
     margin-top: 100%;
     margin-right: 25%;
   }
   .homepageContact {
     bottom: 0;
-    top: 34em;
+    top: 42em;
     margin-top: 100%;
     margin-right: 33%;
   }
