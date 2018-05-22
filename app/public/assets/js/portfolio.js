@@ -5,8 +5,8 @@ $(function() {
 
 	//fade in animation for project list
 	$("#projectMenu li").each(function(i) {
-		var me =$(this);
-		setTimeout(function() { $(me).fadeIn(1000); }, (200 * i));
+		var that =$(this);
+		setTimeout(function() { $(that).fadeIn(1000); }, (200 * i));
 	})
 
 }); 

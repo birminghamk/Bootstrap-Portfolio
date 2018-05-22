@@ -42,11 +42,10 @@ $(function() {
 
 	 $('#gradient').css({
 	   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
-	    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+	   background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
 	  
 	  step += gradientSpeed;
-	  if ( step >= 1 )
-	  {
+	  if ( step >= 1 ) {
 	    step %= 1;
 	    colorIndices[0] = colorIndices[1];
 	    colorIndices[2] = colorIndices[3];
@@ -60,6 +59,23 @@ $(function() {
 	}
 
 	//changes gradient on home page
-	setInterval(updateGradient,10);
+	setInterval(updateGradient, 10);
+
+	//initial homepage option not visible
+	$("#homepageMenu li").css("display", "none");
+
+	//fades in each homepage menu option
+	function navAnimation() {
+			//fade in animation for homepage nav
+			$("#homepageMenu li").each(function(i) {
+				var me =$(this);
+				setTimeout(function() { $(me).fadeIn(5000); }, (100 * i));
+			})
+	}
+
+	//runs navAnimation every 12000ms
+	setInterval(navAnimation, 13000);
+
+
 
 });

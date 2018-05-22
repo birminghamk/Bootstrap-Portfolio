@@ -4,39 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kate Birmingham | Web Developer</title>
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
   <link href="https://fonts.googleapis.com/css?family=Federo|Fredericka+the+Great|Vast+Shadow" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+  <link rel="shortcut icon" type="image/jpg" href="/assets/images/color-logo.png"/>
   <script src="https://code.jquery.com/jquery.js"></script>
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-
- <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg p-4 bio-bg">
-        <div class="btn-group" role="group">
-          <a href="/portfolio" class="portfolioLink"><button class="btn btn-outline btn-lg nav-link portfolioBtn">Portfolio</button></a>
-        </div>
-        <h4><a href="/about-kate" class="about-kate text-muted nav-link">About Kate</a></h4>
-        <!-- <h4><a href="/contact" class="navbar-right text-muted nav-link contactBtn">Contact</a></h4> -->
-      </div>
-  </div>
-    <nav class="navbar navbar-dark bg bio-nav">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <span class="icon-bar"></span>
-        </span>
-      </button>
-      <button id="one" class="navbar-right btn connect">Connect</button>
-    </nav>
-  </div>
 
   <div class="container-home" id="gradient">
 
@@ -46,10 +22,42 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <img class="homepageLogo lightSpeedIn" src="assets/images/color-logo.png" alt="logo"/>
-      </div>
+    <div class="sub-menu" id="homepageMenu">
+      <ul>
+        
+        <li>
+          <div class="row">
+            <div class="col-md-12">
+              <img class="homepageLogo" src="assets/images/computer-pic.png" alt="logo"/>
+            </div>
+          </div>
+        </li>
+        
+        <li>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="/about-kate"><img class="homepageBio" src="assets/images/bio-pic.png" alt="bio"/></a>
+            </div>
+          </div>
+        </li>
+        
+        <li>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="/portfolio"><img class="homepagePortfolio" href="/portfolio" src="assets/images/portfolio-pic.png" alt="portfolio"/></a>
+            </div>
+          </div>
+        </li>
+        
+        <li>
+          <div class="row">
+            <div class="col-md-12">
+              <a id="one" class="navbar-right btn connect"><img class="homepageContact" src="assets/images/contact-pic.png" alt="contact"/></a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
     </div>
 
     <div class="row dot-container">
@@ -64,7 +72,7 @@
     <div class="row">
       <div class="col-md-12">
         <h1 class="display-4 homepageHeader header-animation fadeInRight">Hey, it's Kate</h1>
-        <p class="lead homepageBio bio-animation fadeInRight">I am a Full Stack Web Developer.</p>
+        <p class="lead bioText bio-animation fadeInRight">I am a Full Stack Web Developer.</p>
       </div>
     </div>
 
