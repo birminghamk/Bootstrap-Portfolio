@@ -14,7 +14,7 @@ var PORT = process.env.PORT || 3000;
 // Static directory
 app.use(express.static(__dirname + '/app/public'));
 
-require("./app/routing/htmlroutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 
 //LISTENER
