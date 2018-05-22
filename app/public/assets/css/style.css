@@ -233,14 +233,13 @@ html.modal-active, body.modal-active {
   top: 0;
   right: 0;
   margin-top: 16%;
-  margin-right: 11%;
+  margin-right: 9%;
 }
 .homepageHeader {
   color: white;
   position: absolute;
   opacity: 0;
   animation-delay: 4s;
-  margin-left: 9%;
 }
 .header-animation {
   background-position: left top;
@@ -249,6 +248,7 @@ html.modal-active, body.modal-active {
   animation-duration: 10s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  margin-left: 9%;
 }
 .bio-animation {
   background-position: left top;
@@ -257,12 +257,12 @@ html.modal-active, body.modal-active {
   animation-duration: 10s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  margin-left: 9%;
+  margin-top: 5%;
 }
 .bioText {
   position: absolute;
   text-shadow: 1px 1px white;
-  margin-left: 9%;
-  margin-top: 5%;
 }
 h4.about-kate {
   margin-top: 10px;
