@@ -1,6 +1,6 @@
 # Portfolio
 
-Live Link: https://birminghamk.github.io/Portfolio/
+Live Link: https://katebirmingham.herokuapp.com/
 
 On this site you will find links to my main projects and their associated githubs as well as an About Me page. 
 
@@ -8,11 +8,15 @@ On this site you will find links to my main projects and their associated github
 
 	- HTML/CSS
 	- Javascript/jQuery
-	- Photoshop
 	- Bootstrap
 	- Animate.css
 	- Google Fonts
 	- Media Queries
+	- Heroku
+	- Node.js
+	- NPM packages:
+		- express
+		- path
 
 ## Plans for future development  
 
