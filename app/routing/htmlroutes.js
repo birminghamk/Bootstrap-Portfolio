@@ -14,12 +14,12 @@ module.exports = function(app) {
 		res.sendFile(path.join(__dirname, "../public/portfolio.html"));
 	});
 
-	// Basic route that sends the user to the portfolio page
+	// Basic route that sends the user to the bio page
 	app.get("/about-kate", function(req, res) {
 		res.sendFile(path.join(__dirname, "../public/bio.html"));
 	});
 
-	// Basic route that sends the user to the portfolio page
+	// Basic route that sends the user to the contact page
 	// app.get("/contact", function(req, res) {
 	// 	res.sendFile(path.join(__dirname, "../public/contact.html"));
 	// });
