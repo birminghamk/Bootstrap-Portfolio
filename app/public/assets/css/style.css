@@ -405,7 +405,7 @@ h4.about-kate {
 }
 .portfolio-nav {
   background: white;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
   border-right: 10px double lightblue;
@@ -438,7 +438,7 @@ scroll-container {
   background-repeat: round;
   border-radius: 10%;
   border: 10px double lightblue;
-  margin-top: -10%;
+  margin-top: -8%;
 }
 scroll-page {
   display: flex;
