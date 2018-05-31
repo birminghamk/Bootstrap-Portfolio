@@ -11,14 +11,14 @@ On this site you will find links to my main projects and their associated github
 	- Bootstrap
 	- Animate.css
 	- Google Fonts
+	- Logojoy
 	- Media Queries
 	- Heroku
 	- Node.js
 	- NPM packages:
 		- express
 		- path
-		- express-favicon
-		- path
+
 
 ## Plans for future development  
 

@@ -16,7 +16,7 @@
   <script src="https://code.jquery.com/jquery.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body class="portfolio-body">
@@ -41,29 +41,76 @@
 
   <div class="row">
 
-    <div class="col-md-4">
+    <div class="col-md-12">
       <nav class="portfolio-nav">
         <div class="sub-menu" id="projectMenu">
           <ul>
-            <li><a class="portfolio-link" href="#FaceAffect">FaceAffect</a></li>
-              <li><p class="separator">|</p></li>
-            <li><a class="portfolio-link" href="#FriendFinder">FriendFinder</a></li>
-              <li><p class="separator">|</p></li>
-            <li><a class="portfolio-link" href="#BrainTrivia">Brain Trivia</a></li>
-              <li><p class="separator">|</p></li>
-            <li><a class="portfolio-link" href="#ReactYoutube">ReactYoutube</a></li>
-              <li><p class="separator">|</p></li>
-            <li><a class="portfolio-link" href="#AnimalGifs">Animal Gifs</a></li>
-              <li><p class="separator">|</p></li>
-            <li><a class="portfolio-link" href="#Liri">Liri</a></li>
-              <li><p class="separator">|</p></li>
-            <li><a class="portfolio-link" href="#Bamazon">Bamazon</a></li>
+            <li class="projectList">
+              <div class="card projectCard" style="width: 13rem;">
+                <img class="card-img-top" src="/assets/images/faceAffect.jpg" alt="faceAffect">
+                <div class="card-body">
+                  <a class="portfolio-link card-text" href="#FaceAffect">FaceAffect</a>
+                </div>
+              </div>
+            </li>
+            <li class="projectList">
+              <div class="card projectCard" style="width: 13rem;">
+                <img class="card-img-top" src="/assets/images/friendFinder.png" alt="friendFinder">
+                <div class="card-body">
+                  <a class="portfolio-link" href="#FriendFinder">FriendFinder</a>
+                </div>
+              </div>
+            </li>
+            <li class="projectList">
+              <div class="card projectCard" style="width: 13rem;">
+                <img class="card-img-top" src="/assets/images/brainTrivia.jpg" alt="brainTrivia">
+                <div class="card-body">
+                  <a class="portfolio-link" href="#BrainTrivia">Brain Trivia</a>
+                </div>
+              </div>
+            </li>
+            <li class="projectList">
+              <div class="card projectCard" style="width: 13rem;">
+                <img class="card-img-top" src="/assets/images/reactYoutube.png" alt="reactYoutube">
+                <div class="card-body">
+                  <a class="portfolio-link" href="#ReactYoutube">ReactYoutube</a>
+                </div>
+              </div>
+            </li>
+            <li class="projectList">
+              <div class="card projectCard" style="width: 13rem;">
+                <img class="card-img-top animalGifPic" src="/assets/images/animalGifs.jpg" alt="animalGifs.jpg">
+                <div class="card-body">
+                  <a class="portfolio-link" href="#AnimalGifs">Animal Gifs</a>
+                </div>
+              </div>
+            </li>
+            <li class="projectList">
+              <div class="card projectCard" style="width: 13rem;">
+                <img class="card-img-top" src="/assets/images/liri.png" alt="liri">
+                <div class="card-body">
+                  <a class="portfolio-link" href="#Liri">Liri</a>
+                </div>
+              </div>
+            </li>
+            <li class="projectList">
+              <div class="card projectCard" style="width: 13rem;">
+                <img class="card-img-top bamazonPic" src="/assets/images/bamazon.jpg" alt="bamazon">
+                <div class="card-body">
+                  <a class="portfolio-link" href="#Bamazon">Bamazon</a>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </nav>
     </div>
 
-    <div class="col-md-8">
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-12">
       <scroll-container>
         <scroll-page id="FaceAffect">
           <div class="portfolio-page faceAffect-page" style="height:350px;font-size:24px;">
@@ -150,6 +197,7 @@
         </scroll-page>
       </scroll-container>
     </div>
+  </div>
 
   </div>
     
