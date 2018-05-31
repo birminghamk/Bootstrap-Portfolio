@@ -438,7 +438,7 @@ scroll-container {
   background-repeat: round;
   border-radius: 10%;
   border: 10px double lightblue;
-  margin-top: -8%;
+  margin-top: -12%;
 }
 scroll-page {
   display: flex;
