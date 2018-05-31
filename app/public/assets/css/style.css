@@ -40,7 +40,6 @@ footer {
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
-  border-top: 10px lightgrey;
 }
 .bio-footer {
   padding-top: 30px;
@@ -411,7 +410,7 @@ h4.about-kate {
   border-right: 10px double lightblue;
   border-left: 10px double lightblue;
   padding-top: 5%;
-  min-height: 800px;
+  min-height: 900px;
 }
 .projectCard {
   margin-top: 20px;
