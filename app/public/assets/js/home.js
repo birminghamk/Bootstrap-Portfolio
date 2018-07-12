@@ -61,20 +61,18 @@ $(function() {
 	//changes gradient on home page
 	setInterval(updateGradient, 10);
 
-	//initial homepage option not visible
-	$("#homepageMenu li").css("display", "none");
+	var $homepageNav = $("#homepageMenu li");
+	$homepageNav.hide();
 
-	//fades in each homepage menu option
 	function navAnimation() {
-			//fade in animation for homepage nav
-			$("#homepageMenu li").each(function(i) {
-				var me =$(this);
-				setTimeout(function() { $(me).fadeIn(5000); }, (100 * i));
-			})
+		//fade in animation for homepage nav
+		$homepageNav.hide().each(function(i) {
+			$(this).delay(500 * i).fadeIn(500);
+		});
 	}
 
 	//runs navAnimation every 12000ms
-	setInterval(navAnimation, 13000);
+	setTimeout(navAnimation, 14000);
 
 
 

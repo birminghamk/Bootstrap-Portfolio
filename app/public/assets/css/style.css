@@ -8,7 +8,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing; inherit;
+  box-sizing: inherit;
 }
 body {
   position: relative;
@@ -16,6 +16,7 @@ body {
   min-height: 100%;
   font-family: 'Federo', sans-serif;
   color: grey;
+  background-color: rgb(245,245,245);
 }
 .container {
   width: 100%;
@@ -35,8 +36,8 @@ footer {
   right: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(245,245,245);
-  color: lightgrey;
+  background-color: white;
+  color: grey;
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
@@ -170,7 +171,7 @@ html.modal-active, body.modal-active {
 }
 .homepagePic {
   position: absolute;
-  right: 0; 
+  right: 0;
   top: 0;
   opacity: 0;
   margin-top: 4%;
@@ -189,13 +190,13 @@ html.modal-active, body.modal-active {
 }
 .homepagePic-animation {
   -webkit-animation-duration: 5s;
-  animation-duration: 5s; 
+  animation-duration: 5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 .lightSpeedIn {
   -webkit-animation-name: lightSpeedIn;
-  animation-name: lightSpeedIn; 
+  animation-name: lightSpeedIn;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
@@ -303,7 +304,7 @@ h4.about-kate {
 ==========================*/
 
 .container-bio {
-  background: url('../images/concrete_seamless.png');
+  background-color: white;
   width: 100%;
   padding-bottom: 10px;
   border-bottom-right-radius: 20%;
@@ -335,6 +336,15 @@ h4.about-kate {
   background-color: rgb(245,245,245);
   background-repeat: round;
   padding-bottom: 200px;
+}
+.buildSchema {
+  color: grey;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.emphasis {
+  font-weight: bold;
 }
 .projectButton {
   border-radius: 10%;
@@ -377,7 +387,7 @@ h4.about-kate {
 /*  display: inline-block;*/
   text-decoration: none;
   font-size: 25px;
-  color: lightgrey;
+  color: grey;
 }
 .portfolio-link:hover {
   background-color: rgb(192,192,192, 0.4);
@@ -486,39 +496,39 @@ scroll-page {
 
 /*homepagePic animation*/
 @-webkit-keyframes lightSpeedIn {
-  0% { 
-     -webkit-transform: translateX(100%) skewX(-30deg); 
-     opacity: 0; 
+  0% {
+     -webkit-transform: translateX(100%) skewX(-30deg);
+     opacity: 0;
   }
-  60% { 
-     -webkit-transform: translateX(-20%) skewX(30deg); 
-     opacity: 1; 
+  60% {
+     -webkit-transform: translateX(-20%) skewX(30deg);
+     opacity: 1;
   }
-  80% { 
-     -webkit-transform: translateX(0%) skewX(-15deg); 
-     opacity: 1; 
+  80% {
+     -webkit-transform: translateX(0%) skewX(-15deg);
+     opacity: 1;
   }
-  100% { 
-     -webkit-transform: translateX(0%) skewX(0deg); 
-     opacity: 1; 
+  100% {
+     -webkit-transform: translateX(0%) skewX(0deg);
+     opacity: 1;
   }
 }
 
 @keyframes lightSpeedIn {
-  0% { 
-     transform: translateX(100%) skewX(-30deg); 
-     opacity: 0; 
+  0% {
+     transform: translateX(100%) skewX(-30deg);
+     opacity: 0;
   }
-  60% { 
-     transform: translateX(-20%) skewX(30deg); 
-     opacity: 1; 
+  60% {
+     transform: translateX(-20%) skewX(30deg);
+     opacity: 1;
   }
-  80% { 
-     transform: translateX(0%) skewX(-15deg); 
-     opacity: 1; 
+  80% {
+     transform: translateX(0%) skewX(-15deg);
+     opacity: 1;
   }
-  100% { 
-     transform: translateX(0%) skewX(0deg); 
+  100% {
+     transform: translateX(0%) skewX(0deg);
      opacity: 1;
   }
  }
@@ -628,7 +638,7 @@ scroll-page {
 
 
 /* =======================
-      MEDIA QUERIES 
+      MEDIA QUERIES
   ========================*/
 
 @media screen and (max-width: 1400px) {
@@ -668,10 +678,8 @@ scroll-page {
     top: 1em;
   }
   .homepageLogo {
-    
   }
   .homepagePortfolio {
-    
   }
   .homepageBio {
     margin-top: 23%;
@@ -787,7 +795,7 @@ scroll-page {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
   /* Portfolio Page */
   scroll-container{
@@ -801,21 +809,15 @@ scroll-page {
     margin: 2%;
   }
   .portfolio-nav {
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%
-  }
-  .bio-pic {
-    margin-left: 0px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-radius: 30%;
   }
   .container {
     padding-bottom: 100px;
   }
   .portfolio-nav {
     padding-bottom: 75px;
-  }
-  footer {
-    background-color: lightgrey;
-    color: white;
   }
   /* Homepage */
   #gradient {
@@ -859,6 +861,13 @@ scroll-page {
     top: 33em;
     margin-top: 96%;
     margin-right: 49%;
+  }
+  /* Bio Page */
+  .container-bio {
+    padding-bottom: 100px;
+  }
+  .bio-pic {
+    margin-left: 0;
   }
 }
 

@@ -2,7 +2,7 @@
 
 Live Link: https://katebirmingham.herokuapp.com/
 
-On this site you will find links to my main projects and their associated githubs as well as an About Me page. 
+On this site you will find links to my main projects and their associated githubs as well as an About Me page.
 
 ## Technologies/Software
 

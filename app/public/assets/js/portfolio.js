@@ -1,13 +1,16 @@
 $(function() {
-
-	//initial projectMenu not visible
-	$("#projectMenu li").css("display", "none"); 
+	$('.navbar').hide().slideDown();
+	$('.buildSchema').hide().delay(700).slideDown();
+	var $projectLi = $("#projectMenu li");
+	$projectLi.hide();
 
 	//fade in animation for project list
-	$("#projectMenu li").each(function(i) {
-		var that =$(this);
-		setTimeout(function() { $(that).fadeIn(8000); }, (400 * i));
-	})
+	function projectAnimation() {
+		$projectLi.hide().each(function(i) {
+			$(this).delay(500 * i).fadeIn(500);
+		});
+	};
 
-}); 
+	setTimeout(projectAnimation, 1000);
+});
 
