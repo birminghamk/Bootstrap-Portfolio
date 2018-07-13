@@ -1,6 +1,6 @@
 $(function() {
 
-	$('.navbar').hide().delay(100).slideDown();
+	$('.navbar').hide().delay(50).slideDown();
 
 	var colorChanger = document.getElementById("color-changer");
 	var textcolors = ["lightblue", "purple", "darkblue", "green", "yellow", "orange", "red"];

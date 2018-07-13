@@ -1,4 +1,6 @@
 $(function() {
+	var $homepageNav = $("#homepageMenu li");
+	$homepageNav.hide();
 	
 	var colors = new Array(
 	  [62,35,255],
@@ -60,9 +62,6 @@ $(function() {
 
 	//changes gradient on home page
 	setInterval(updateGradient, 10);
-
-	var $homepageNav = $("#homepageMenu li");
-	$homepageNav.hide();
 
 	function navAnimation() {
 		//fade in animation for homepage nav
