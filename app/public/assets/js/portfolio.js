@@ -1,5 +1,6 @@
 $(function() {
 	var $projectLi = $("#projectMenu li");
+
 	$projectLi.hide();
 	$('.navbar').hide().slideDown();
 	$('.buildSchema').hide().delay(700).slideDown();

@@ -14,10 +14,12 @@ On this site you will find links to my main projects and their associated github
 	- Logojoy
 	- Media Queries
 	- Heroku
+	- Chart.js
 	- Node.js
 	- NPM packages:
 		- express
 		- path
+		- chartjs-plugin-deferred
 
 
 ## Plans for future development

@@ -420,7 +420,7 @@ h4.about-kate {
   border-right: 10px double lightblue;
   border-left: 10px double lightblue;
   padding-top: 2%;
-  min-height: 900px;
+  min-height: 950px;
 }
 .projectCard {
   margin-top: 20px;
@@ -447,7 +447,8 @@ scroll-container {
   background-repeat: round;
   border-radius: 10%;
   border: 10px double lightblue;
-  margin-top: -12%;
+  margin-top: -15%;
+  margin-bottom: 40px;
 }
 scroll-page {
   display: flex;
@@ -455,6 +456,27 @@ scroll-page {
   justify-content: center;
   height: 100%;
   width: 100%;
+}
+.skills {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.futWork {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+
+.futTech {
+  list-style: circle inside;
+  display: inline;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.cupImg {
+  margin-left: 50%;
 }
 
 /*==================
@@ -812,6 +834,7 @@ scroll-page {
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     border-bottom-radius: 30%;
+    min-height: 2200px;
   }
   .container {
     padding-bottom: 100px;
@@ -861,6 +884,13 @@ scroll-page {
     top: 33em;
     margin-top: 96%;
     margin-right: 49%;
+  }
+  .keyboardImg {
+    margin-left: 35%;
+  }
+  .cupImg {
+    margin-left: 35%;
+    margin-bottom: 20px;
   }
   /* Bio Page */
   .container-bio {
