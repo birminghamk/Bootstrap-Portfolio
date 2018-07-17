@@ -422,19 +422,15 @@ h4.about-kate {
   padding-top: 2%;
   min-height: 950px;
 }
+.card-img-top {
+  padding: 10px;
+}
 .projectCard {
   margin-top: 20px;
   margin-right: 50px;
 }
 .projectList {
   display: inline-block;
-}
-.animalGifPic {
-  height: 208px;
-}
-.bamazonPic {
-  height: 208px;
-  opacity: 0.6;
 }
 scroll-container {
   display: block;
