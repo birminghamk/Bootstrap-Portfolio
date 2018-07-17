@@ -471,8 +471,11 @@ scroll-page {
   margin-top: -30px;
 }
 
-.cupImg {
-  margin-left: 50%;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 
 /*==================
