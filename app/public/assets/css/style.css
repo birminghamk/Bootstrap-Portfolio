@@ -841,6 +841,9 @@ scroll-page {
   .portfolio-nav {
     padding-bottom: 75px;
   }
+  .cupImg {
+    padding-bottom: 20px;
+  }
   /* Homepage */
   #gradient {
     height: 1300px;
@@ -862,7 +865,6 @@ scroll-page {
     padding-left: 0%;
     padding-right: 2%;
     width: 95%;
-/*    height: 1000px;*/
   }
   .homepageLogo {
     margin-top: 95%;
@@ -884,12 +886,8 @@ scroll-page {
     margin-top: 96%;
     margin-right: 49%;
   }
-  .keyboardImg {
-    margin-left: 35%;
-  }
-  .cupImg {
-    margin-left: 35%;
-    margin-bottom: 20px;
+  #skillschart {
+    height: 450px;
   }
   /* Bio Page */
   .container-bio {
