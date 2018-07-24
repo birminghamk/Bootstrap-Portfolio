@@ -1,10 +1,10 @@
 $(function() {
 
-	$('.navbar').hide().delay(50).slideDown();
-
 	var colorChanger = document.getElementById("color-changer");
-	var textcolors = ["lightblue", "purple", "darkblue", "green", "yellow", "orange", "red"];
+	var textcolors = ["lightblue", "purple", "darkblue", "lightgrey"];
 	var counter = 0;
+
+	$('.navbar').hide().delay(50).slideDown();
 
 	//changes text color of github link on bio page
 	function changeColor () {

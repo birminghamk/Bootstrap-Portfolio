@@ -34,34 +34,52 @@
   </div>
 
   <div class="container container-bio">
+    
+    <section class="about">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-12">
+          <h1 class="bio-header" id="color-changer">Web Developer || Creative Designer</h1>
+        </div>
+      </div>
 
-     <div class="row">
-      <div class="col-md-12 col-sm-12 col-lg-12">
-        <h1 class="bio-header">Web Developer || Creative Designer</h1>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-lg-3 bio">
+          <p class="statsHeader"><strong>Stats</strong></p>
+          <ul class="stats">
+            <li>long distance runner</li>
+            <li>world traveler</li>
+            <li>ping pong pro</li>
+            <li>bookworm</li>
+            <li>art and design enthusiast</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6">
+            <img src="assets/images/kate-pic.jpg" class="img-thumbnail bio-pic"/>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            <p class="portfolioRepo"><a class="portfolioLink" target="_blank" href="https://github.com/birminghamk/Portfolio">Portfolio Repo</a></p>
+        </div>
       </div>
-     </div>
+    </section>
 
-    <div class="row">
-      <div class="col-md-6 col-sm-6 col-lg-6">
-        <img src="assets/images/kate-pic.jpg" class="img-thumbnail bio-pic"/>
+    <section class="life">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-6 productive">
+            <h3 class="chartHeader">Being Productive</h3>
+            <canvas id="productiveChart" width="25" height="25"></canvas>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 interests">
+            <h3 class="chartHeader">Being a Person</h3>
+            <canvas id="interestsChart" width="25" height="25"></canvas>
+        </div>
       </div>
-      <div class="col-md-6 bio">
-        <p>
-          I have a Bachelor's Degree in Neuroscience from the University of Colorado Boulder, and I completed a 12-week Full Stack Web Development Coding Bootcamp at the University of Denver. 
-        </p>
-        <hr>
-        <p><strong>Stats</strong></p>
-        <p>____________</p>
-        <ul>
-          <li>long distance runner</li>
-          <li>world traveler</li>
-          <li>ping pong pro</li>
-          <li>bookworm</li>
-          <li>art and design enthusiast</li>
-        </ul>
-        <p><a id="color-changer" target="_blank" href="https://github.com/birminghamk/Portfolio">Portfolio Repo</a></p>
-      </div>
-    </div>
+    </section>
+
+    <section class="creativeWork">
+        <div class="row">
+          
+        </div>
+    </section>
 
   </div>
 
@@ -82,8 +100,10 @@
   </div>
 </div>
 
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
   <script type="text/javascript" src="assets/js/bio.js"></script>
-  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <script type="text/javascript" src="assets/js/graphs.js"></script>
 </body>
 </html>
