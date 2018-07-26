@@ -1,7 +1,7 @@
 $(function() {
 
 	var colorChanger = document.getElementById("color-changer");
-	var textcolors = ["lightblue", "purple", "darkblue", "lightgrey"];
+	var textcolors = ["lightblue", "purple", "darkblue", "grey"];
 	var counter = 0;
 
 	$('.navbar').hide().delay(50).slideDown();

@@ -1,0 +1,85 @@
+/*==========================
+        BIO PAGE
+==========================*/
+.container-bio {
+    width: 100%;
+    padding-bottom: 200px;
+}
+.about {
+    position: relative;
+    min-height: 550px;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 200px;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: 10px double white;
+    border-top: none;
+    border-bottom: none;
+}
+.bio-pic {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    z-index: 10;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    box-shadow: 0 0 10px #777777;
+}
+.bio {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 20%;
+}
+.stats {
+    padding-top: 30px;
+    list-style: circle;
+    min-height: 300px;
+    max-width: 100px;
+}
+.portfolioRepo {
+    position: absolute;
+    margin-top: 300px;
+    left: 80%;
+    z-index: 5;
+    background: white;
+    border: 2px solid lightgrey;
+    border-radius: 80px 50px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+.portfolioLink {
+    text-decoration: none;
+    color: grey;
+}
+.portfolioLink:hover {
+    text-decoration: none;
+    color: lightblue;
+}
+.bio-header {
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 30px;
+}
+.statsHeader {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: -15px;
+    border-bottom: 5px double lightgrey;
+}
+#interestsChart, #productiveChart {
+    background-color: white;
+    border-radius: 2%;
+    border-right: 5px double lightgrey;
+}
+.chartHeader {
+    text-align: center;
+    padding-top: 20px;
+}

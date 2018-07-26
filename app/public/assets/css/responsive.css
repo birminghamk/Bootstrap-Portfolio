@@ -1,0 +1,268 @@
+/* =======================
+      MEDIA QUERIES
+  ========================*/
+
+@media screen and (max-width: 1400px) {
+    .homepagePic {
+      padding-right: 45%;
+      padding-left: 25%;
+    }
+    .homepageHeader {
+      margin-left: 5%;
+    }
+    .homepageLogo {
+      margin-right: 32%;
+    }
+    .bioText {
+      margin-left: 7%;
+    }
+    .homepageBio {
+      margin-right: 11%;
+    }
+    .homepageContact {
+      margin-right: 8%;
+    }
+  }
+  
+@media screen and (max-width: 1200px) {
+    scroll-container{
+        width: 60%;
+    }
+    .homepagePic {
+      padding-left: 34%;
+      padding-right: 30%;
+    }
+    .homepageHeader {
+      margin-left: 5%;
+    }
+    .bioText {
+      top: 1em;
+    }
+    .homepageLogo {
+    }
+    .homepagePortfolio {
+    }
+    .homepageBio {
+      margin-top: 23%;
+    }
+    .homepageContact {
+      margin-top: 17%;
+    }
+  }
+  
+@media screen and (max-width: 1000px) {
+    scroll-container{
+        width: 80%;
+    }
+    .homepagePic {
+      padding-left: 36%;
+      padding-right: 23%;
+    }
+    .homepageHeader {
+      margin-left: 5%;
+    }
+    .bioText {
+      top: 1em;
+    }
+    .homepageLogo {
+      margin-top: 35%;
+      margin-right: 39%;
+    }
+    .homepagePortfolio {
+      margin-top: 25%;
+      margin-right: 27%;
+    }
+    .homepageBio {
+      margin-top: 34%;
+      margin-right: 15%;
+    }
+    .homepageContact {
+      margin-top: 26%;
+      margin-right: 12%;
+    }
+  }
+  
+@media screen and (max-width: 800px) {
+    scroll-container{
+        width: 100%;
+    }
+    .portfolio-page {
+      padding-top: 20px;
+    }
+    .homepagePic {
+      padding-left: 34%;
+      padding-right: 15%;
+    }
+    .homepageHeader {
+      margin-left: 5%;
+    }
+    .bioText {
+      top: 2em;
+    }
+    .homepageLogo {
+      margin-top: 44%;
+      margin-right: 39%;
+    }
+    .homepagePortfolio {
+      margin-top: 32%;
+      margin-right: 26%;
+    }
+    .homepageBio {
+      margin-top: 44%;
+      margin-right: 11%;
+    }
+    .homepageContact {
+      margin-top: 35%;
+      margin-right: 7%;
+    }
+  }
+  
+@media screen and (max-width: 650px) {
+    scroll-container{
+        width: 100%;
+    }
+    .portfolio-page {
+      padding-top: 20px;
+    }
+    .homepagePic {
+      padding-left: 20%;
+      padding-right: 5%;
+    }
+    .homepageHeader {
+      margin-left: 20%;
+    }
+    .bioText {
+      top: 2em;
+      margin-left: 25%;
+    }
+    .homepageLogo {
+      margin-top: 54%;
+      margin-right: 34%;
+    }
+    .homepagePortfolio {
+      top: 10em;
+      margin-top: 70%;
+      margin-right: 20%;
+    }
+    .homepageBio {
+      top: 14em;
+      margin-top: 90%;
+      margin-right: 37%;
+    }
+    .homepageContact {
+      top: 17em;
+      margin-top: 100%;
+      margin-right: 26%;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+  
+    /* Portfolio Page */
+    scroll-container{
+        width: 100%;
+        border-radius: 100%;
+        margin-top: -50px;
+    }
+    .portfolio-page {
+      padding-top: 0px;
+      font-size: 16px;
+      margin: 2%;
+    }
+    .portfolio-nav {
+      border-bottom-left-radius: 5%;
+      border-bottom-right-radius: 5%;
+      border-bottom-radius: 30%;
+      min-height: 2200px;
+    }
+    .container {
+      padding-bottom: 100px;
+    }
+    .portfolio-nav {
+      padding-bottom: 75px;
+    }
+    .cupImg {
+      padding-bottom: 20px;
+    }
+    #skillschart {
+      height: 450px;
+    }
+    /* Homepage */
+    #gradient {
+      height: 1300px;
+    }
+    .homepageHeader {
+      width: 30%;
+      margin-top: -50%;
+      margin-left: 15%;
+    }
+    .bioText {
+      margin-left: 13%;
+      margin-top: -10%;
+    }
+    .dot-container {
+      margin-left: 35%;
+      margin-top: 65%;
+    }
+    .homepagePic {
+      padding-left: 0%;
+      padding-right: 2%;
+      width: 95%;
+    }
+    .homepageLogo {
+      margin-top: 95%;
+      margin-left: 12%;
+      margin-right: 5%;
+    }
+    .homepagePortfolio {
+      top: 16em;
+      margin-top: 95%;
+      margin-right: 40%;
+    }
+    .homepageBio {
+      top: 26em;
+      margin-top: 96%;
+      margin-right: 30%;
+    }
+    .homepageContact {
+      top: 33em;
+      margin-top: 96%;
+      margin-right: 49%;
+    }
+    /* Bio Page */
+    .container-bio {
+      padding-bottom: 0;
+    }
+    .life {
+      margin-bottom: 50px;
+    }
+    .about {
+      margin-bottom: 400px;
+    }
+    .stats {
+      min-height: 100px;
+      max-width: 100px;
+    }
+    .bio-pic {
+      left: 0;
+    }
+    .bio {
+      top: 90%;
+      left: 0;
+      margin-top: 30px;
+      margin-bottom: 400px;
+      padding-top: 20px;
+    }
+    .portfolioRepo {
+        margin-top: 100%;
+        z-index: 12;
+        left: 0;
+    }
+    #productiveChart, #interestsChart {
+      border-right: none;
+      border-bottom: 5px double lightgrey;
+    }
+    #interestsChart {
+        margin-bottom: 20px;
+    }
+  }

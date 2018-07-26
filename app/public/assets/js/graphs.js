@@ -1,10 +1,10 @@
 $(function() {
-    var ctx = $("#skillsChart");
+    var skills = $("#skillsChart");
     var controls = $("#productiveChart");
     var interests = $("#interestsChart");
     Chart.defaults.global.defaultFontFamily = 'Federo, sans-serif';
 
-    var skillsChart = new Chart(ctx, {
+    var skillsChart = new Chart(skills, {
         type: 'bar',
         data: {
             labels: ["HTML", "CSS", "JavaScript", "jQuery", "Node.js", "Git"],

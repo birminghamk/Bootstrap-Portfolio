@@ -26,8 +26,6 @@ On this site you will find links to my main projects and their associated github
 
 I will be creating a slideshow for art and photos, as well as a music section of some music I enjoy listening to.
 
-I also have SASS set up to be utilized for future styling additions and animations.
-
 ## Author
 
 	- Kate Birmingham
