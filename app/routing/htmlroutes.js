@@ -20,7 +20,7 @@ module.exports = function(app) {
 	});
 
 	// Basic route that sends the user to the contact page
-	// app.get("/contact", function(req, res) {
-	// 	res.sendFile(path.join(__dirname, "../public/contact.html"));
-	// });
+	app.get("/contact", function(req, res) {
+		res.sendFile(path.join(__dirname, "../public/contact.html"));
+	});
 } 

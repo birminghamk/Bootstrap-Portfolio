@@ -99,6 +99,9 @@
         top: 85%;
         left: 30%;
     }
+    .interests, .productive {
+        margin-top: 200px;
+    }
 }
 @media screen and (max-width: 800px) {
     scroll-container{
@@ -134,14 +137,13 @@
         margin-right: 7%;
     }
     .productive, .interests {
-        margin-top: 25%;
+        margin-top: 250px;
     }
     .portfolioRepo {
-        margin-top: 750px;
+        margin-top: 780px;
         left: -100%;
+        margin-right: 100px;
         min-width: 300px;
-    }
-    .portfolioLink {
     }
 }
 @media screen and (max-width: 650px) {
@@ -279,9 +281,9 @@
         padding-top: 20px;
     }
     .portfolioRepo {
-        margin-top: 825px;
+        margin-top: 750px;
         z-index: 12;
-        left: 2%;
+        left: -3%;
         max-width: 100px;
     }
     #productiveChart, #interestsChart {
@@ -291,5 +293,8 @@
     }
     #interestsChart {
         margin-bottom: 20px;
+    }
+    .interests, .productive {
+        margin-top: 20px;
     }
 }
