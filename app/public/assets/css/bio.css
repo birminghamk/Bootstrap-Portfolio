@@ -14,8 +14,9 @@
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
     border: 10px double white;
-    border-top: none;
-    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 20px double white;
 }
 .bio-pic {
     position: absolute;
