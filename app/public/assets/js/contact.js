@@ -8,7 +8,7 @@ $(function() {
 
     //mailgun.js
     const mailgun = require('mailgun.js');
-    const key = '3b1f59cf-7249829e';
+    const key = '';
     const mg = mailgun.client({
         username: '',
         key: key
