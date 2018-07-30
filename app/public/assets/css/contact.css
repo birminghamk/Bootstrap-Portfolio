@@ -52,7 +52,7 @@ input:focus, input:hover, input:visited {
 input[type=submit] {
     border: 2px solid white;
     border-radius: 10px;
-    width: 50%;
+    width: 30%;
 }
 input[type=submit]:hover {
     background-color: white;

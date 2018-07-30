@@ -209,7 +209,10 @@
         padding-bottom: 75px;
     }
     .cupImg {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .keyboardImg {
+        margin-top: 10px;
     }
     #skillschart {
         height: 450px;
@@ -281,7 +284,7 @@
         padding-top: 20px;
     }
     .portfolioRepo {
-        margin-top: 750px;
+        margin-top: 810px;
         z-index: 12;
         left: -3%;
         max-width: 100px;
@@ -292,9 +295,9 @@
         margin-top: 10px;
     }
     #interestsChart {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .interests, .productive {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
