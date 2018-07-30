@@ -12,6 +12,7 @@ On this site you will find links to my main projects and their associated github
 	- Animate.css
 	- Google Fonts
 	- Logojoy
+	- Formspree
 	- Media Queries
 	- Heroku
 	- Chart.js
