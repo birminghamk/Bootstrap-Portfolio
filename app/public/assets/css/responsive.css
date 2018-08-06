@@ -276,13 +276,13 @@
         top: 90%;
         left: 0;
         margin-top: 30px;
-        margin-bottom: 200px;
+        /* margin-bottom: 100px; */
         padding-top: 20px;
     }
     .portfolioRepo {
-        margin-top: 810px;
+        margin-top: 725px;
         z-index: 12;
-        left: -3%;
+        left: 5%;
         max-width: 100px;
     }
     #productiveChart, #interestsChart {
@@ -290,10 +290,11 @@
         border-bottom: 5px double lightgrey;
         margin-top: 10px;
     }
-    #interestsChart {
-        margin-bottom: 50px;
-    }
-    .interests, .productive {
+    .interests {
         margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .productive {
+        margin-top: -10%;
     }
 }
