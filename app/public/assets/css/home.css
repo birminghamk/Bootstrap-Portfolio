@@ -134,3 +134,6 @@ h4.about-kate {
     margin-top: 20%;
     margin-left: 46%;
 }
+#homepageMenu {
+    list-style-type: none;
+}

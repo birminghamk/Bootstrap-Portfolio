@@ -4,12 +4,11 @@
 
 .contactBio {
     font-size: 20px;
-    margin: 50px 50px;
+    margin: 50px;
     border: 5px double lightgrey;
     padding: 10px;
     background-color: white;
     text-align: left;
-
 }
 fieldset {
     width: 100%;

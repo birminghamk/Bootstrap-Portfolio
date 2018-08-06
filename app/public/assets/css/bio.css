@@ -27,22 +27,21 @@
     height: 350px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 2%;
     box-shadow: 0 0 10px #777777;
 }
 .bio {
     position: absolute;
-    left: 10%;
-    top: 20%;
+    right: 65%;
+    top: 40%;
     background-color: white;
     border: 2px solid lightgrey;
-    border-radius: 20%;
+    /* border-radius: 5%; */
 }
 .stats {
     padding-top: 30px;
     list-style: circle;
-    min-height: 300px;
-    max-width: 100px;
+    min-height: 200px;
+    max-width: 200px;
 }
 .repoBackground {
     border-radius: 50%;
@@ -57,7 +56,6 @@
     background: white;
     border: 2px solid lightgrey;
     box-shadow: 10px -20px 0px 5px lightgrey;
-    border-radius: 80px 50px;
     text-align: center;
     width: 100%;
     font-size: 20px;
