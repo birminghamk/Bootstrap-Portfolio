@@ -49,10 +49,10 @@
     }
     .portfolioRepo {
         margin-top: 300px;
-        left: 55%;
+        left: 70%;
     }
     .bio {
-        left: 10%;
+        left: 5%;
         top: 30%;
         min-width: 200px;
     }
@@ -276,13 +276,12 @@
         top: 90%;
         left: 0;
         margin-top: 30px;
-        /* margin-bottom: 100px; */
         padding-top: 20px;
     }
     .portfolioRepo {
         margin-top: 725px;
         z-index: 12;
-        left: 5%;
+        left: 1%;
         max-width: 100px;
     }
     #productiveChart, #interestsChart {
