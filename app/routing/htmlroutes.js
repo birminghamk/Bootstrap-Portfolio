@@ -15,7 +15,7 @@ module.exports = function(app) {
 	});
 
 	// Basic route that sends the user to the bio page
-	app.get("/about-kate", function(req, res) {
+	app.get("/about", function(req, res) {
 		res.sendFile(path.join(__dirname, "../public/bio.html"));
 	});
 

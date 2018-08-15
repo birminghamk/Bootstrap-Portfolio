@@ -39,6 +39,12 @@ $(function() {
                     }
                 }]
             },
+            plugins: {
+                deferred: {
+                    delay: 2,
+                    yOffset: 200,
+                }
+            }
         }
     });
 
@@ -78,6 +84,12 @@ $(function() {
                     }
                 }]
             },
+            plugins: {
+                deferred: {
+                    delay: 2,
+                    yOffset: 200,
+                }
+            }
         }
     });
 
@@ -113,6 +125,12 @@ $(function() {
                     display:false
                 }
             },
+            plugins: {
+                deferred: {
+                    delay: 2,
+                    yOffset: 200,
+                }
+            }
         }
     });
 
