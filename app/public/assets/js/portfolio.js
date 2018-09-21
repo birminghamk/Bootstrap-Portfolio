@@ -8,7 +8,7 @@ $(function() {
 	//fade in animation for project list
 	function projectAnimation() {
 		$projectLi.hide().each(function(i) {
-			$(this).delay(500 * i).fadeIn(500);
+			$(this).delay(100 * i).fadeIn(5000);
 		});
 	};
 

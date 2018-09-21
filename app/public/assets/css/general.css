@@ -83,6 +83,9 @@ button.navbar-toggler {
 button.navbar-toggler:hover {
   box-shadow: -5px -5px white;
 }
+button.navbar-toggler:visited {
+  outline: none;
+}
 span.navbar-toggler-icon {
   border-radius: 50%;
 }
@@ -151,7 +154,7 @@ html.modal-active, body.modal-active {
 }
 #modal-container .modal-background {
   display: table-cell;
-  background: lightgrey;
+  background: rgb(245,245,245);
   text-align: center;
   vertical-align: middle;
 }
