@@ -42,7 +42,7 @@
     transition: 0.5s;
     color: white;
 }
-.sub-menu li {
+#projectMenu li {
     list-style-type: none;
 }
 .projectButton:hover span {
@@ -76,11 +76,11 @@
     color: white;
     margin: 12%;
 }
-.portfolio-nav, scroll-container {
+#projectMenu, scroll-container {
     margin: 0 auto;
     text-align: center;
 }
-.portfolio-nav {
+#projectMenu {
     background: white;
     padding-bottom: 100px;
     border-bottom-right-radius: 50%;
@@ -100,8 +100,9 @@
     -moz-box-shadow: -5px -5px lightgrey;
     box-shadow: -5px -5px lightgrey;
 }
-.projectList {
+.projectListItem {
     display: inline-block;
+
 }
 scroll-container {
     display: block;

@@ -1,18 +1,15 @@
 $(function() {
 	var $projectLi = $("#projectMenu li");
-
 	$projectLi.hide();
-	$('.navbar').hide().slideDown();
-	$('.buildSchema').hide().delay(700).slideDown();
+	$(".buildSchema").hide().slideDown();
 
 	//fade in animation for project list
 	function projectAnimation() {
 		$projectLi.hide().each(function(i) {
 			$(this).delay(100 * i).fadeIn(5000);
 		});
+		// console.log("list animation");
 	};
 
-	//runs projectAnimation after 1 sec
-	setTimeout(projectAnimation, 1000);
+	setTimeout(projectAnimation, 700);
 });
-
