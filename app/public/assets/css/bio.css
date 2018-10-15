@@ -9,8 +9,8 @@
     position: relative;
     min-height: 550px;
     margin-top: 50px;
-    padding: 10px;
-    margin-bottom: 80px;
+    padding: 30px;
+    margin-bottom: 65px;
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
     border: 10px double white;
@@ -20,13 +20,13 @@
 }
 .bio-pic {
     position: absolute;
+    left: 27%;
+    margin-top: 36%;
     z-index: 5;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 50px #777777;
 }
 .bio {
     position: absolute;
@@ -35,28 +35,26 @@
     background-color: white;
     border: 2px solid lightgrey;
 }
-.stats {
-    padding-top: 30px;
-    list-style: circle;
-    min-height: 200px;
-    max-width: 200px;
-}
 .repoBackground {
     border-radius: 50%;
-    color: lightblue;
+    color: lightgrey;
     padding: 20px;
+}
+.bio-description {
+    position: absolute;
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
 }
 .portfolioRepo {
     position: absolute;
-    margin-top: 250px;
-    left: 40%;
-    z-index: 2;
+    margin-top: 53%;
+    left: 13%;
     background: white;
     border: 2px solid lightgrey;
-    box-shadow: 10px -20px 0px 5px lightgrey;
     text-align: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
 }
 .portfolioLink {
     text-decoration: none;
@@ -64,18 +62,13 @@
 }
 .portfolioLink:hover {
     text-decoration: none;
-    color: lightblue;
 }
 .bio-header {
+    position: absolute;
+    left: 27%;
+    margin-top: 26%;
     text-align: center;
-    margin-top: -50px;
-    padding-bottom: 30px;
-}
-.statsHeader {
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: -15px;
-    border-bottom: 5px double lightgrey;
+    font-size: 40px;
 }
 #interestsChart, #productiveChart {
     background-color: white;
