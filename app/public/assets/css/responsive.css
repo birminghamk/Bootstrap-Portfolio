@@ -192,18 +192,17 @@
     /* Portfolio Page */
     scroll-container{
         width: 100%;
-        border-radius: 100%;
-        margin-top: -50px;
+        margin-top: -75px;
     }
     .portfolio-page {
-        border-radius: 30%;
+        border-radius: 2%;
         padding-top: 0px;
         font-size: 16px;
-        margin: 2%;
+        margin: 1%;
     }
     .portfolio-nav, #projectMenu {
-        border-bottom-left-radius: 0%;
-        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
         min-height: 2350px;
     }
     .container {
@@ -264,7 +263,7 @@
         margin-right: 49%;
     }
     /* Bio Page */
-    .container-bio {
+    /* .container-bio {
         padding-bottom: 0;
     }
     .life {
@@ -299,5 +298,5 @@
     }
     .productive {
         margin-top: -10%;
-    }
+    } */
 }
