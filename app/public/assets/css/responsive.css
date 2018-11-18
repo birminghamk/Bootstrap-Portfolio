@@ -48,8 +48,8 @@
         margin-top: 17%;
     }
     .portfolioRepo {
-        margin-top: 300px;
-        left: 70%;
+        margin-top: 342px;
+        left: 14%;
     }
     .bio {
         left: 5%;
@@ -263,17 +263,22 @@
         margin-right: 49%;
     }
     /* Bio Page */
-    /* .container-bio {
-        padding-bottom: 0;
-    }
     .life {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+    }
+    .bio-description,.bio-header   {
+        left: 0;
+    }
+    .bio-header {
+        margin-top: 145%;
     }
     .about {
-        margin-bottom: 400px;
+        /* margin-bottom: 400px; */
+        min-height: 875px;
     }
     .bio-pic {
-        left: 0;
+        left: 5%;
+        margin-top: 50%;
     }
     .bio {
         top: 90%;
@@ -282,7 +287,7 @@
         padding-top: 20px;
     }
     .portfolioRepo {
-        margin-top: 725px;
+        margin-top: 730px;
         z-index: 12;
         left: 4%;
         max-width: 100px;
@@ -294,9 +299,8 @@
     }
     .interests {
         margin-top: 50px;
-        margin-bottom: 100px;
     }
     .productive {
         margin-top: -10%;
-    } */
+    }
 }
