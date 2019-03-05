@@ -135,27 +135,8 @@ scroll-page {
     margin-top: 40px;
 }
 
-.futWork {
+.futureWork {
+    text-align: center;
     font-size: 20px;
-    text-align: center;
-}
-
-.futTech {
-    list-style: circle inside;
-    display: inline;
-    text-align: center;
-    margin-top: -30px;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.cupImg, .keyboardImg {
-    border-radius: 25%;
-    border: 5px double white;
-    -webkit-box-shadow: -5px -5px lightgrey;
-    -moz-box-shadow: -5px -5px lightgrey;
-    box-shadow: -5px -5px lightgrey;
+    margin-top: 20px;
 }
