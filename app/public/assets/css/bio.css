@@ -16,59 +16,16 @@
     border: 10px double white;
     border-left: none;
     border-right: none;
+    border-bottom: none;
     border-top: 20px double white;
 }
-.bio-pic {
-    position: absolute;
-    left: 27%;
-    margin-top: 36%;
-    z-index: 5;
+.about-pic {
     width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    box-shadow: 0 0 50px #777777;
-}
-.bio {
-    position: absolute;
-    right: 60%;
-    top: 40%;
-    background-color: white;
-    border: 2px solid lightgrey;
-}
-.repoBackground {
-    border-radius: 50%;
-    color: lightgrey;
-    padding: 20px;
-}
-.bio-description {
-    position: absolute;
-    width: 100%;
-    margin-top: 2%;
-    text-align: center;
-}
-.portfolioRepo {
-    position: absolute;
-    margin-top: 53%;
-    left: 12%;
-    background: white;
-    border: 2px solid lightgrey;
-    text-align: center;
-    width: 100%;
-    font-size: 16px;
-}
-.portfolioLink {
-    text-decoration: none;
-    color: grey;
-}
-.portfolioLink:hover {
-    text-decoration: none;
-}
-.bio-header {
-    position: absolute;
-    left: 27%;
-    margin-top: 26%;
-    text-align: center;
-    font-size: 40px;
+    height: 500px;
+    /* box-shadow: 0 0 50px #777777; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #interestsChart, #productiveChart {
     background-color: white;
@@ -79,8 +36,4 @@
 .chartHeader {
     text-align: center;
     padding-top: 20px;
-}
-
-.bioHeaderBar {
-    color: red;
 }
