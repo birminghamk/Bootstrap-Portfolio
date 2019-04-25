@@ -26,12 +26,9 @@ body {
   margin: 0 auto;
 }
 .bg {
-  background-image: url("../images/panel-background.jpg");
+  background-color: rgb(245,245,245);
   background-repeat: round;
   width: 100%;
-}
-h1 {
-  font-family: 'Fredericka the Great', cursive;
 }
 footer {
   position: absolute;
@@ -47,6 +44,9 @@ footer {
 }
 .bio-footer {
   padding-top: 30px;
+}
+.emphasis {
+  font-weight: bold;
 }
 /*navbar*/
 .nav-link {

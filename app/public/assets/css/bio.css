@@ -37,3 +37,15 @@
     text-align: center;
     padding-top: 20px;
 }
+
+.education {
+    text-align: center;
+}
+
+.academics {
+    padding-top: 10%;
+}
+
+.italic {
+    font-style: italic;
+}

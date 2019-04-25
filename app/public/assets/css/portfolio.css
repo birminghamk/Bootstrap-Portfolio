@@ -12,9 +12,6 @@
     font-size: 20px;
     padding-top: 30px;
 }
-.emphasis {
-    font-weight: bold;
-}
 .projectButton {
     border-radius: 10%;
     color: grey;
@@ -138,5 +135,5 @@ scroll-page {
 .futureWork {
     text-align: center;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
