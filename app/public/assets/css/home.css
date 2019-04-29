@@ -97,12 +97,13 @@
 }
 .header {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 65px;
+    margin-right: 2%;
 }
 .bioText {
     position: absolute;
     margin-left: 10%;
-    margin-top: 4%;
+    margin-top: 5%;
     font-weight: bold;
     font-size: 23px;
     color: white;

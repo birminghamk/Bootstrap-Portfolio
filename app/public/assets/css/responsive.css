@@ -37,10 +37,6 @@
     .bioText {
         top: 1em;
     }
-    .homepageLogo {
-    }
-    .homepagePortfolio {
-    }
     .homepageBio {
         margin-top: 23%;
     }
@@ -92,15 +88,9 @@
     }
 }
 @media screen and (max-width: 850px) {
-    .bio-pic {
-        left: 50%;
-    }
-    .bio {
-        top: 85%;
-        left: 30%;
-    }
     .interests, .productive {
-        margin-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -135,15 +125,6 @@
     .homepageContact {
         margin-top: 35%;
         margin-right: 7%;
-    }
-    .productive, .interests {
-        margin-top: 250px;
-    }
-    .portfolioRepo {
-        margin-top: 780px;
-        left: -100%;
-        margin-right: 100px;
-        min-width: 300px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -294,7 +275,6 @@
     }
     #productiveChart, #interestsChart {
         border-right: none;
-        border-bottom: 5px double lightgrey;
         margin-top: 10px;
     }
     .interests {

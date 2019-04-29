@@ -51,10 +51,10 @@ $(function() {
     var thingsIdoChart = new Chart(controls, {
         type: 'pie',
         data: {
-            labels: ["Running", "Working at Coffee Shops", "Eating", "Drinking Tea", "Watching Tutorials"],
+            labels: ["Running", "Working at Coffee Shops", "Eating", "Drinking Tea", "Sketching", "Watching Tutorials"],
             datasets: [{
                 label: 'doing things(%)',
-                data: ["15", "35", "20", "15", "15"],
+                data: ["10", "30", "15", "15", "15", "15"],
                 backgroundColor: [
                 'rgba(255, 99, 132, 0.8)',
                 'rgba(54, 162, 235, 0.8)',
