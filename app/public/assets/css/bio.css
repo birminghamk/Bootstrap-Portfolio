@@ -3,7 +3,7 @@
 ==========================*/
 .container-bio {
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .about {
     position: relative;
@@ -45,7 +45,7 @@
     font-style: italic;
 }
 .interests, .productive {
-    max-width: 300px;
+    max-width: 350px;
     max-height: 300px;
     margin-left: auto;
     margin-right: auto;
