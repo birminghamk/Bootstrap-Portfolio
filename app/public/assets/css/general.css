@@ -27,7 +27,7 @@ body {
 }
 .bg {
   background-color: rgb(245,245,245);
-  background-repeat: round;
+  border-top: 2px solid white;
   width: 100%;
 }
 footer {
@@ -50,28 +50,21 @@ footer {
 }
 /*navbar*/
 .nav-link {
-  border-left: double grey;
   margin-top: 5px;
 }
 .contactBtn, .bioBtn {
   position: absolute;
   right: 0;
   top: 0;
+  text-align: center;
   margin-right: 2%;
   margin-top: 30px;
   border-left: none;
-  border-right: double grey;
+
 }
 .portfolioBtn {
-  background-color: lightgrey;
-  color: white;
-}
-.portfolioLink:hover {
-  text-decoration: none;
-}
-.portfolioBtn:hover {
-  color: grey;
-  background-color: rgb(224,224,224, 0.5);
+  /* background-color: lightgrey; */
+  color: lightgrey;
   text-decoration: none;
 }
 a.mainPortfolio-link {

@@ -81,8 +81,8 @@
     padding-bottom: 100px;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-    border-right: 10px double lightblue;
-    border-left: 10px double lightblue;
+    border-right: 10px double lightgrey;
+    border-left: 10px double lightgrey;
     padding-top: 2%;
     min-height: 950px;
 }
@@ -110,7 +110,7 @@ scroll-container {
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     background-repeat: round;
     border-radius: 10%;
-    border: 10px double lightblue;
+    border: 10px double lightgrey;
     margin-top: -15%;
     margin-bottom: 40px;
 }
