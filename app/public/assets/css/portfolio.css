@@ -110,7 +110,7 @@ scroll-container {
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     background-repeat: round;
     border-radius: 10%;
-    border: 10px double lightgrey;
+    /* border: 10px double lightgrey; */
     margin-top: -15%;
     margin-bottom: 40px;
 }
