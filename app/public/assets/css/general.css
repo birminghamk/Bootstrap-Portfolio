@@ -50,22 +50,7 @@ footer {
 }
 /*navbar*/
 .nav-link {
-  margin-top: 5px;
-}
-.contactBtn, .bioBtn {
-  position: absolute;
-  right: 0;
-  top: 0;
-  text-align: center;
-  margin-right: 2%;
-  margin-top: 30px;
-  border-left: none;
-
-}
-.portfolioBtn {
-  /* background-color: lightgrey; */
-  color: lightgrey;
-  text-decoration: none;
+  display: inline;
 }
 a.mainPortfolio-link {
   color: grey;
@@ -75,6 +60,7 @@ button.navbar-toggler {
 }
 button.navbar-toggler:hover {
   box-shadow: -5px -5px white;
+  outline: none;
 }
 button.navbar-toggler:visited {
   outline: none;

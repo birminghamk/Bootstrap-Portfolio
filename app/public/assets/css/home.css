@@ -108,9 +108,6 @@
     font-size: 23px;
     color: white;
 }
-h4.about-kate {
-    margin-top: 10px;
-}
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
