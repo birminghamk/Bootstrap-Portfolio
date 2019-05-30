@@ -1,11 +1,12 @@
 $(function() {
-	// var $projectLi = $("#projectMenu li");
-	// function onPageLoad() {
-	// 	$projectLi.hide();
-	// 	$(".buildSchema").hide().slideDown();
-	// }
+	var $projectLi = $("#projectMenu li");
+	function onPageLoad() {
+		// $projectLi.hide();
+		$(".buildSchema").hide().slideDown();
+		console.log('hello');
+	}
 
-	// onPageLoad();
+	onPageLoad();
 
 	// //fade in animation for project list
 	// function projectAnimation() {
