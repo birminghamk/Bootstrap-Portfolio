@@ -51,17 +51,18 @@ $(function() {
     var thingsIdoChart = new Chart(controls, {
         type: 'pie',
         data: {
-            labels: ["Running", "Working at Coffee Shops", "Eating", "Drinking Tea", "Sketching", "Watching Tutorials"],
+            labels: ["Running", "Working at Coffee Shops", "Eating", "Drinking Tea", "Sketching", "Watching Tutorials", "Writing"],
             datasets: [{
                 label: 'doing things(%)',
-                data: ["10", "30", "15", "15", "15", "15"],
+                data: ["10", "25", "15", "15", "10", "10", "15"],
                 backgroundColor: [
                 'rgba(255, 99, 132, 0.8)',
                 'rgba(54, 162, 235, 0.8)',
                 'rgba(255, 206, 86, 0.8)',
                 'rgba(75, 192, 192, 0.8)',
                 'rgba(153, 102, 255, 0.8)',
-                'rgba(255, 159, 64, 0.8)'
+                'rgba(255, 159, 64, 0.8)',
+                'rgba(255, 108, 64, 0.8)'
             ],
                 borderColor: [
                 'rgba(255,99,132,1)',
@@ -69,6 +70,7 @@ $(function() {
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
                 'rgba(255, 159, 64, 1)'
             ],
                 borderWidth: 3
@@ -96,7 +98,7 @@ $(function() {
     var funChart = new Chart(interests, {
         type: 'pie',
         data: {
-            labels: ["Staring at amusing memes/gifs", "Watching Rick & Morty", "Mountain Activities", "Watching Baking Championships", "Making Art"],
+            labels: ["Staring at amusing memes/gifs", "Watching Rick & Morty", "Mountain Activities", "Watching Baking Championships"],
             datasets: [{
                 label: 'doing fun things(%)',
                 data: ["30", "20", "25", "15", "25"],

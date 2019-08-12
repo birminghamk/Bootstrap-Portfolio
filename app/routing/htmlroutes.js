@@ -10,8 +10,8 @@ module.exports = function(app) {
 	});
 
 	// Basic route that sends the user to the portfolio page
-	app.get("/portfolio", function(req, res) {
-		res.sendFile(path.join(__dirname, "../public/portfolio.html"));
+	app.get("/work", function(req, res) {
+		res.sendFile(path.join(__dirname, "../public/work.html"));
 	});
 
 	// Basic route that sends the user to the bio page
