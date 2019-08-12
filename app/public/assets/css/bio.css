@@ -52,5 +52,9 @@
 }
 .bio-description {
     text-align: center;
-    margin-top: 13%;
+    margin-top: 6%;
+}
+.welcome {
+    font-style: bold;
+    font-size: 20px;
 }
