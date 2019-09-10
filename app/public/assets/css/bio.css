@@ -1,0 +1,60 @@
+/*==========================
+        BIO PAGE
+==========================*/
+.container-bio {
+    width: 100%;
+    padding-bottom: 10%;
+}
+.about {
+    position: relative;
+    min-height: 550px;
+    margin-top: 50px;
+    padding: 30px;
+    /* margin-bottom: 65px; */
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: 10px double white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 20px double white;
+}
+.about-pic {
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 50px #777777;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chartHeader {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.education {
+    text-align: center;
+}
+
+.academics {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.italic {
+    font-style: italic;
+}
+.interests, .productive {
+    max-width: 350px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bio-description {
+    text-align: center;
+    margin-top: 6%;
+}
+.welcome {
+    font-style: bold;
+    font-size: 20px;
+}

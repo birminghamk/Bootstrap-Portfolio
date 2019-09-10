@@ -1,0 +1,15 @@
+/*==========================
+        PORTFOLIO PAGE
+ ==========================*/
+.container-portfolio {
+    background-color: rgb(245,245,245);
+    background-repeat: round;
+    padding-bottom: 200px;
+}
+.fluidity_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    width: 100%;
+}

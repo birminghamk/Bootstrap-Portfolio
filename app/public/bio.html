@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dopamineCream</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/bio.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/general.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/animations.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg p-4 bio-bg text-center">
+        <div class="btn-group nav-buttons" role="group">
+          <h4><a href="/Art" class="nav-link text-muted">Art</a></h4>
+          <h4><a href="/" class="text-muted nav-link">Home</a></h4>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg bio-nav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <button id="one" class="navbar-right btn btn-outline-secondary connect">Connect</button>
+    </nav>
+  </div>
+
+  <div class="container container-bio">
+    <section class="about">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-lg-6">
+          <p class="bio-description">
+            <span class="welcome">Welcome to dopamineCream!</span> <br/><br/>
+            So... what is dopamine?<br/><br/>
+            Dopamine is a neurotransmitter in the brain, mostly known for the feeling of pleasure and seeking rewards.<br/><br/>
+            Utilizing my passions for art, science, and writing, I aim to create things that make you feel that dopaminergic surge.<br/><br/>
+            Is that the only thing dopamine does?<br/><br/>
+            Certainly not!<br/><br/>
+            Stay tuned for an illustrated animation on what some dopamine in your brain can do,
+            And what can happen if there isn't enough!<br/><br/>
+            Basically, the brain is <span class="italic">cool</span>. Let's see what we can make with it. 
+
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6">
+          <img src="assets/images/aboutpic.jpg" alt="about-pic" class="about-pic"/>
+        </div>
+      </div>
+      <div class="row academics">
+        <div class="col-md-12 col-sm-12 col-lg-12 education">
+          School:
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-12 education">
+          B.A. | <span class="emphasis">Neuroscience</span> <span class="italic">University of Colorado Boulder</span><br/><br/>
+          Certificate | <span class="emphasis">Full Stack Web Development</span> <span class="italic">University of Denver</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="life">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-6 productive">
+            <h3 class="chartHeader">Being Productive</h3>
+            <canvas id="productiveChart" width="1" height="1"></canvas>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 interests">
+            <h3 class="chartHeader">Being a Person</h3>
+            <canvas id="interestsChart" width="1" height="1"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="brainQuote">
+        <div class="row">
+          <p></p>
+        </div>
+    </section>
+  </div>
+
+  <footer>
+      &copy; dopamineCream <span id="year"></span>
+  </footer>
+
+<div id="modal-container">
+    <div class="modal-background">
+      <div class="modal">
+        <h2>Connect With Kate</h2>
+        <a target="_blank" href="https://github.com/birminghamk"><img src="assets/images/icon-social-github-128.png" class="social" alt="GitHub" /></a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/kate-birmingham"><img src="assets/images/linkedin_circle_color-128.png" class="social" alt="LinkedIn" /></a>
+        <hr>
+        <p class="email">dopaminecream@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@1"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/bio.js"></script>
+  <script type="text/javascript" src="assets/js/graphs.js"></script>
+</body>
+</html>

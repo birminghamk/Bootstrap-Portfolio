@@ -1,0 +1,150 @@
+/*==========================
+          GENERAL
+==========================*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+*:focus {
+  outline: none;
+}
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Oswald', sans-serif;
+  color: grey;
+  background-color: rgb(245,245,245);
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.bg {
+  background-color: rgb(245,245,245);
+  border-top: 2px solid white;
+  width: 100%;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: grey;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.bio-footer {
+  padding-top: 30px;
+}
+.emphasis {
+  font-weight: bold;
+}
+/*navbar*/
+.nav-link {
+  display: inline;
+}
+a.mainPortfolio-link {
+  color: grey;
+}
+button.navbar-toggler {
+  background-color: lightgrey;
+}
+button.navbar-toggler:hover {
+  box-shadow: -5px -5px white;
+  outline: none;
+}
+button.navbar-toggler:visited {
+  outline: none;
+}
+span.navbar-toggler-icon {
+  border-radius: 50%;
+}
+button.navbar-toggler:focus {
+  border: 1px solid white;
+  text-shadow: -5px -5px white;
+  text-decoration: none;
+}
+button.navbar-right {
+  color: grey;
+  background-color: rgb(0,0,0,0.0);
+  border: 1px solid white;
+}
+button.navbar-right:hover {
+  color: lightgrey;
+  background-color: white;
+  border: 2px solid lightgrey;
+}
+
+/*connect modal*/
+html.modal-active, body.modal-active {
+  overflow: hidden;
+}
+#modal-container {
+  position: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  z-index: 5;
+}
+#modal-container.one {
+  transform: scaleY(0.01) scaleX(0);
+  animation: unfoldIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.one .modal-background .modal {
+  transform: scale(0);
+  animation: zoomIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.one.out {
+  transform: scale(1);
+  animation: unfoldOut 1s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.one.out .modal-background .modal {
+  animation: zoomOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container .modal-background .modal p {
+  font-size: 18px;
+  line-height: 22px;
+}
+#modal-container .modal-background .modal .modal-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+#modal-container .modal-background .modal {
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-dasharray: 778;
+  stroke-dashoffset: 778;
+}
+#modal-container .modal-background {
+  display: table-cell;
+  background: rgba(245,245,245, 0.9);
+  text-align: center;
+  vertical-align: middle;
+}
+#modal-container .modal-background .modal {
+  background: white;
+  padding: 50px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 300;
+  position: relative;
+}
+.email {
+  text-align: center;
+}
