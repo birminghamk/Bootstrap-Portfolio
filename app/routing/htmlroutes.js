@@ -9,18 +9,23 @@ module.exports = function(app) {
 		res.sendFile(path.join(__dirname, "../public/index.html"));
 	});
 
-	// Basic route that sends the user to the portfolio page
+	// Basic route that sends the user to the art page
 	app.get("/art", function(req, res) {
 		res.sendFile(path.join(__dirname, "../public/art.html"));
+	});
+
+	// Basic route that sends the user to the art page
+	app.get("/science", function(req, res) {
+		res.sendFile(path.join(__dirname, "../public/science.html"));
+	});
+
+	// Basic route that sends the user to the art page
+	app.get("/writing", function(req, res) {
+		res.sendFile(path.join(__dirname, "../public/writing.html"));
 	});
 
 	// Basic route that sends the user to the bio page
 	app.get("/about", function(req, res) {
 		res.sendFile(path.join(__dirname, "../public/bio.html"));
-	});
-
-	// Basic route that sends the user to the contact page
-	app.get("/contact", function(req, res) {
-		res.sendFile(path.join(__dirname, "../public/contact.html"));
 	});
 }
