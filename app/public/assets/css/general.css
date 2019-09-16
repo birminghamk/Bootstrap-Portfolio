@@ -56,17 +56,20 @@ a.mainPortfolio-link {
   color: grey;
 }
 button.navbar-toggler {
-  background-color: lightgrey;
+  background-color: none;
 }
 button.navbar-toggler:hover {
   box-shadow: -5px -5px white;
   outline: none;
 }
+#navbar-toggler-special {
+  border: 2px solid white;
+}
 button.navbar-toggler:visited {
   outline: none;
 }
 span.navbar-toggler-icon {
-  border-radius: 50%;
+  background-color: white
 }
 button.navbar-toggler:focus {
   border: 1px solid white;
