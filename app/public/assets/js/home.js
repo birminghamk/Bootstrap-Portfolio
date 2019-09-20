@@ -1,6 +1,4 @@
 $(function() {
-	var $homepageNav = $("#homepageMenu li");
-	$homepageNav.hide();
 	
 	var colors = new Array(
 	  [62,35,255],
@@ -63,15 +61,26 @@ $(function() {
 	//changes gradient on home page
 	setInterval(updateGradient, 10);
 
-	function navAnimation() {
-		//fade in animation for homepage nav
-		$homepageNav.hide().each(function(i) {
-			$(this).delay(500 * i).fadeIn(500);
-		});
-	}
-
-	//runs navAnimation every 12000ms
-	setTimeout(navAnimation, 14000);
+	/* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        });
+    
+    });
+    
 
 
 
