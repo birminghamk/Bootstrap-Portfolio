@@ -38,13 +38,12 @@
     font-weight: bold;
     font-size: 65px;
     margin-right: 10%;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 .bioText {
     position: absolute;
-    margin-top: 12%;
+    margin-top: 15%;
     margin-left: 10%;
-    /* font-weight: bold; */
     font-size: 40px;
     color: white;
 }
@@ -54,6 +53,7 @@
 }
 #gradient {
     width: 100%;
+    min-height: 1000px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;

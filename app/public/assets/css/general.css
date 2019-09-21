@@ -10,8 +10,10 @@ html {
 *:after {
   box-sizing: inherit;
 }
-*:focus {
+*:focus, *:active, *:visited,
+*:link, *:hover {
   outline: none;
+  text-decoration: none;
 }
 body {
   position: relative;
