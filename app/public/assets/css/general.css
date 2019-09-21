@@ -71,7 +71,7 @@ button.navbar-toggler:visited {
   outline: none;
 }
 span.navbar-toggler-icon {
-  background-color: white
+  background-color: white;
 }
 button.navbar-toggler:focus {
   border: 1px solid white;

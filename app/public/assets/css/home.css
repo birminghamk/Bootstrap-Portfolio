@@ -47,6 +47,15 @@
     font-size: 40px;
     color: white;
 }
+.homeConnectButton {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 82%;
+    font-size: 20px;
+}
+.btn-outline-secondary {
+    color: white;
+}
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;

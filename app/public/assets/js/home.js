@@ -1,7 +1,8 @@
 $(function() {
 
 	$('.artHomePic').hide().delay(3200).slideDown('slow');
-	
+	$('.homeConnectButton').hide().delay(3200).fadeIn('slow');
+
 	var colors = new Array(
 	  [62,35,255],
 	  [60,255,60],
