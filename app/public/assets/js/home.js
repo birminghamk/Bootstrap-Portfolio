@@ -1,4 +1,6 @@
 $(function() {
+
+	$('.artHomePic').hide().delay(3200).slideDown('slow');
 	
 	var colors = new Array(
 	  [62,35,255],
