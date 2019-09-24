@@ -150,6 +150,10 @@ html.modal-active, body.modal-active {
   font-weight: 300;
   position: relative;
 }
+.social {
+  width: 75px;
+  height: 75px;
+}
 .email {
   text-align: center;
 }
