@@ -34,3 +34,65 @@
     margin-top: 12%;
     margin-bottom: 10%;
 }
+
+/*kaleidoscope poem*/
+.tabs {
+    padding-left: 100px;
+}
+
+/*willow tree poem*/
+.swaying {
+    padding-right: 20px;
+}
+.leaves {
+    padding-left: 5px;
+}
+.drop {
+    padding-right: 17px;
+}
+.tree {
+    padding-left {
+        15px;
+    }
+}
+.andA {
+    padding-left: 5px;
+}
+.trunk {
+    padding-right: 18px;
+}
+.occupy {
+    padding-left: 7px;
+}
+.shade {
+    padding-left: 15px;
+}
+.light {
+    padding-left: 5px;
+}
+.dancing {
+    padding-right: 25px;
+}
+.through {
+    padding-right: 22px;
+}
+.negative {
+    padding-left: 10px;
+}
+.space {
+    padding-left: 25px;
+}
+.sway {
+    padding-right: 50px;
+}
+.shakes {
+    padding-left: 15px;
+}
+.influence {
+    padding-left: 30px;
+}
+/*end willow tree poem*/
+
+.waterOrnament {
+    padding-bottom: 100px;
+}
