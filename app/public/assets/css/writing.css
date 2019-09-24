@@ -1,7 +1,36 @@
+/*poem-nav */
+.poetry-nav {
+    list-style-type: none;
+    width: 100%;
+    border-bottom: 5px solid white;
+}
+.poetry-nav li{
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.poetry-link {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.poetry-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*poem section */
 .poetry, .poetryHeader {
     text-align: center;
     margin-top: 40%;
 }
+.poetry-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .poetry {
     margin-top: 12%;
+    margin-bottom: 10%;
 }
