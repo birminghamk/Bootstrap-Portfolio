@@ -18,17 +18,68 @@
     text-decoration: none;
     color: white;
 }
+.poetry-nav {
+    position: fixed;
+    z-index: 1;
+    width: 72%;
+}
 
 
 /*poem section */
 .poetry, .poetryHeader {
     text-align: center;
-    margin-top: 40%;
+    margin-top: 70%;
+}
+.poem-1 {
+    margin-top: 60%;
 }
 .poetry {
-    margin-top: 12%;
+    margin-top: 30%;
     margin-bottom: 10%;
 }
+
+/*poem title colors*/
+.poem-1 {
+    background: -webkit-linear-gradient(#eee, rgb(99, 33, 85));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poem-2 {
+    background: -webkit-linear-gradient(#eee, rgb(33, 159, 168));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poem-3 {
+    background: -webkit-linear-gradient(#eee, rgb(168, 45, 158));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poem-4 {
+    background: -webkit-linear-gradient(#eee, rgb(189, 196, 243));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poem-5 {
+    background: -webkit-linear-gradient(#eee, rgb(104, 153, 102));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poem-6 {
+    background: -webkit-linear-gradient(#eee, rgb(36, 207, 230));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poem-7 {
+    background: -webkit-linear-gradient(#eee, rgb(84, 86, 189));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poem-8 {
+    background: -webkit-linear-gradient(#eee, rgb(214, 124, 207));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 /*kaleidoscope poem*/
 .tabs {

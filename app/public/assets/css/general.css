@@ -26,6 +26,7 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 .bg {
   background-color: rgb(245,245,245);
@@ -153,6 +154,7 @@ html.modal-active, body.modal-active {
 .social {
   width: 75px;
   height: 75px;
+  padding-right: 2px;
 }
 .email {
   text-align: center;

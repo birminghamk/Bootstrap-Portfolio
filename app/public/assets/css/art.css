@@ -1,15 +1,60 @@
 /*==========================
         PORTFOLIO PAGE
  ==========================*/
-.container-portfolio {
+.container-art {
     background-color: rgb(245,245,245);
     background-repeat: round;
     padding-bottom: 200px;
 }
+
+/*art-nav */
+.art-nav {
+    list-style-type: none;
+    width: 100%;
+    border-bottom: 5px solid white;
+    text-align: center;
+}
+.art-nav li{
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.art-link {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.art-link:hover {
+    text-decoration: none;
+    color: white;
+}
+.art-nav {
+    position: fixed;
+    z-index: 1;
+    width: 72%;
+}
+
+/*art images */
 .fluidity_image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5%;
+    padding-top: 15%;
     width: 100%;
+}
+.whiteSatin-green {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+    width: 90%;
+    height: 90%;
+}
+.whiteSatin-white {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+    width: 90%;
+    height: 90%;
 }
