@@ -3,7 +3,7 @@ $(function() {
 	$('.artHomePic').hide().delay(3200).slideDown('slow');
 	$('.scienceHomePic').hide().delay(4000).slideDown('slow');
 	$('.writingHomePic').hide().delay(4000).slideDown('slow');
-	$('.homeConnectButton').hide().delay(3200).fadeIn('slow');
+	$('.homeConnectButton').hide().delay(3000).fadeIn('slow');
 
 	var colors = new Array(
 	  [62,35,255],

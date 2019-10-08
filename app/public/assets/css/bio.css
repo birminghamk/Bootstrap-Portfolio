@@ -59,4 +59,5 @@
 .welcome {
     font-style: bold;
     font-size: 25px;
+    border-bottom: 2px solid white;
 }
