@@ -16,7 +16,8 @@
     position: absolute;
     opacity: 0;
     animation-delay: 4s;
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-top: 3%;
 }
 .header-animation {
     background-position: left top;
@@ -37,20 +38,20 @@
 .header {
     font-weight: bold;
     font-size: 65px;
-    margin-right: 10%;
-    margin-top: 10%;
+    margin-right: 13%;
+    margin-top: 13%;
 }
 .bioText {
     position: absolute;
-    margin-top: 15%;
-    margin-left: 10%;
+    margin-top: 18%;
+    margin-left: 15%;
     font-size: 40px;
     color: white;
 }
 .homeConnectButton {
     position: absolute;
-    margin-top: 11%;
-    margin-left: 82%;
+    margin-top: 14%;
+    margin-left: 77%;
 }
 button.homeConnectButton {
     color: white;
@@ -102,8 +103,8 @@ button.homeConnectButton:visited {
     margin-left: 46%;
 }
 .homeMenuPic {
-    width: 80%;
-    max-height: 850px;
+    width: 70%;
+    max-height: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;

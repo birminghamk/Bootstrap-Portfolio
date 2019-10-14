@@ -51,10 +51,27 @@
     width: 90%;
     height: 90%;
 }
-.ladyinredPurple {
+.ladyinredPurple, .ladyinredYellow {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-    height: 800px;
+    width: 80%;
+    height: 95%;
+}
+.teapot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 5%; */
+    width: 90%;
+    height: 90%;
+}
+.purpleHeels {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 5%; */
+    width: 80%;
+    height: 90%;
+    
 }
