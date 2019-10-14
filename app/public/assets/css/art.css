@@ -28,11 +28,6 @@
     text-decoration: none;
     color: white;
 }
-/* .art-nav {
-    position: fixed;
-    z-index: 1;
-    width: 72%;
-} */
 
 /*art images */
 .fluidity_image {
@@ -51,18 +46,23 @@
     width: 90%;
     height: 90%;
 }
-.ladyinredPurple, .ladyinredYellow {
+.ladyinredPurple {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     height: 95%;
 }
+.ladyinredYellow, .ladyinredLightPink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 .teapot {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 5%; */
     width: 90%;
     height: 90%;
 }
@@ -70,8 +70,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 5%; */
     width: 80%;
     height: 90%;
-    
 }
