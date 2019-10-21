@@ -17,6 +17,16 @@
     opacity: 0;
     animation-delay: 4s;
     margin-top: 3%;
+    font-weight: bold;
+    font-size: 65px;
+    margin-right: 37%;
+    margin-top: 13%;
+}
+.bioText {
+    position: absolute;
+    margin-top: 20%;
+    font-size: 40px;
+    color: grey;
 }
 .header-animation {
     background-position: left top;
@@ -34,18 +44,7 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-.header {
-    font-weight: bold;
-    font-size: 65px;
-    margin-right: 35%;
-    margin-top: 13%;
-}
-.bioText {
-    position: absolute;
-    margin-top: 20%;
-    font-size: 40px;
-    color: grey;
-}
+
 .homeConnectButton {
     position: absolute;
     margin-top: 14%;
@@ -75,7 +74,9 @@ button.homeConnectButton:visited {
     animation-name: fadeInRight;
 }
 #gradient {
-    width: 100%;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 300px;
     padding-top: 10%;
     padding-left: 12%;
@@ -97,7 +98,7 @@ button.homeConnectButton:visited {
 }
 .dot-container {
     margin-top: 30%;
-    margin-left: 46%;
+    margin-left: 44%;
 }
 .homepageLink, .homepageLink:hover, .homepageLink:active {
     font-size: 50px;
@@ -111,4 +112,7 @@ button.homeConnectButton:visited {
     background: -webkit-linear-gradient(rgba(110, 91, 109),#eee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.homepageArtLink {
+    margin-left: 5%;
 }
