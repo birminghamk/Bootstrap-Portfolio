@@ -1,8 +1,11 @@
 /*poem-nav */
 .poetry-nav {
+    margin-top: 3%;
+    font-size: 25px;
     list-style-type: none;
     width: 100%;
     border-bottom: 5px solid white;
+    overflow: anchor;
 }
 .poetry-nav li{
     display: inline-block;
@@ -29,13 +32,13 @@
 /*poem section */
 .poetry, .poetryHeader {
     text-align: center;
-    margin-top: 70%;
+    margin-top: 75%;
 }
 .poem-1 {
-    margin-top: 60%;
+    margin-top: 65%;
 }
 .poetry {
-    margin-top: 30%;
+    margin-top: 40%;
     margin-bottom: 10%;
 }
 
