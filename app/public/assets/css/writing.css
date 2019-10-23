@@ -1,3 +1,6 @@
+.container {
+    width: 100%;
+}
 /*poem-nav */
 .poetry-nav {
     margin-top: 3%;
@@ -11,6 +14,7 @@
     display: inline-block;
     padding: 20px;
     padding-bottom: 10px;
+    text-align: center;
 }
 .poetry-link {
     text-decoration: none;

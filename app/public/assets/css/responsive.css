@@ -1,8 +1,14 @@
 /* =======================
       MEDIA QUERIES
   ========================*/
-
+  @media screen and (max-width: 1600px) {
+    /*poetry-page*/ 
+     .poetry-nav {
+        width: 73%;
+    } 
+} 
 @media screen and (max-width: 1400px) {
+    /*homepage */
     .homepageHeader {
         /* margin-top: 5%; */
         font-size: 55px;
@@ -13,6 +19,11 @@
     #gradient {
         padding-top: 11%; 
     }
+    /*poetry page*/
+    .poetry-nav {
+        width: 90%;
+    }
+}
 @media screen and (max-width: 1200px) {
     scroll-container{
         width: 60%;
@@ -44,139 +55,33 @@
     }
 }
 @media screen and (max-width: 1000px) {
-    scroll-container{
-        width: 80%;
-    }
-    .homepagePic {
-        padding-left: 36%;
-        padding-right: 23%;
-    }
-    .homepageHeader {
-        margin-left: 5%;
-    }
-    .bioText {
-        top: 1em;
-    }
-    .homepageLogo {
-        margin-top: 35%;
-        margin-right: 39%;
-    }
-    .homepagePortfolio {
-        margin-top: 25%;
-        margin-right: 27%;
-    }
-    .homepageBio {
-        margin-top: 34%;
-        margin-right: 15%;
-    }
-    .homepageContact {
-        margin-top: 26%;
-        margin-right: 12%;
-    }
-    .portfolioRepo {
-        margin-top: 400px;
-    }
 }
 @media screen and (max-width: 850px) {
     .interests, .productive {
-        padding-left: 0px;
-        padding-right: 0px;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+    }
+    /* poetry page */
+    .poetry-nav {
+        width: 80%:
+        text-align: center;
     }
 }
 @media screen and (max-width: 800px) {
-    scroll-container{
-        width: 100%;
+    .poetry-nav {
+        width: 80%;
+        text-align: center;
     }
-    .portfolio-page {
-        padding-top: 20px;
-    }
-    .homepagePic {
-        padding-left: 34%;
-        padding-right: 15%;
-    }
-    .homepageHeader {
-        margin-left: 5%;
-    }
-    .bioText {
-        top: 2em;
-    }
-    .homepageLogo {
-        margin-top: 44%;
-        margin-right: 39%;
-    }
-    .homepagePortfolio {
-        margin-top: 32%;
-        margin-right: 26%;
-    }
-    .homepageBio {
-        margin-top: 44%;
-        margin-right: 11%;
-    }
-    .homepageContact {
-        margin-top: 35%;
-        margin-right: 7%;
+    .scienceTitle {
+        font-size: 30px;
     }
 }
 @media screen and (max-width: 650px) {
-    scroll-container{
-        width: 100%;
-    }
-    .portfolio-page {
-        padding-top: 20px;
-    }
-    #projectMenu{
-        border-bottom-left-radius: 0%;
-        border-bottom-right-radius: 0%;
-    }
-    .homepagePic {
-        padding-left: 20%;
-        padding-right: 5%;
-    }
-    .homepageHeader {
-        margin-left: 20%;
-    }
-    .bioText {
-        top: 2em;
-        margin-left: 25%;
-    }
-    .homepageLogo {
-        margin-top: 54%;
-        margin-right: 34%;
-    }
-    .homepagePortfolio {
-        top: 10em;
-        margin-top: 70%;
-        margin-right: 20%;
-    }
-    .homepageBio {
-        top: 14em;
-        margin-top: 90%;
-        margin-right: 37%;
-    }
-    .homepageContact {
-        top: 17em;
-        margin-top: 100%;
-        margin-right: 26%;
+    .scienceTitle {
+        font-size: 60px;
     }
 }
 @media screen and (max-width: 600px) {
-    /* Portfolio Page */
-    scroll-container{
-        width: 100%;
-        margin-top: -75px;
-    }
-    .container {
-        padding-bottom: 100px;
-    }
-    .portfolio-nav {
-        padding-bottom: 75px;
-    }
-    .cupImg {
-        margin-bottom: 20px;
-    }
-    .keyboardImg {
-        margin-top: 10px;
-    }
     /* Homepage */
     #gradient {
         padding-left: 4%;
@@ -215,17 +120,50 @@
         margin-top: 3%;
     }
     /*art page*/
+    .art-nav {
+        margin-top: 3%;
+        text-align: center;
+    }
+    .art-nav li {
+        display: block;
+    }
     .ladyinredYellow, .ladyinredPumpkin,
     .ladyinredLightPink,
     .ladyinredPurple {
         padding-bottom: 10%;
+        width: 90%;
+        height: 100%;
     }
     .ladyinredPurple {
-        width: 100%;
+        width: 90%;
         height: 100%;
     }
     .whiteSatin {
         margin-bottom: -5%;
         padding-top: 2%;
+    }
+    .teapot {
+        width: 95%;
+        height: 95%;
+        padding-bottom: 8%;
+    }
+    .purpleHeels {
+        width: 95%;
+        height: 95%;
+    }
+    .duvel {
+        padding-top: 0%;
+    }
+    /*writing page */
+    .poetry-nav {
+        width: 94%;
+        text-align: center;
+        padding-right: 9%;
+    }
+    .poetryHeader {
+        margin-top: 85%;
+    }
+    .poetry {
+        margin-top: 10%;
     }
 }
