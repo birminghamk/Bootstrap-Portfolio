@@ -17,7 +17,7 @@
         margin-top: 18%;
     }
     #gradient {
-        padding-top: 2%; 
+        /* padding-top: 2%;  */
     }
     /*poetry page*/
     .poetry-nav {
@@ -28,9 +28,8 @@
     scroll-container{
         width: 60%;
     }
-    .homepagePic {
-        padding-left: 34%;
-        padding-right: 30%;
+    #gradient {
+        padding-top: 2%;
     }
     .bioText {
         margin-top: 19%;
