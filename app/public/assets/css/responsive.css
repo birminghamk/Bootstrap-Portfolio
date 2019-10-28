@@ -4,7 +4,7 @@
   @media screen and (max-width: 1600px) {
     /*poetry-page*/ 
      .poetry-nav {
-        width: 73%;
+        width: 80%;
     } 
 } 
 @media screen and (max-width: 1400px) {
@@ -21,7 +21,7 @@
     }
     /*poetry page*/
     .poetry-nav {
-        width: 90%;
+        width: 89%;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -53,13 +53,38 @@
         top: 30%;
         min-width: 200px;
     }
+    /*poetry page */
+    .poetry-nav {
+        width: 85%;
+    }
+    .poetryHeader {
+        margin-top: 95%;
+    }
+
+    .poetry {
+        margin-top: 60%;
+    }
 }
 @media screen and (max-width: 1000px) {
+    /*poetry page */
+    .poetry-nav {
+        width: 82%;
+    }
+    .poetryHeader {
+        margin-top: 100%;
+    }
+    .poetry {
+        margin-top: 72%;
+    }
+    /*science page */
+    .scienceTitle {
+        font-size: 40px;
+    }
 }
 @media screen and (max-width: 850px) {
-    .interests, .productive {
-        /* padding-left: 0px;
-        padding-right: 0px; */
+    /*science page */
+    scienceTitle {
+        font-size: 35px;
     }
     /* poetry page */
     .poetry-nav {
@@ -68,10 +93,18 @@
     }
 }
 @media screen and (max-width: 800px) {
+    /*poetry page */
     .poetry-nav {
         width: 80%;
         text-align: center;
     }
+    .poetry {
+        padding-top: 55%;
+    }
+    .poetryHeader {
+        padding-top: 60%;
+    }
+    /*science page */
     .scienceTitle {
         font-size: 30px;
     }
@@ -161,10 +194,18 @@
         padding-right: 9%;
     }
     .poetryHeader {
-        margin-top: 85%;
+        padding-top: 80%;
+        margin-top: 0%;
     }
     .poetry {
-        margin-top: 10%;
+        padding-top: 15%;
+        margin-top: 0%;
     }
-    .scienceTitle
+    /*science page */
+    .comingSoon {
+        padding-bottom: 10%;
+    }
+    .scienceTitle {
+        font-size: 50px;
+    }
 }

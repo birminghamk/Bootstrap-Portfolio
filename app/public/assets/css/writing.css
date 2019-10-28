@@ -34,7 +34,7 @@
 
 
 /*poem section */
-.poetry, .poetryHeader {
+.poetryHeader {
     text-align: center;
     margin-top: 75%;
 }
@@ -44,6 +44,7 @@
 .poetry {
     margin-top: 39%;
     margin-bottom: 10%;
+    text-align: center;
 }
 
 /*poem title colors*/
