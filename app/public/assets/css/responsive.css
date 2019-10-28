@@ -4,7 +4,7 @@
   @media screen and (max-width: 1600px) {
     /*poetry-page*/ 
      .poetry-nav {
-        width: 80%;
+        width: 74%;
     } 
 } 
 @media screen and (max-width: 1400px) {
@@ -21,7 +21,7 @@
     }
     /*poetry page*/
     .poetry-nav {
-        width: 89%;
+        width: 84%;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -146,6 +146,7 @@
         display: block;
         text-align: center;
         margin-top: 0%;
+        width: 95%;
     }
     .homepageHeader {
         margin-top: 24%;
