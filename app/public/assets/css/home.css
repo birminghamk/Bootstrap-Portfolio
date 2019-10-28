@@ -47,7 +47,7 @@
 .homeConnectButton {
     position: absolute;
     margin-top: 14%;
-    margin-left: 86%;
+    margin-left: 90%;
 }
 button.homeConnectButton {
     color: grey;
@@ -73,8 +73,10 @@ button.homeConnectButton:visited {
     animation-name: fadeInRight;
 }
 #gradient {
-    width: 97%;
+    width: 100%;
     min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
     /* margin-top: 2%; */
 }
 .mainLink {
