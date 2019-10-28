@@ -22,6 +22,10 @@ body {
   font-family: 'Oswald', sans-serif;
   color: grey;
   background-color: rgb(245,245,245);
+  opacity: 0;
+}
+body.all-loaded {
+  opacity: 1;
 }
 .container {
   width: 100%;

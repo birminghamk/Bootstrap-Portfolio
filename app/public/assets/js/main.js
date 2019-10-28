@@ -1,5 +1,9 @@
 $(function() {
 
+	$(window).load(function() {
+		$("body").addClass('all-loaded');
+	})
+
 	// Generate and display the year at the footer
 	var year = moment().format('YYYY');
 
