@@ -148,7 +148,7 @@
         display: block;
         text-align: center;
         margin-top: 8%;
-        padding-bottom: 12%;
+        padding-bottom: 15%;
         width: 100%;
     }
     .homepageHeader {
@@ -156,7 +156,7 @@
         font-size: 40px;
     }
     .bioText {
-        font-size: 30px;
+        font-size: 27px;
         margin-top: 50%;
     }
     .dot-container {
@@ -166,7 +166,7 @@
     button.homeConnectButton {
         margin-left: 35%;
         margin-top: 175%;
-        margin-bottom: 15%;
+        margin-bottom: 20%;
     }
     /* Bio Page */
     .about-pic {
@@ -187,6 +187,10 @@
     }
     .bio-description {
         margin-top: 3%;
+    }
+    .brainImage {
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     /*art page*/
     .art-nav {
@@ -233,11 +237,11 @@
         padding-right: 9%;
     }
     .poetryHeader {
-        padding-top: 90%;
+        padding-top: 95%;
         margin-top: 0%;
     }
     .poetry {
-        padding-top: 25%;
+        padding-top: 30%;
         margin-top: 0%;
     }
     /*science page */
