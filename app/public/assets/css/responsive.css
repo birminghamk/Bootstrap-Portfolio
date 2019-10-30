@@ -149,7 +149,6 @@
         text-align: center;
         margin-top: 8%;
         padding-bottom: 15%;
-        margin-bottom: 2%;
         width: 100%;
     }
     .homepageHeader {
@@ -166,7 +165,7 @@
     }
     button.homeConnectButton {
         margin-left: 35%;
-        margin-top: 175%;
+        margin-top: 177%;
         margin-bottom: 20%;
     }
     /* Bio Page */
@@ -238,11 +237,11 @@
         padding-right: 9%;
     }
     .poetryHeader {
-        padding-top: 101%;
+        padding-top: 105%;
         margin-top: 0%;
     }
     .poetry {
-        padding-top: 31%;
+        padding-top: 30%;
         margin-top: 0%;
     }
     /*science page */
