@@ -145,7 +145,7 @@
 @media screen and (max-width: 600px) {
     /* Homepage */
     .container-home {
-        min-height: 900px;
+        min-height: 800px;
     }
     #gradient {
         display: block;
