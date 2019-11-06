@@ -3,6 +3,7 @@ $(function() {
 		$(".colorImages").hide();
 		$(".blackandwhite").hide();
 		$(".lettering").hide();
+		$(".cocktailIllustration").fadeIn('slow');
 	}
 
 	onPageLoad();
@@ -10,27 +11,27 @@ $(function() {
 	//nav for art images
 	function artNav () {
 		$("#cocktails").click(function(){
-			$(".cocktailIllustration").show();
+			$(".cocktailIllustration").fadeIn('slow');
 			$(".colorImages").hide();
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
 		  });
 
 		  $("#colorStudies").click(function(){
+			$(".colorImages").fadeIn('slow');
 			$(".cocktailIllustration").hide();
-			$(".colorImages").show();
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
 		  });
 		  $("#blackAndwhite").click(function(){
-			$(".blackandwhite").show();
+			$(".blackandwhite").fadeIn('slow');
 			$(".colorImages").hide();
 			$(".cocktailIllustration").hide();
 			$(".lettering").hide();
 
 		  });
 		  $("#Lettering").click(function(){
-			$(".lettering").show();
+			$(".lettering").fadeIn('slow');
 			$(".colorImages").hide();
 			$(".cocktailIllustration").hide();
 			$(".blackandwhite").hide();

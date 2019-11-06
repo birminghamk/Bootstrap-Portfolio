@@ -49,41 +49,49 @@
 
 /*poem title colors*/
 .poem-1 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(99, 33, 85));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .poem-2 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(33, 159, 168));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .poem-3 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(168, 45, 158));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .poem-4 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(189, 196, 243));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .poem-5 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(104, 153, 102));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .poem-6 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(36, 207, 230));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .poem-7 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(84, 86, 189));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .poem-8 {
+    color: white;
     background: -webkit-linear-gradient(#eee, rgb(214, 124, 207));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
