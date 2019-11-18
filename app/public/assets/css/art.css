@@ -17,7 +17,7 @@
 }
 .art-nav li{
     display: inline-block;
-    padding: 20px;
+    padding-right: 40px;
     padding-bottom: 10px;
 }
 .art-link {
@@ -31,6 +31,9 @@
 }
 
 /*art images */
+.artDetails {
+    text-align: center;
+}
 .fluidity_image {
     display: block;
     margin-left: auto;
@@ -38,6 +41,9 @@
     padding-top: 5%;
     width: 90%;
     height: 90%;
+}
+.explorer, .duvel {
+    padding-bottom: 2%;
 }
 .whiteSatin, .explorer, .duvel {
     display: block;
@@ -82,4 +88,12 @@
     width: 80%;
     height: 90%;
     padding-top: 5%;
+}
+.seascape-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    width: 90%;
+    height: 90%;
 }
