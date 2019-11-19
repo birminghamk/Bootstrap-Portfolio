@@ -11,21 +11,24 @@
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
 }
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+}
 .homepageHeader {
     color: grey;
-    position: absolute;
     opacity: 0;
     animation-delay: 4s;
-    margin-top: 3%;
     font-weight: bold;
     font-size: 65px;
-    margin-top: 13%;
+    text-align: center;
+    margin-top: 5%;
 }
 .bioText {
-    position: absolute;
-    margin-top: 20%;
     font-size: 40px;
     color: grey;
+    text-align: center;
 }
 .header-animation {
     background-position: left top;
@@ -45,8 +48,9 @@
 }
 .homeConnectButton {
     position: absolute;
-    margin-top: 14%;
-    margin-left: 90%;
+    top: 0;
+    right: 0;
+    margin-top: 5%;
 }
 button.homeConnectButton {
     color: grey;
@@ -76,9 +80,10 @@ button.homeConnectButton:visited {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 2%; */
+    margin-top: -8%;
 }
 .mainLink {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -99,7 +104,7 @@ button.homeConnectButton:visited {
     background-color: lightgrey;
 }
 .dot-container {
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 45%;
 }
 .homepageLink, .homepageLink:hover, .homepageLink:active {

@@ -2,6 +2,7 @@ $(function() {
 
 	$('.homeConnectButton').hide().delay(3000).fadeIn('slow');
 	$('#gradient').hide().delay(3000).fadeIn('slow');
+	$('.logo').hide().delay(3000).fadeIn('slow');
 	$('.artHomePic').hide().delay(3200).slideDown('slow');
 	$('.scienceHomePic').hide().delay(3200).slideDown('slow');
 	$('.writingHomePic').hide().delay(3200).slideDown('slow');
