@@ -4,6 +4,7 @@
 .container {
     position: relative;
     width: 100%;
+    min-height: 600px;
 }
 .lightSpeedIn {
     -webkit-animation-name: lightSpeedIn;
@@ -23,7 +24,7 @@
     font-weight: bold;
     font-size: 65px;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 .bioText {
     font-size: 40px;

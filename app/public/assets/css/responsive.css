@@ -1,112 +1,19 @@
 /* =======================
       MEDIA QUERIES
   ========================*/
-  @media screen and (max-width: 1600px) {
-    /*poetry-page*/ 
-     .poetry-nav {
-        width: 74%;
-    } 
-} 
 @media screen and (max-width: 1400px) {
-    /*homepage */
-    .homepageHeader {
-        /* margin-top: 5%; */
-        font-size: 55px;
-    }
-    .bioText {
-        margin-top: 18%;
-    }
-    #gradient {
-        /* padding-top: 2%;  */
-    }
-    /*poetry page*/
-    .poetry-nav {
-        width: 84%;
-    }
+
 }
 @media screen and (max-width: 1200px) {
-    scroll-container{
-        width: 60%;
-    }
-    #gradient {
-        padding-top: 2%;
-    }
-    .bioText {
-        margin-top: 19%;
-    }
-    .homeConnectButton {
-        margin-left: 88%;
-    }
-    /*poetry page */
-    .poetry-nav {
-        width: 85%;
-    }
-    .poetryHeader {
-        margin-top: 95%;
-    }
 
-    .poetry {
-        margin-top: 60%;
-    }
 }
 @media screen and (max-width: 1000px) {
-    /*homepage */
-    .homepageHeader {
-        margin-top: 23%;
-        font-size: 40px;
-    }
-    .bioText {
-        margin-top: 30%;
-        font-size: 30px;
-    }
-    .homeConnectButton {
-        margin-left: 84%;
-        margin-top: 24%;
-        font-size: 16px;
-    }
-    #gradient {
-        margin-top: 10%;
-        padding-top: 7%;
-        font-size: 30px;
-    }
-    /*poetry page */
-    .poetry-nav {
-        width: 82%;
-    }
-    .poetryHeader {
-        margin-top: 100%;
-    }
-    .poetry {
-        margin-top: 72%;
-    }
     /*science page */
     .scienceTitle {
         font-size: 40px;
     }
 }
 @media screen and (max-width: 850px) {
-    /*homepage */
-    .homepageHeader {
-        font-size: 50px;
-        margin-top: 25%;
-    }
-    .bioText {
-        margin-top: 46%;
-    }
-    .homeConnectButton {
-        margin-left: 80%;
-        margin-top: 27%;
-    }
-    #gradient {
-        display: block;
-        padding-top: 5%;
-        padding-bottom: 10%;
-        margin-top: 7%;
-        margin-bottom: 20%;
-    }
-    .dot-container {
-        margin-top: 50%;
-    }
     /*science page */
     scienceTitle {
         font-size: 35px;
@@ -144,33 +51,7 @@
 }
 @media screen and (max-width: 600px) {
     /* Homepage */
-    .container-home {
-        min-height: 900px;
-    }
-    #gradient {
-        display: block;
-        text-align: center;
-        margin-top: 8%;
-        padding-bottom: 15%;
-        margin-bottom: 10%;
-        width: 100%;
-    }
-    .homepageHeader {
-        margin-top: 24%;
-        font-size: 40px;
-    }
-    .bioText {
-        font-size: 27px;
-        margin-top: 50%;
-    }
-    .dot-container {
-        margin-left: 31%;
-        margin-top: 65%;
-    }
-    button.homeConnectButton {
-        margin-left: 35%;
-        margin-top: 185%;
-    }
+    
     /* Bio Page */
     .about-pic {
         width: 100%;
