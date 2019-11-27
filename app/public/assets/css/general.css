@@ -49,6 +49,16 @@ footer {
   padding-bottom: 10px;
   text-align: center;
 }
+.logo-nav {
+    display: block;
+    align-self: center;
+    width: 75px;
+    height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    margin-top: -1%;
+}
 .bio-footer {
   padding-top: 30px;
 }
@@ -65,18 +75,16 @@ a.mainPortfolio-link {
 button.navbar-toggler {
   background-color: none;
 }
-button.navbar-toggler:hover {
+span.navbar-toggler-icon:hover {
   box-shadow: -5px -5px white;
   outline: none;
-}
-#navbar-toggler-special {
-  border: 2px solid white;
 }
 button.navbar-toggler:visited {
   outline: none;
 }
 span.navbar-toggler-icon {
   background-color: white;
+  border: 2px solid lightgrey;
 }
 button.navbar-toggler:focus {
   border: 1px solid white;
