@@ -52,8 +52,8 @@ footer {
 .logo-nav {
     display: block;
     align-self: center;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1%;
@@ -87,9 +87,14 @@ span.navbar-toggler-icon {
   border: 2px solid lightgrey;
 }
 button.navbar-toggler:focus {
-  border: 1px solid white;
   text-shadow: -5px -5px white;
   text-decoration: none;
+}
+button.navbar-toggler:active,
+button.navbar-toggler:visited,
+button.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
 }
 button.navbar-right {
   color: grey;
