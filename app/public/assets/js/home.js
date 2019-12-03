@@ -1,11 +1,11 @@
 $(function() {
 
-	$('.homeConnectButton').hide().delay(3000).fadeIn('slow');
-	$('#gradient').hide().delay(3000).fadeIn('slow');
+	$('.homeConnectButton').hide().delay(2800).fadeIn('slow');
+	$('#gradient').hide().delay(2800).fadeIn('slow');
 	$('.logo').hide().delay(3000).fadeIn('slow');
-	$('.artHomePic').hide().delay(3200).slideDown('slow');
-	$('.scienceHomePic').hide().delay(3200).slideDown('slow');
-	$('.writingHomePic').hide().delay(3200).slideDown('slow');
+	$('.artHomePic').hide().delay(3000).slideDown('slow');
+	$('.scienceHomePic').hide().delay(3000).slideDown('slow');
+	$('.writingHomePic').hide().delay(3000).slideDown('slow');
 
 	var colors = new Array(
 	  [62,35,255],
