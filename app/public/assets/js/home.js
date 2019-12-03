@@ -2,10 +2,10 @@ $(function() {
 
 	$('.homeConnectButton').hide().delay(2800).fadeIn('slow');
 	$('#gradient').hide().delay(2800).fadeIn('slow');
-	$('.logo').hide().delay(3000).fadeIn('slow');
-	$('.artHomePic').hide().delay(3000).slideDown('slow');
-	$('.scienceHomePic').hide().delay(3000).slideDown('slow');
-	$('.writingHomePic').hide().delay(3000).slideDown('slow');
+	$('.logo').hide().delay(2800).fadeIn('slow');
+	$('.artHomePic').hide().delay(3000).fadeIn('slow');
+	$('.scienceHomePic').hide().delay(3000).fadeIn('slow');
+	$('.writingHomePic').hide().delay(3000).fadeIn('slow');
 
 	var colors = new Array(
 	  [62,35,255],
