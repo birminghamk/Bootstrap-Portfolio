@@ -24,12 +24,13 @@
     font-weight: bold;
     font-size: 55px;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 .bioText {
     font-size: 40px;
     color: grey;
     text-align: center;
+    margin-top: -1%;
 }
 .header-animation {
     background-position: left top;
@@ -81,7 +82,7 @@ button.homeConnectButton:visited {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -8%;
+    margin-top: -7%;
 }
 .mainLink {
     display: block;
