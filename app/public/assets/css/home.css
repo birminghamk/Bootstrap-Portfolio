@@ -82,7 +82,7 @@ button.homeConnectButton:visited {
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -7%;
+    margin-top: -3%;
 }
 .mainLink {
     display: block;
@@ -99,15 +99,18 @@ button.homeConnectButton:visited {
     display: inline-block;
     animation-name: fadeInOut;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     opacity: 0;
 }
 .dotSwitch {
     background-color: lightgrey;
 }
-.dot-container {
-    margin-top: 9%;
-    margin-left: 45%;
+.dotsAlign {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5%;
 }
 .homepageLink, .homepageLink:hover, .homepageLink:active {
     font-size: 50px;

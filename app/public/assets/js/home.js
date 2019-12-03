@@ -1,11 +1,13 @@
 $(function() {
+	
+	function homepageAnimation() {
+		$('.homeConnectButton').hide().delay(2600).fadeIn('slow');
+		$('#gradient').hide().delay(2600).fadeIn('slow');
+		$('.logo').hide().delay(2600).fadeIn('slow');
+		$('.homePageLink').hide().delay(2600).fadeIn('slow');
+	}
 
-	$('.homeConnectButton').hide().delay(2600).fadeIn('slow');
-	$('#gradient').hide().delay(2600).fadeIn('slow');
-	$('.logo').hide().delay(2600).fadeIn('slow');
-	$('.artHomePic').hide().delay(2600).fadeIn('slow');
-	$('.scienceHomePic').hide().delay(2600).fadeIn('slow');
-	$('.writingHomePic').hide().delay(2600).fadeIn('slow');
+	homepageAnimation();
 
 	var colors = new Array(
 	  [62,35,255],
