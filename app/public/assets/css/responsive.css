@@ -51,7 +51,26 @@
 }
 @media screen and (max-width: 600px) {
     /* Homepage */
-    
+    .container-home {
+        min-height: 800px;
+    }
+    .homeConnectButton {
+        margin-top: 7%;
+        margin-right: 7%;
+    }
+    .homepageHeader {
+        font-size: 45px;
+    }
+    .bioText {
+        font-size: 30px;
+        margin-top: 0%;
+    }
+    .gradient {
+        margin-bottom: 20%;
+        padding-bottom: 20%;
+        display: block;
+        padding-top: 0;
+    }
     /* Bio Page */
     .about-pic {
         width: 100%;
