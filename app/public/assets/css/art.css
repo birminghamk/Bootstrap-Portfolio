@@ -44,7 +44,7 @@
 .explorer, .duvel {
     padding-bottom: 2%;
 }
-.whiteSatin, .explorer, .duvel {
+.explorer, .duvel {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +52,10 @@
     width: 90%;
     height: 90%;
 }
-.ladyinredPurple {
+.whiteSatin {
+    padding-top: 5%;
+}
+.ladyinredPurple, .whiteSatin {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -65,20 +68,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
-.teapot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: 90%;
-}
-.purpleHeels {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 90%;
 }
 .letteringImage {
     display: block;
