@@ -7,6 +7,7 @@ $(function() {
 		$(".blackandwhite").hide();
 		$(".lettering").hide();
 		$(".mixed-media").hide();
+		$(".geometric-design").hide();
 	}
 
 	onPageLoad();
@@ -20,6 +21,7 @@ $(function() {
 			$(".lettering").hide();
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
+			$(".geometric-design").hide();
 
 		  });
 
@@ -30,6 +32,7 @@ $(function() {
 			$(".lettering").hide();
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
+			$(".geometric-design").hide();
 		  });
 		  $("#blackAndwhite").click(function(){
 			$(".blackandwhite").fadeIn('slow');
@@ -38,6 +41,7 @@ $(function() {
 			$(".lettering").hide();
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
+			$(".geometric-design").fadeIn();
 
 		  });
 		  $("#Lettering").click(function(){
@@ -47,6 +51,7 @@ $(function() {
 			$(".blackandwhite").hide();
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
+			$(".geometric-design").fadeIn();
 
 		  });
 		  $("#mixedMedia").click(function(){
@@ -56,11 +61,23 @@ $(function() {
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
 			$(".watercolor").hide();
+			$(".geometric-design").hide();
 
 		  });
 		  $("#Watercolor").click(function(){
 			$(".watercolor").fadeIn('slow');
-			$(".mixed-media").hide('slow');
+			$(".mixed-media").hide();
+			$(".colorImages").hide();
+			$(".cocktailIllustration").hide();
+			$(".blackandwhite").hide();
+			$(".lettering").hide();
+			$(".geometric-design").hide();
+
+		  });
+		  $("#geometricDesign").click(function(){
+			$(".geometric-design").fadeIn('slow');
+			$(".watercolor").hide();
+			$(".mixed-media").hide();
 			$(".colorImages").hide();
 			$(".cocktailIllustration").hide();
 			$(".blackandwhite").hide();
