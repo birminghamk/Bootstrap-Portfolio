@@ -41,7 +41,7 @@ $(function() {
 			$(".lettering").hide();
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
-			$(".geometric-design").fadeIn();
+			$(".geometric-design").hide();
 
 		  });
 		  $("#Lettering").click(function(){
@@ -51,7 +51,7 @@ $(function() {
 			$(".blackandwhite").hide();
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
-			$(".geometric-design").fadeIn();
+			$(".geometric-design").hide();
 
 		  });
 		  $("#mixedMedia").click(function(){
