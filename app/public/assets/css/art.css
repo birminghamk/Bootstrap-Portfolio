@@ -95,14 +95,12 @@
     height: 100%;
     padding-top: 10%;
 }
+.geometricSnowflake,
+.pinkCrayon,
+.blueCrayon,
 .bluePattern,
 .greenPattern,
 .geometricSnowflake-white {
-    width: 100%;
-    heigth: 100%;
-    padding-top: 5%;
-}
-.geometricSnowflake {
     width: 100%;
     height: 100%;
     padding-top: 5%;
