@@ -94,6 +94,12 @@
     .brainImage {
         padding-top: 7%;
         padding-bottom: 5%;
+        width: 70%;
+        height: 80%;
+    }
+    .logo-pic {
+        width: 300px;
+        height: 300px;
     }
     /*art page*/
     .art-nav {
@@ -115,11 +121,11 @@
         height: 100%;
     }
     .ladyinredPurple {
-        width: 90%;
+        width: 100%;
         height: 100%;
+        padding-top: 5%;
     }
     .whiteSatin {
-        margin-bottom: -5%;
         padding-top: 2%;
     }
     .teapot {
@@ -131,7 +137,7 @@
         width: 95%;
         height: 95%;
     }
-    .duvel {
+    .duvel, .explorer {
         padding-top: 0%;
     }
     /*writing page */

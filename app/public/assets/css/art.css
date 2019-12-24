@@ -55,12 +55,19 @@
 .whiteSatin {
     padding-top: 5%;
 }
-.ladyinredPurple, .whiteSatin {
+.ladyinredPurple {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    height: 95%;
+    width: 85%;
+    height: 100%;
+    padding-top: 5%;
+}
+.whiteSatin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 .ladyinredYellow, .ladyinredLightPink,
 .ladyinredPumpkin {
@@ -68,6 +75,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    padding-top: 15%;
 }
 .letteringImage {
     display: block;
