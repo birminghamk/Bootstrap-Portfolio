@@ -52,7 +52,7 @@
 @media screen and (max-width: 600px) {
     /* Homepage */
     .container-home {
-        min-height: 800px;
+        min-height: 900px;
     }
     .homeConnectButton {
         margin-top: 7%;
@@ -67,7 +67,7 @@
     }
     .gradient {
         margin-bottom: 20%;
-        padding-bottom: 20%;
+        padding-bottom: 10%;
         display: block;
         padding-top: 0;
     }
