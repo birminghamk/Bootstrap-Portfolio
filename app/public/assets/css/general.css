@@ -108,6 +108,16 @@ button.navbar-right:hover {
 }
 
 /*connect modal*/
+.toAboutButton {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: grey;
+}
+.toAboutButton:hover, .toAboutButton:visited,
+.toAboutButton:active {
+    text-decoration: none;
+    color: lightgrey;
+}
 html.modal-active, body.modal-active {
   overflow: hidden;
 }

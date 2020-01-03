@@ -17,13 +17,12 @@
     padding-bottom: 5%;
 }
 .logo-pic {
-    width: 425px;
-    height: 425px;
+    width: 500px;
+    height: 500px;
     display: block;
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    background-color: transparent;
 }
 .chartHeader {
     text-align: center;

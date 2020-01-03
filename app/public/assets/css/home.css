@@ -88,17 +88,19 @@ button.homeConnectButton:visited {
     text-align: center;
     margin-top: 5%;
 }
+
+/*pseudo classes*/
+.homepageLink:hover{
+    background: -webkit-linear-gradient(rgba(110, 91, 109),#eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .homepageLink, .homepageLink:hover, .homepageLink:active {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     color: white;
-}
-.homepageLink:hover {
-    background: -webkit-linear-gradient(rgba(110, 91, 109),#eee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 /* animations */
 .lightSpeedIn {
