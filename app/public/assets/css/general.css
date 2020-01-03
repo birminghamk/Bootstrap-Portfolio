@@ -112,6 +112,7 @@ button.navbar-right:hover {
   font-weight: bold;
   letter-spacing: 1px;
   color: grey;
+  padding-bottom: -5%;
 }
 .toAboutButton:hover, .toAboutButton:visited,
 .toAboutButton:active {
