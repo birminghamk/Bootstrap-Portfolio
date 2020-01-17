@@ -1,7 +1,10 @@
 .container {
     width: 100%;
 }
-
+.writingIntro {
+    text-align: center;
+    margin-top: 5%;
+}
 /*poem section */
 .poetryHeader {
     text-align: center;
@@ -16,6 +19,7 @@
 
 .hollow {
     padding-bottom: 20%;
+    margin-top: -4%;
 }
 /*poem title colors*/
 .poem-1 {

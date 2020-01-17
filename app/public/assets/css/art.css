@@ -4,14 +4,13 @@
 .container-art {
     background-color: rgb(245,245,245);
     background-repeat: round;
-    padding-bottom: 200px;
+    padding-bottom: 95px;
 }
 /*art-nav */
 .art-nav {
     margin-top: 5%;
     list-style-type: none;
     width: 100%;
-    border-bottom: 5px solid white;
     text-align: center;
 }
 .art-nav li{
@@ -26,7 +25,7 @@
 }
 .art-link:hover {
     text-decoration: none;
-    color: white;
+    color: lightgrey;
 }
 
 /*art images */
@@ -52,9 +51,6 @@
 .teapot {
     width: 100%;
 }
-.whiteSatin {
-    padding-top: 5%;
-}
 .ladyinredPurple {
     display: block;
     margin-left: auto;
@@ -64,10 +60,8 @@
     padding-top: 5%;
 }
 .whiteSatin {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+    padding-top: 5%;
 }
 .ladyinredYellow, .ladyinredLightPink,
 .ladyinredPumpkin {
@@ -76,6 +70,13 @@
     margin-right: auto;
     width: 100%;
     padding-top: 15%;
+}
+.brainCream {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 5%;
 }
 .letteringImage {
     display: block;
