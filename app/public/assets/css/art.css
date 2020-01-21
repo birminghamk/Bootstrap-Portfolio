@@ -6,6 +6,83 @@
     background-repeat: round;
     padding-bottom: 95px;
 }
+.artImg:hover {
+    opacity: 0.3;
+}
+
+/* Art Modal */
+#artModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(245,245,245); /* Fallback color */
+}
+
+  /* Modal Content (image) */
+.modalContent {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    border: none;
+    border-radius: 0%;
+}
+
+  /* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    font-size: 25px;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: grey;
+    padding: 10px 0;
+    height: 150px;
+}
+
+  /* Add Animation */
+.modalContent, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.1s;
+    animation-name: zoom;
+    animation-duration: 0.1s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: grey;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /*art-nav */
 .art-nav {
     margin-top: 5%;
@@ -51,32 +128,25 @@
 .teapot {
     width: 100%;
 }
-.ladyinredPurple {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    height: 100%;
-    padding-top: 5%;
-}
 .whiteSatin {
     width: 100%;
     padding-top: 5%;
 }
 .ladyinredYellow, .ladyinredLightPink,
-.ladyinredPumpkin {
+.ladyinredPumpkin,
+.ladyinredPurple {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     padding-top: 15%;
+    margin-bottom: 5%;
 }
 .brainCream {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-top: 5%;
+    margin-top: 30%;
 }
 .letteringImage {
     display: block;
