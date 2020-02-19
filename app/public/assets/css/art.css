@@ -7,7 +7,7 @@
     padding-bottom: 95px;
 }
 .artImg:hover {
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .modal-title {
@@ -16,24 +16,27 @@
 
 /*art-nav */
 .art-nav {
-    margin-top: 5%;
     list-style-type: none;
     width: 100%;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 5%;
 }
 .art-nav li{
     display: inline-block;
-    padding-right: 40px;
-    padding-bottom: 10px;
 }
 .art-link {
     text-decoration: none;
     color: grey;
+    padding: 20px;
     font-size: 25px;
+    padding-bottom: 5px;
 }
 .art-link:hover {
     text-decoration: none;
-    color: lightgrey;
+    border-bottom: 4px solid white;
 }
 
 /*art images */
