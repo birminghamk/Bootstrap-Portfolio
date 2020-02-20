@@ -11,7 +11,18 @@
 }
 
 .modal-title {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.close {
+    display: none;
+}
+div.modal-footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*art-nav */
@@ -23,6 +34,7 @@
     padding: 0;
     overflow: hidden;
     margin-top: 5%;
+    border-top: 7px solid white;
 }
 .art-nav li{
     display: inline-block;
@@ -36,7 +48,7 @@
 }
 .art-link:hover {
     text-decoration: none;
-    border-bottom: 4px solid white;
+    color: lightgrey;
 }
 
 /*art images */
