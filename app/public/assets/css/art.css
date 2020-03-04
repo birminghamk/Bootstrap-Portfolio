@@ -25,6 +25,10 @@ div.modal-footer {
     margin-right: auto;
 }
 
+.ekko-lightbox, .modal-footer {
+    text-align: center;
+}
+
 /*art-nav */
 .art-nav {
     list-style-type: none;
@@ -76,7 +80,11 @@ div.modal-footer {
 }
 .whiteSatin {
     width: 100%;
-    padding-top: 5%;
+    padding-top: 10%;
+}
+.cheers {
+    padding-top: 5%;;
+    width: 100%;
 }
 .ladyinredYellow, .ladyinredLightPink,
 .ladyinredPumpkin,
