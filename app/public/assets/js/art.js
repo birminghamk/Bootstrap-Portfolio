@@ -2,6 +2,7 @@ $(function() {
 	//only loads first category of images
 	function onPageLoad() {
 		$(".cocktailIllustration").fadeIn('slow');
+		$(".graphic-design").hide();
 		$(".watercolor").hide();
 		$(".colorImages").hide();
 		$(".blackandwhite").hide();
@@ -22,7 +23,18 @@ $(function() {
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
+			$(".graphic-design").hide();
+		  });
 
+		  $("#graphicDesign").click(function(){
+			$(".graphic-design").fadeIn('slow');
+			$(".cocktailIllustration").hide();
+			$(".colorImages").hide();
+			$(".blackandwhite").hide();
+			$(".lettering").hide();
+			$(".mixed-media").hide();
+			$(".watercolor").hide();
+			$(".geometric-design").hide();
 		  });
 
 		  $("#colorStudies").click(function(){
@@ -33,7 +45,9 @@ $(function() {
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
+			$(".graphic-design").hide();
 		  });
+
 		  $("#blackAndwhite").click(function(){
 			$(".blackandwhite").fadeIn('slow');
 			$(".colorImages").hide();
@@ -42,6 +56,7 @@ $(function() {
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
+			$(".graphic-design").hide();
 
 		  });
 		  $("#Lettering").click(function(){
@@ -52,6 +67,7 @@ $(function() {
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
+			$(".graphic-design").hide();
 
 		  });
 		  $("#mixedMedia").click(function(){
@@ -62,6 +78,7 @@ $(function() {
 			$(".lettering").hide();
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
+			$(".graphic-design").hide();
 
 		  });
 		  $("#Watercolor").click(function(){
@@ -72,6 +89,7 @@ $(function() {
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
 			$(".geometric-design").hide();
+			$(".graphic-design").hide();
 
 		  });
 		  $("#geometricDesign").click(function(){
@@ -82,6 +100,7 @@ $(function() {
 			$(".cocktailIllustration").hide();
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
+			$(".graphic-design").hide();
 
 		  });
 	}
