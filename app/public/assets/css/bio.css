@@ -26,7 +26,10 @@
     text-align: center;
     padding-top: 20px;
 }
-
+.life {
+    padding-top: 6%;
+    margin-bottom: 7%;
+}
 .education {
     text-align: center;
 }
