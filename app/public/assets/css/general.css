@@ -191,4 +191,5 @@ html.modal-active, body.modal-active {
 .container-art, .container-bio, 
 .container-portfolio {
   margin: 5%;
+  margin-bottom: 0%;
 }

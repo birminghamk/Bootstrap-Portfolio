@@ -2,8 +2,8 @@
         BIO PAGE
 ==========================*/
 .container-bio {
-    width: 100%;
-    padding-bottom: 4%;
+    background-repeat: round;
+    padding-bottom: 8%;
 }
 .about {
     position: relative;
