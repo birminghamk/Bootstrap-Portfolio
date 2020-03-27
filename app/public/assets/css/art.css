@@ -5,6 +5,7 @@
     background-color: rgb(245,245,245);
     background-repeat: round;
     padding-bottom: 95px;
+    margin: 5%;
 }
 .artImg:hover {
     opacity: 0.7;
@@ -23,6 +24,13 @@ div.modal-footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.intro {
+    color: lightgrey;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
 }
 
 .ekko-lightbox, .modal-footer {

@@ -187,3 +187,8 @@ html.modal-active, body.modal-active {
 .email {
   text-align: center;
 }
+
+.container-art, .container-bio, 
+.container-portfolio {
+  margin: 5%;
+}
