@@ -11,14 +11,14 @@
     padding: 30px;
     border-top: 20px double white;
 }
-.site-description {
-    padding-bottom: 10%;
+.site-description,
+.education {
+    text-align: center;
 }
 .about-pic {
     width: 450px;
     height: 650px;
     display: block;
-    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }
