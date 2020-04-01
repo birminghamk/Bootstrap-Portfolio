@@ -49,7 +49,7 @@ $(function() {
     var funChart = new Chart(interests, {
         type: 'pie',
         data: {
-            labels: ["Staring at amusing memes/gifs", "Mountain Activities", "Watching Baking Championships", "Ping Pong", "Long Distance Running"],
+            labels: ["Staring at Amusing Memes/Gifs", "Mountain Activities", "Watching Baking Championships", "Ping Pong", "Long Distance Running"],
             datasets: [{
                 label: 'doing fun things(%)',
                 data: ["20", "20", "25", "15", "20",],
