@@ -1,8 +1,8 @@
 $(function() {
 	//only loads first category of images
 	function onPageLoad() {
-		$(".cocktailIllustration").fadeIn('slow');
-		$(".graphic-design").hide();
+		$(".graphic-design").fadeIn('slow');
+		$(".cocktailIllustration").hide();
 		$(".watercolor").hide();
 		$(".colorImages").hide();
 		$(".blackandwhite").hide();
