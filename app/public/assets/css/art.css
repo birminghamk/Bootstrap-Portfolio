@@ -79,6 +79,8 @@ div.modal-footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    padding-top: 18%;
 }
 .fluidity_image {
     display: block;
@@ -110,7 +112,6 @@ div.modal-footer {
 
 .whiteSatin {
     width: 100%;
-    padding-top: 15%;
 }
 .cheers {
     width: 100%;
