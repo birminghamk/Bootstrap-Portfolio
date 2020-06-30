@@ -185,3 +185,17 @@ div.modal-footer {
 .webBanner {
     width: 100%;
 }
+
+/*Web Design Section*/
+.landingPage {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+.mastersIntro {
+    text-align: center;
+}

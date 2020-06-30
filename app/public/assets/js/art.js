@@ -9,6 +9,7 @@ $(function() {
 		$(".lettering").hide();
 		$(".mixed-media").hide();
 		$(".geometric-design").hide();
+		$(".web-design").hide();
 	}
 
 	onPageLoad();
@@ -24,6 +25,19 @@ $(function() {
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
+			$(".web-design").hide();
+		  });
+
+		  $("#webDesign").click(function(){
+			$(".web-design").fadeIn('slow');
+			$(".colorImages").hide();
+			$(".blackandwhite").hide();
+			$(".lettering").hide();
+			$(".mixed-media").hide();
+			$(".watercolor").hide();
+			$(".geometric-design").hide();
+			$(".graphic-design").hide();
+			$(".cocktailIllustration").hide();
 		  });
 
 		  $("#graphicDesign").click(function(){
@@ -35,6 +49,7 @@ $(function() {
 			$(".mixed-media").hide();
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
+			$(".web-design").hide();
 		  });
 
 		  $("#colorStudies").click(function(){
@@ -46,6 +61,7 @@ $(function() {
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
+			$(".web-design").hide();
 		  });
 
 		  $("#blackAndwhite").click(function(){
@@ -57,6 +73,7 @@ $(function() {
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
+			$(".web-design").hide();
 
 		  });
 		  $("#Lettering").click(function(){
@@ -68,6 +85,7 @@ $(function() {
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
+			$(".web-design").hide();
 
 		  });
 		  $("#mixedMedia").click(function(){
@@ -79,6 +97,7 @@ $(function() {
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
+			$(".web-design").hide();
 
 		  });
 		  $("#Watercolor").click(function(){
@@ -90,6 +109,7 @@ $(function() {
 			$(".lettering").hide();
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
+			$(".web-design").hide();
 
 		  });
 		  $("#geometricDesign").click(function(){
@@ -101,6 +121,7 @@ $(function() {
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
 			$(".graphic-design").hide();
+			$(".web-design").hide();
 
 		  });
 	}
