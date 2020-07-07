@@ -33,13 +33,12 @@
 }
 .scienceTitle {
     position: absolute;
-    top: 23%;
+    top: 25%;
     left: 10%;
     transform: translate (-50%, -50%);
     color: white;
     font-weight: bold;
     font-size: 68px;
-    border-bottom: 20px solid white;
 }
 .comingSoon {
     text-align: center;
