@@ -89,10 +89,16 @@
         margin-top: 3%;
     }
     .brainImage {
-        padding-top: 7%;
-        padding-bottom: 5%;
+        padding-top: 2%;
+        padding-bottom: 4%;
         width: 70%;
-        height: 80%;
+    }
+    .sciencePageDetail-bottom {
+        margin-bottom: 12%;
+    }
+    .comingSoon {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     /*art page*/
     .art-nav {
