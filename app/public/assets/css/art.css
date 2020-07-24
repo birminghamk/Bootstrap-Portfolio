@@ -200,5 +200,42 @@ div.modal-footer {
     padding-top: 2%;
 }
 .mastersIntro {
+    font-size: 30px;
     text-align: center;
+    margin-top: 2%;
+}
+.introGraphic-masters {
+    background-color: #f4c4a0;
+    height: 100px;
+    width: 1300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+.ontheartists {
+    color: #f4c4a0;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+.textcolorIllustration, .textalignIllustration {
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+
+}
+.colorScheme {
+    text-align: left;
+    margin-top: 30%;
+    font-size: 25px;
+    padding-bottom: 2%;
+    border-bottom: 20px double white;
 }
