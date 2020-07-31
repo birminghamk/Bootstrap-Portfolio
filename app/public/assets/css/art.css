@@ -248,6 +248,65 @@ div.modal-footer {
     margin-left: auto;
 
 }
+.artistPages {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+.brittenProfile {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.visualBalance {
+    margin-top: 46%;
+    font-size: 25px;
+    border-left: 10px solid white;
+    padding-left: 3%;
+}
+.marginPaddinggraphic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.contentAddons {
+    margin-top: 27%;
+    text-align: left;
+    font-size: 22px;
+}
+.bannerGraphic {
+    width: 100%;
+    margin-top: 15%;
+}
+.aboutexhibitions {
+    width: 100%;
+    margin-top: 5%;
+}
+.contentbannerBorder {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.contentBrief {
+    font-size: 40px;
+    border-left: 5px solid white;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+.findUs, .mastersFooter {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
 .colorScheme {
     text-align: left;
     margin-top: 46%;
