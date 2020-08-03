@@ -224,10 +224,13 @@ div.modal-footer {
 .overviewSpacing {
     margin-top: 3%;
 }
+ul.objectiveList {
+    text-align: left;
+}
 .objectiveList, .roleList, .challengeList {
     list-style-type: none;
-    text-align: left;
     font-size: 20px;
+    padding-left: 0;
 }
 .objective, .role, .challenges {
     color: #d2d2d2;
