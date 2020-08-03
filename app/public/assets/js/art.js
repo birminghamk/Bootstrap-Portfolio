@@ -1,7 +1,7 @@
 $(function() {
 	//only loads first category of images
 	function onPageLoad() {
-		$(".graphic-design").fadeIn('slow');
+		$(".web-design").fadeIn('slow');
 		$(".cocktailIllustration").hide();
 		$(".watercolor").hide();
 		$(".colorImages").hide();
@@ -9,7 +9,7 @@ $(function() {
 		$(".lettering").hide();
 		$(".mixed-media").hide();
 		$(".geometric-design").hide();
-		$(".web-design").hide();
+		$(".graphic-design").hide();
 	}
 
 	onPageLoad();
