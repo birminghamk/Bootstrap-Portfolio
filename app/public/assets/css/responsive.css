@@ -2,12 +2,62 @@
       MEDIA QUERIES
   ========================*/
 @media screen and (max-width: 1400px) {
-
+    /*Web Design Section*/
+    .colorScheme {
+        margin-top: 42%;
+    }
 }
 @media screen and (max-width: 1200px) {
-
-}
+    /*general home*/
+    .art-link {
+        font-size: 22px;
+    }
+    /*Web Design Section*/
+    .intro {
+        font-size: 40px;
+    }
+    .mastersIntro {
+        font-size: 20px;
+    }
+    .ontheartists {
+        font-size: 80px;
+    }
+    .contentBrief {
+        font-size: 30px;
+    }
+    .mastersOverview {
+        font-size: 30px;
+    }
+    .colorScheme {
+        margin-top: 39%;
+        font-size: 20px;
+    }
+    .objectiveList, .roleList, .challengeList {
+        font-size: 18px;
+    }
+    .objective, .role, .challenges {
+        font-size: 23px;
+    }
+    .visualBalance {
+        font-size: 18px;
+        margin-top: 42%;
+    }
+    .contentAddons {
+        font-size: 18px;
+        margin-top: 24%;
+    }
 @media screen and (max-width: 1000px) {
+    /*Web Design Section */
+    .objectiveList, .roleList, .challengeList {
+        font-size: 16px;
+    }
+    .contentAddons {
+        font-size: 16px;
+        margin-top: 20%;
+    }
+    .contentBrief {
+        font-size: 24px;
+    }
     /*science page */
     .scienceTitle {
         font-size: 40px;
@@ -18,30 +68,47 @@
     scienceTitle {
         font-size: 35px;
     }
-    /* poetry page */
-    .poetry-nav {
-        width: 80%:
-        text-align: center;
-    }
 }
 @media screen and (max-width: 800px) {
-    /*home page*/
+    /*Web Design Section*/
     .intro {
-        font-size: 40px;
+        font-size: 35px;
+    }
+    .introGraphic-masters {
+        width: 80%;
+    }
+    .mastersOverview, .mastersBrief {
+        margin-left: 10%;
+    }
+    .mastersOverview {
+        font-size: 25px;
+    }
+    .objective, .role, .challenges {
+        font-size: 21px;
+    }
+    .mastersIntro {
+        font-size: 18px;
+    }
+    .ontheartists {
+        font-size: 65px;
+    }
+    .colorScheme {
+        margin-top: 41%;
+        font-size: 16px;
+    }
+    .visualBalance {
+        font-size: 15px;
+        margin-top: 40%;
+        border-left: 4px solid white;
+    }
+    .contentAddons {
+        margin-top: 19%;
+    }
+    .contentBrief {
+        font-size: 21px;
     }
     .art-link {
         font-size: 20px;
-    }
-    /*poetry page */
-    .poetry-nav {
-        width: 80%;
-        text-align: center;
-    }
-    .poetry {
-        padding-top: 55%;
-    }
-    .poetryHeader {
-        padding-top: 60%;
     }
     /*science page */
     .scienceTitle {
@@ -49,8 +116,49 @@
     }
 }
 @media screen and (max-width: 650px) {
-    /*homepage */
-
+    /*web design section*/
+    .intro {
+        font-size: 28px;
+    }
+    .art-link {
+        font-size: 19px;
+    }
+    .introGraphic-masters {
+        width: 86%;
+    }
+    .mastersOverview {
+        font-size: 20px;
+    }
+    .mastersOverview, .mastersBrief {
+        margin-left: 7%;
+    }
+    .objective, .role, .challenges {
+        font-size: 17px;
+    }
+    .mastersIntro {
+        font-size: 16px;
+    }
+    .ontheartists {
+        font-size: 50px;
+    }
+    .colorScheme {
+        margin-top: 29%;
+        font-size: 14px;
+    }
+    .visualBalance {
+        font-size: 13px;
+        margin-top: 32%;
+    }
+    .bannerGraphic {
+        margin-top: 20%;
+    }
+    .contentAddons {
+        font-size: 13px;
+        margin-top: 17%;
+    }
+    .contentBrief {
+        font-size: 18px;
+    }
     /*science page */
     .scienceTitle {
         font-size: 60px;
@@ -62,15 +170,6 @@
         margin-top: 7%;
         margin-right: 7%;
     }
-    .intro {
-        font-size: 30px;
-        margin-bottom: 5%;
-        padding: 10px;
-    }
-    /* .gradient {
-        display: block;
-        padding-top: 0;
-    } */
     /* Bio Page */
     .about-pic {
         width: 100%;
@@ -108,18 +207,13 @@
         margin-bottom: 10%;
     }
     /*art page*/
-    .art-nav {
-        margin-top: 1%;
-        /* text-align: center; */
-        padding: 0px;
-        margin-bottom: 1%;
-        border-bottom: 7px solid white;
-        padding-bottom: 2%;
-    }
     .art-nav li {
-        display: block;
+        display: inline-block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .art-nav {
+        margin-top: 4%;
     }
     .artImg {
         padding-top: 25px;
@@ -130,12 +224,6 @@
     .flowersGraphic {
         margin-top: 8%;
     }
-    /* .teapot {
-        width: 95%;
-        height: 95%;
-    } */
-    /*writing page */
-
     /*science page */
     .comingSoon {
         padding-bottom: 10%;
