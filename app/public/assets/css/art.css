@@ -279,6 +279,27 @@ ul.objectiveList {
     margin-right: auto;
     margin-top: 5%;
 }
+.responsiveMasters {
+    font-size: 25px;
+    text-align: left;
+    border-bottom: 10px solid white;
+    margin-top: 10%;
+    padding-bottom: 1%;
+}
+.responsiveMasters-graphic {
+    width: 100%;
+    margin-top: 5%;
+}
+.mastersFavicon {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 30%;
+}
 .contentAddons {
     margin-top: 27%;
     text-align: left;
@@ -299,10 +320,11 @@ ul.objectiveList {
     padding-bottom: 5%;
 }
 .contentBrief {
-    font-size: 40px;
+    font-size: 30px;
     border-left: 5px solid white;
-    margin-top: 2%;
     padding-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .findUs, .mastersFooter {
     width: 60%;
