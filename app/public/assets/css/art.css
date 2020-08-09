@@ -210,8 +210,9 @@ div.modal-footer {
     margin-left: auto;
     margin-right: auto;
     width: 35%;
-    border-left: 7px solid white;
+    border-bottom: 7px solid white;
     padding-left: 1%;
+    padding-bottom: 1%;
 }
 .introGraphic-masters {
     display: block;
@@ -222,7 +223,7 @@ div.modal-footer {
     height: 85%;
 }
 .mastersOverview {
-    border-bottom: 10px solid white;
+    border-bottom: 8px solid white;
     margin-bottom: 2%;
     font-size: 35px;
 }
@@ -248,7 +249,7 @@ ul.objectiveList {
     color: #f4c4a0;
     font-size: 90px;
     text-align: center;
-    text-shadow: 2px 2px white;
+    text-shadow: 4px 1px white;
 }
 .textcolorIllustration, .textalignIllustration {
     width: 85%;
