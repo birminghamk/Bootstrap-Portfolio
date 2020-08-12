@@ -11,7 +11,7 @@
 }
 
 .artImg {
-    padding-top: 50px;
+    margin-top: 3%;
 }
 
 .modal-title {
@@ -81,7 +81,7 @@ div.modal-footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-top: 18%;
+    padding-top: 10%;
 }
 .fluidity_image {
     display: block;
@@ -116,7 +116,7 @@ div.modal-footer {
 }
 .cheers {
     width: 100%;
-    padding-top: 10%;
+    padding-top: 2%;
 }
 .abstract {
     width: 100%;
@@ -187,7 +187,7 @@ div.modal-footer {
 }
 
 .webBanner {
-    width: 80%;
+    width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
