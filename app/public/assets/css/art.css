@@ -314,7 +314,7 @@ ul.objectiveList {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     background-color: white;
     padding: 5%;
     border-radius: 30%;
@@ -353,10 +353,7 @@ ul.objectiveList {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
-}
-.mastersFooter {
-    margin-bottom: -2%;
+    margin-top: 2%;
 }
 .animationsBrief {
     font-size: 30px;
