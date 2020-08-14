@@ -229,9 +229,9 @@ div.modal-footer {
     height: 85%;
 }
 .mastersOverview {
-    border-bottom: 8px solid white;
+    border-bottom: 7px solid white;
     margin-bottom: 2%;
-    font-size: 35px;
+    font-size: 31px;
 }
 .overviewSpacing {
     margin-top: 3%;
@@ -256,12 +256,14 @@ ul.objectiveList {
     font-size: 90px;
     text-align: center;
     text-shadow: 4px 1px white;
+    margin-top: 1%;
 }
 .textcolorIllustration, .textalignIllustration {
-    width: 85%;
+    width: 80%;
     margin-top: 10%;
     display: block;
-    margin-left: auto;
+    margin-left: 20%;
+    margin-right: auto;
 
 }
 .artistPages {
@@ -277,6 +279,7 @@ ul.objectiveList {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 .visualBalance {
     margin-top: 46%;
@@ -295,7 +298,7 @@ ul.objectiveList {
     font-size: 25px;
     text-align: left;
     border-bottom: 10px solid white;
-    margin-top: 10%;
+    margin-top: 7%;
     padding-bottom: 1%;
     width: 71%;
     text-align: left;
@@ -311,7 +314,7 @@ ul.objectiveList {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 5%;
     background-color: white;
     padding: 5%;
     border-radius: 30%;
@@ -334,10 +337,11 @@ ul.objectiveList {
     border-bottom: 5px solid white;
     margin-top: 5%;
     padding-bottom: 5%;
+    margin-bottom: 3%;
 }
 .contentBrief {
     font-size: 30px;
-    border-left: 7px solid white;
+    border-left: 5px solid white;
     padding-left: 1%;
     margin-top: 2%;
     margin-bottom: 2%;
