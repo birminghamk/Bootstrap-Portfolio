@@ -3,6 +3,9 @@
   ========================*/
 @media screen and (max-width: 1400px) {
     /*Web Design Section*/
+    .logo-nav {
+        width: 7%;
+    }
     .mastersIntro {
         width: 38%;
     }
