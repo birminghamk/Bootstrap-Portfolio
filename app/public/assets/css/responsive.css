@@ -18,12 +18,13 @@
     }
     .mastersIntro {
         font-size: 20px;
+        width: 38%;
     }
     .ontheartists {
         font-size: 80px;
     }
     .contentBrief {
-        font-size: 30px;
+        font-size: 24px;
     }
     .mastersOverview {
         font-size: 30px;
@@ -31,6 +32,10 @@
     .colorScheme {
         margin-top: 39%;
         font-size: 20px;
+    }
+    .responsiveMasters {
+        font-size: 22px;
+        width: 86%;
     }
     .objectiveList, .roleList, .challengeList {
         font-size: 18px;
@@ -165,6 +170,11 @@
     }
 }
 @media screen and (max-width: 600px) {
+    /*General*/
+    .logo-nav {
+        width: 25%;
+        margin-bottom: 4%;
+    }
     /* Homepage */
     .homeConnectButton {
         margin-top: 7%;
@@ -213,10 +223,10 @@
         margin-right: auto;
     }
     .art-nav {
-        margin-top: 4%;
+        margin-top: 6%;
     }
     .artImg {
-        padding-top: 25px;
+        padding-top: 3%;
     }
     .whiteSatin {
         padding-top: 7%;
@@ -230,5 +240,18 @@
     }
     .scienceTitle {
         font-size: 40px;
+    }
+    /*web design section*/
+    .mastersIntro {
+        width: 80%;
+    }
+    .introGraphic-masters {
+        width: 85%;
+    }
+    .ontheartists {
+        font-size: 40px;
+    }
+    .responsiveMasters {
+        font-size: 15px;
     }
 }
