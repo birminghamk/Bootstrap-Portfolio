@@ -3,14 +3,30 @@
   ========================*/
 @media screen and (max-width: 1400px) {
     /*Web Design Section*/
+    .mastersIntro {
+        width: 38%;
+    }
+    .visualBalance {
+        margin-top: 45%;
+        font-size: 23px;
+    }
     .colorScheme {
         margin-top: 42%;
+    }
+    .contentBrief {
+        font-size: 28px;
+    }
+    .responsiveMasters {
+        width: 83%;
     }
 }
 @media screen and (max-width: 1200px) {
     /*general home*/
     .art-link {
         font-size: 22px;
+    }
+    .logo-nav {
+        width: 8%;
     }
     /*Web Design Section*/
     .intro {
@@ -52,6 +68,10 @@
         margin-top: 24%;
     }
 @media screen and (max-width: 1000px) {
+    /*general*/
+    .logo-nav {
+        width: 12%;
+    }
     /*Web Design Section */
     .objectiveList, .roleList, .challengeList {
         font-size: 16px;
