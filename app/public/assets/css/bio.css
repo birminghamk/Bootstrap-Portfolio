@@ -65,5 +65,8 @@
 .welcome {
     font-style: bold;
     font-size: 25px;
-    border-bottom: 2px solid white;
+    border-bottom: 5px solid white;
+}
+.educationText {
+    font-size: 17px;
 }
