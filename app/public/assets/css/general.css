@@ -86,7 +86,7 @@ button.navbar-toggler:visited {
 }
 span.navbar-toggler-icon {
   background-color: white;
-  border: 2px solid lightgrey;
+  border: 3px solid lightgrey;
 }
 button.navbar-toggler:focus {
   text-shadow: -5px -5px white;
