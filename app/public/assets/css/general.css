@@ -195,3 +195,7 @@ html.modal-active, body.modal-active {
   margin: 5%;
   margin-bottom: 0%;
 }
+.personalWork {
+  width: 100%;
+  margin-top: 5%;
+}
