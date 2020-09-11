@@ -75,23 +75,6 @@
 
   </div>
 
-  <div id="modal-container">
-    <div class="modal-background">
-      <div class="modal">
-        <a target="_blank" href="https://www.linkedin.com/in/kate-birmingham"><img src="assets/images/linkedin-icon.png" class="social" alt="LinkedIn" /></a>
-        <a target="_blank" href="https://www.instagram.com/dopaminecream/"><img src="assets/images/instagram-icon.png" class="social" alt="Instagram" /></a>
-        <a target="_blank" href="https://dribbble.com/kate-birmingham"><img src="assets/images/dribbble-icon.png" class="social" alt="Dribbble" /></a>
-        <hr>
-        <p class="email">dopaminecream@gmail.com</p>
-        <a href="/about" class="toAboutButton"><p class="toAboutButton">about</p></a>
-    </div>
-  </div>
-</div>
-
-  <script type="text/javascript" src="assets/js/main.js"></script>
-  <script type="text/javascript" src="assets/js/home.js"></script>
-  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
 </body>
 </html> -->
 
@@ -105,6 +88,7 @@
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/art.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
   <link rel="stylesheet" type="text/css" href="assets/css/general.css">
   <link rel="stylesheet" type="text/css" href="assets/css/animations.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -135,6 +119,64 @@
       </button>
       <button id="one" class="navbar-right btn btn-outline-secondary connect">Connect</button>
     </nav>
+  </div>
+
+  <div class="container-home container">
+
+    <div class="row">
+      <div class="col-6">
+          <a href="/"><img class="logo" src="/assets/images/dC-logo.png" alt="logo"/></a>
+      </div>
+      <div class="col-6">
+          <button id="one" class="navbar-right btn btn-outline-secondary connect homeConnectButton">Connect</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h1 class="display-4 homepageHeader header-animation fadeInRight header">Hey, it's <strong>dopamineCream</strong>.</h1>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+          <p class="lead bioText bio-animation fadeInRight">I am an illustrator and designer with a background in neuroscience and coding.</p>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <p class="lead siteEntry bio-animation fadeInRight">Please choose a medium below to get started...</p>
+      </div>
+    </div>
+
+    <div class="row dotsAlign">
+      <div class="col align-self-center">
+      </div>
+      <div class="col align-self-center">
+        <div class="dot-container">
+          <span class="dot"></span>
+          <span class="dot dotSwitch"></span>
+          <span class="dot"></span>
+          <span class="dot dotSwitch"></span>
+        </div>
+      </div>
+      <div class="col align-self-center">
+      </div>
+    </div>
+
+    <div class="row gradient">
+      <div class="col-md-12 col-sm-12 col-lg-12 mainLink">
+          <a href="/art" class="homepageLink"><span>ART</span></a>
+      </div>
+      <div class="col-md-12 col-sm-12 col-lg-12 mainLink">
+          <a href="/science" class="homepageLink"><span>SCIENCE</span></a>
+      </div>
+      <div class="col-md-12 col-sm-12 col-lg-12 mainLink">
+        <a href="/writing" class="homepageLink"><span>WRITING</span></a>
+      </div>
+    </div>
+
   </div>
 
   <div class="container-art">
@@ -760,7 +802,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
   <script type="text/javascript" src="assets/js/art.js"></script>
-  <script type="text/javascript" src="assets/js/art.js"></script>
+  <script type="text/javascript" src="assets/js/home.js"></script>
   <script type="text/javascript" src="assets/js/graphs.js"></script>
   <script>
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
