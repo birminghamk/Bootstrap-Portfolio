@@ -27,6 +27,11 @@ body {
 body.all-loaded {
   opacity: 1;
 }
+.container-art, .container-bio,
+.container-portfolio {
+  margin: 5%;
+  margin-bottom: 0%;
+}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -188,14 +193,4 @@ html.modal-active, body.modal-active {
 }
 .email {
   text-align: center;
-}
-
-.container-art, .container-bio, 
-.container-portfolio {
-  margin: 5%;
-  margin-bottom: 0%;
-}
-.personalWork {
-  width: 100%;
-  margin-top: 5%;
 }

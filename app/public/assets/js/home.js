@@ -1,13 +1,24 @@
 $(function() {
 	
 	function homepageAnimation() {
-		$('.homeConnectButton').hide().delay(2600).fadeIn('slow');
-		$('.gradient').hide().delay(2600).fadeIn('slow');
+		$('.gradient').hide().delay(1000).fadeIn('slow');
 		$('.logo').hide().delay(2600).fadeIn('slow');
 		$('.pageLink').hide().delay(2600).fadeIn('slow');
 	}
 
-	homepageAnimation();
+	//only loads home section
+	function onPageLoad() {
+		$(".siteNav").hide();
+	}
+
+	onPageLoad();
+
+	$(".siteEntry").click(function(){
+		$(".container-home").hide();
+		$(".siteNav").fadeIn('slow');
+	});
+
+	// homepageAnimation();
 
 	var colors = new Array(
 	  [62,35,255],

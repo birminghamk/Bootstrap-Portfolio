@@ -1,6 +1,6 @@
 $(function() {
-	//only loads first category of images
-	function onPageLoad() {
+
+	function onSiteEntry() {
 		$(".graphic-design").fadeIn('slow');
 		$(".cocktailIllustration").hide();
 		$(".watercolor").hide();
@@ -12,7 +12,7 @@ $(function() {
 		$(".web-design").hide();
 	}
 
-	onPageLoad();
+	onSiteEntry();
 
 	//nav control for art images
 	function artNav () {
