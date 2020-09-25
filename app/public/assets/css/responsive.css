@@ -198,10 +198,26 @@
         width: 25%;
         margin-bottom: 4%;
     }
-    /* Homepage */
     .homeConnectButton {
         margin-top: 7%;
         margin-right: 7%;
+    }
+    /* Homepage */
+    .homepageHeader {
+        width: 70%;
+        right: 15%;
+    }
+    .gradient {
+        margin-top: 9%
+        min-height: 550px;
+    }
+    .dotsAlign {
+        top: 40%;
+        right: 36%;
+    }
+    .siteEntry-container {
+        top: 42%;
+        right: 46%;
     }
     /* Bio Page */
     .about-pic {
