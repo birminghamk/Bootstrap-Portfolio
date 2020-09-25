@@ -204,20 +204,20 @@
     }
     /* Homepage */
     .homepageHeader {
-        width: 70%;
-        right: 15%;
+        width: 80%;
+        right: 10%;
     }
     .gradient {
-        margin-top: 9%
+        margin-top: 9%;
         min-height: 550px;
     }
     .dotsAlign {
         top: 40%;
-        right: 36%;
+        right: 34%;
     }
     .siteEntry-container {
         top: 42%;
-        right: 46%;
+        right: 45%;
     }
     /* Bio Page */
     .about-pic {
