@@ -206,18 +206,19 @@
     .homepageHeader {
         width: 80%;
         right: 10%;
+        top: 40%;
     }
     .gradient {
-        margin-top: 15%;
+        margin-top: 20%;
         min-height: 550px;
     }
     .dotsAlign {
-        top: 40%;
-        right: 33%;
+        top: 45%;
+        right: 32%;
     }
     .siteEntry-container {
-        top: 42%;
-        right: 45%;
+        top: 52%;
+        right: 44%;
     }
     /* Bio Page */
     .about-pic {
