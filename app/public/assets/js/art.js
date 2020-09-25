@@ -1,8 +1,8 @@
 $(function() {
 
 	function onSiteEntry() {
-		$(".graphic-design").fadeIn('slow');
-		$(".cocktailIllustration").hide();
+		$(".cocktailIllustration").fadeIn('slow');
+		$(".graphic-design").hide();
 		$(".watercolor").hide();
 		$(".colorImages").hide();
 		$(".blackandwhite").hide();

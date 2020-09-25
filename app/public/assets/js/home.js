@@ -1,10 +1,4 @@
 $(function() {
-	
-	function homepageAnimation() {
-		$('.gradient').hide().delay(1000).fadeIn('slow');
-		$('.logo').hide().delay(2600).fadeIn('slow');
-		$('.pageLink').hide().delay(2600).fadeIn('slow');
-	}
 
 	//only loads home section
 	function onPageLoad() {
@@ -13,13 +7,14 @@ $(function() {
 
 	onPageLoad();
 
+	//home section hides, art section show
 	$(".siteEntry").click(function(){
 		$(".container-home").hide();
 		$(".siteNav").fadeIn('slow');
 	});
 
-	// homepageAnimation();
-
+	
+	//color gradient
 	var colors = new Array(
 	  [62,35,255],
 	  [60,255,60],

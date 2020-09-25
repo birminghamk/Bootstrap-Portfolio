@@ -54,33 +54,54 @@ button.homeConnectButton:visited {
 .homepageHeader {
     position: fixed;
     top: 30%;
-    right: 32%;
+    right: 30%;
+    opacity: 0;
+    animation-delay: 8s;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-down {
+  position: fixed;
+  top: 51%;
+  right: 48%;
+  padding: 5px;
+  margin: 35px auto;
+  background: transparent;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+  border: 3px solid white;
+}
+
+.button-down:hover {
+  transform: translate3d(0, 10px, 0);
+}
+
+.button-down::after {
+  content: "";
+  position: absolute;
+  left: 13px;
+  z-index: 11;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-top: 4px solid white;
+  border-left: 4px solid  white;
+}
+.button-down::after {
+    top: 10px;
+    transform: rotate(225deg);
+}
+.siteEntry-container {
+    position: fixed;
+    top: 51%;
+    right: 48%;
     opacity: 0;
     animation-delay: 6s;
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
 }
-.siteEntry {
-    position: fixed;
-    top: 60%;
-    right: 32%;
-    opacity: 0;
-    animation-delay: 10s;
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 30px;
-    color: white;
-}
-.mainLink {
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
+
 .dot {
     height: 25px;
     width: 25px;
@@ -97,15 +118,8 @@ button.homeConnectButton:visited {
 }
 
 /*pseudo classes*/
-/* .siteEntry:hover{
-    background: -webkit-linear-gradient(rgba(110, 91, 109),#eee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-.siteEntry, .siteEntry:hover, .siteEntry:active {
-    text-align: center;
-    text-decoration: none;
-}
+
+
 /* animations */
 .lightSpeedIn {
     -webkit-animation-name: lightSpeedIn;
@@ -118,15 +132,7 @@ button.homeConnectButton:visited {
     animation-name: fadeInRight;
 }
 .header-animation {
-    background-position: left top;
-    animation-delay: 3s;
-    -webkit-animation-duration: 10s;
-    animation-duration: 10s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-.bio-animation {
-    background-position: left top;
+    /* background-position: left top; */
     animation-delay: 3s;
     -webkit-animation-duration: 10s;
     animation-duration: 10s;

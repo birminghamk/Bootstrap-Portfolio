@@ -70,6 +70,11 @@ div.modal-footer {
 }
 
 /*art images */
+.explorerStudy {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .flowersPerspective {
     display: block;
     margin-left: auto;
@@ -83,34 +88,6 @@ div.modal-footer {
     width: 100%;
     padding-top: 10%;
 }
-.fluidity_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: 90%;
-}
-.stillLife {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.explorer, .stillLife-4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10%;
-    width: 80%;
-    height: 90%;
-}
-.apartment, .chocolateManhattan {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
 .whiteSatin {
     width: 100%;
 }
@@ -373,4 +350,6 @@ ul.objectiveList {
     padding-bottom: 2%;
     border-bottom: 20px double white;
     width: 95%;
+    display: block;
+    margin-left: auto;
 }
