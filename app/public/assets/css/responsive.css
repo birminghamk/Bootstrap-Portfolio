@@ -24,12 +24,24 @@
     }
 }
 @media screen and (max-width: 1200px) {
-    /*general home*/
+    /*home*/
     .art-link {
         font-size: 22px;
     }
     .logo-nav {
         width: 8%;
+    }
+    .gradient {
+        margin-top: 12%;
+    }
+    .button-down {
+        top: 47%;
+    }
+    .siteEntry-container {
+        top: 47%;
+    }
+    .dotsAlign {
+        
     }
     /*Web Design Section*/
     .intro {

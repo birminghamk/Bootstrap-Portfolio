@@ -39,6 +39,7 @@ button.homeConnectButton:visited {
     position: fixed;
     width: 100%;
     min-height: 500px;
+    max-height: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,14 +47,14 @@ button.homeConnectButton:visited {
 }
 .dotsAlign {
     position: fixed;
-    top: 47%;
+    top: 49%;
     right: 45%;
     margin-left: auto;
     margin-right: auto;
 }
 .homepageHeader {
     position: fixed;
-    top: 30%;
+    top: 35%;
     right: 30%;
     opacity: 0;
     animation-delay: 8s;
@@ -63,7 +64,7 @@ button.homeConnectButton:visited {
 }
 .button-down {
   position: fixed;
-  top: 51%;
+  top: 55%;
   right: 48%;
   padding: 5px;
   margin: 35px auto;
@@ -96,7 +97,7 @@ button.homeConnectButton:visited {
 }
 .siteEntry-container {
     position: fixed;
-    top: 51%;
+    top: 55%;
     right: 48%;
     opacity: 0;
     animation-delay: 6s;
