@@ -25,23 +25,23 @@
 }
 @media screen and (max-width: 1200px) {
     /*home*/
-    .art-link {
+    /* .art-link {
         font-size: 22px;
     }
     .logo-nav {
         width: 8%;
-    }
+    } */
     .gradient {
-        margin-top: 12%;
+        margin-top: 15%;
     }
     .button-down {
-        top: 47%;
+        top: 46%;
     }
     .siteEntry-container {
-        top: 47%;
+        top: 46%;
     }
     .dotsAlign {
-        
+        right: 43%;
     }
     /*Web Design Section*/
     .intro {
