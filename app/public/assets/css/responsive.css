@@ -31,18 +31,6 @@
     .logo-nav {
         width: 8%;
     } */
-    .gradient {
-        margin-top: 30%;
-    }
-    .button-down {
-        top: 34%;
-    }
-    .siteEntry-container {
-        top: 34%;
-    }
-    .dotsAlign {
-        right: 43%;
-    }
     /*Web Design Section*/
     .intro {
         font-size: 40px;
@@ -82,6 +70,20 @@
         font-size: 18px;
         margin-top: 24%;
     }
+@media screen and (max-width: 1100px) {
+    .gradient {
+        margin-top: 30%;
+    }
+    .button-down {
+        top: 34%;
+    }
+    .siteEntry-container {
+        top: 34%;
+    }
+    .dotsAlign {
+        right: 43%;
+    }
+}
 @media screen and (max-width: 1000px) {
     /*general*/
     .logo-nav {
