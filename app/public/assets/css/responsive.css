@@ -23,20 +23,6 @@
         width: 83%;
     }
 }
-@media screen and (max-width: 1300px) {
-    .gradient {
-        margin-top: 25%;
-    }
-    .button-down {
-        top: 32%;
-    }
-    .siteEntry-container {
-        top: 32%;
-    }
-    .dotsAlign {
-        right: 43%;
-    }
-}
 @media screen and (max-width: 1200px) {
     /*home*/
     /* .art-link {
@@ -222,10 +208,10 @@
         right: 10%;
         top: 40%;
     }
-    .gradient {
+    /* .gradient {
         margin-top: 20%;
         min-height: 550px;
-    }
+    } */
     .dotsAlign {
         top: 45%;
         right: 32%;

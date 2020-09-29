@@ -3,6 +3,7 @@
 ==========================*/
 container-home {
     width: 100%;
+    position: relative;
 }
 .logo {
     width: 75px;
@@ -36,25 +37,25 @@ button.homeConnectButton:visited {
     color: white;
 }
 .gradient {
-    position: fixed;
+    position: absolute;
     width: 100%;
     min-height: 500px;
     max-height: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7%;
+    margin: 0;
+    top: 50%;
+    b-ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 .dotsAlign {
     position: fixed;
-    top: 50%;
+    top: 51%;
     right: 45%;
     margin-left: auto;
     margin-right: auto;
 }
 .homepageHeader {
     position: fixed;
-    top: 35%;
+    top: 32%;
     right: 30%;
     opacity: 0;
     animation-delay: 8s;
@@ -64,7 +65,7 @@ button.homeConnectButton:visited {
 }
 .button-down {
   position: fixed;
-  top: 55%;
+  top: 60%;
   right: 48%;
   padding: 5px;
   margin: 35px auto;
@@ -97,7 +98,7 @@ button.homeConnectButton:visited {
 }
 .siteEntry-container {
     position: fixed;
-    top: 55%;
+    top: 60%;
     right: 48%;
     opacity: 0;
     animation-delay: 6s;
