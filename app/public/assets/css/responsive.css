@@ -25,13 +25,13 @@
 }
 @media screen and (max-width: 1300px) {
     .gradient {
-        margin-top: 20%;
+        margin-top: 25%;
     }
     .button-down {
-        top: 34%;
+        top: 32%;
     }
     .siteEntry-container {
-        top: 34%;
+        top: 32%;
     }
     .dotsAlign {
         right: 43%;
