@@ -4,6 +4,7 @@
 container-home {
     width: 100%;
     position: relative;
+    height: 100vh;
 }
 .logo {
     width: 75px;
