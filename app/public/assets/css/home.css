@@ -41,7 +41,6 @@ button.homeConnectButton:visited {
     position: absolute;
     width: 100%;
     min-height: 500px;
-    max-height: 700px;
     margin: 0;
     top: 50%;
     b-ms-transform: translateY(-50%);
