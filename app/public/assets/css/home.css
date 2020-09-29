@@ -4,7 +4,7 @@
 container-home {
     width: 100%;
     position: relative;
-    height: 100vh;
+
 }
 .logo {
     width: 75px;
@@ -55,7 +55,7 @@ button.homeConnectButton:visited {
 }
 .homepageHeader {
     position: fixed;
-    top: 32%;
+    top: 31%;
     right: 30%;
     opacity: 0;
     animation-delay: 8s;
