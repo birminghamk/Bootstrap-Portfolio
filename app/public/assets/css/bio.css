@@ -12,10 +12,10 @@
 }
 .site-description,
 .education {
-    text-align: center;
+    text-align: left;
 }
 .bioIntro {
-    border-bottom: 12px solid white;
+    border-bottom: 10px solid white;
     font-size: 16px;
 }
 .bioEducation {
