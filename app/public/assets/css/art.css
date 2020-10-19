@@ -35,6 +35,8 @@ div.modal-footer {
     font-weight: bold;
     background-color: white;
     margin-top: -2%;
+    border-radius: 15px;
+    padding: 1%;
 }
 
 .ekko-lightbox, .modal-footer {
@@ -131,14 +133,24 @@ div.modal-footer {
 }
 .postCard1,.postCard2 {
     width: 100%;
-    margin-top: 5%;
-}
-.seascape-1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.estellaEmail,
+.eventInvitation {
+    margin-top: 5%;
+    width: 100%;
+}
+.estellaEmail {
+    margin-top: 15%;
+}
+.mastersMarketing {
     width: 90%;
-    height: 90%;
+    background-color: lightgrey;
+    margin-top: 10%;
+    padding: 3%;
+    border-radius: 2%;
 }
 .cricket {
     width: 100%;
@@ -173,6 +185,46 @@ margin-top: 6%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    background-color: lightgrey;
+    padding-top: 18%;
+    padding-left: 15%;
+    margin-top: 20%;
+    border-radius: 12%;
+}
+.mastersDesignIntro {
+    text-align: left;
+    margin-top: 38%;
+}
+.mastersDesignWebIntro {
+    margin-top: 5%;
+    border-top: 15px dotted white;
+    padding-top: 5%;
+}
+.mastersDesignIntro, 
+.mastersDesignWebIntro {
+    text-align: left;
+    font-size: 22px;
+}
+.webDesignEntry {
+    font-size: 25px;
+    padding: 3%;
+    border: 5px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    /* border-radius: 3%; */
+}
+.webDesignEntry:hover {
+    background-color: white;
+    color: lightgrey;
+    border: 5px solid lightgrey;
+}
+.mastersDesignText {
+    padding-left: 5%;
 }
 
 /*Web Design Section*/
@@ -239,7 +291,7 @@ ul.objectiveList {
     display: block;
     margin-left: 20%;
     margin-right: auto;
-
+    border-radius: 15px;
 }
 .artistPages {
     width: 75%;
@@ -247,6 +299,7 @@ ul.objectiveList {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8%;
+    border-radius: 15px;
 }
 .brittenProfile {
     width: 100%;
@@ -300,6 +353,7 @@ ul.objectiveList {
     font-size: 22px;
     background-color: white;
     padding: 2%;
+    border-radius: 2%;
 }
 .bannerGraphic {
     width: 100%;
@@ -308,6 +362,7 @@ ul.objectiveList {
 .aboutexhibitions {
     width: 100%;
     margin-top: 7%;
+    border-radius: 15px;
 }
 .contentbannerBorder {
     border-top: 5px solid white;
@@ -330,6 +385,9 @@ ul.objectiveList {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
+}
+.findUs {
+    margin-top: 5%;
 }
 .animationsBrief {
     font-size: 30px;

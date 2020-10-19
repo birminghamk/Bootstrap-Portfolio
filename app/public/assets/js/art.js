@@ -127,4 +127,9 @@ $(function() {
 	}
 
 	artNav();
+
+	$(".webDesignEntry").click(function() {
+		$(".graphic-design").hide();
+		$(".web-design").fadeIn('slow');
+	});
 });
