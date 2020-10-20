@@ -2,6 +2,10 @@
       MEDIA QUERIES
   ========================*/
 @media screen and (max-width: 1400px) {
+    /*Graphic Design Section*/
+    .mastersMarketing {
+        padding: 2%;
+    }
     /*Web Design Section*/
     .logo-nav {
         width: 7%;
@@ -24,13 +28,10 @@
     }
 }
 @media screen and (max-width: 1200px) {
-    /*home*/
-    /* .art-link {
-        font-size: 22px;
+    /*graphic design section*/
+    .webDesignEntry {
+        width: 40%;
     }
-    .logo-nav {
-        width: 8%;
-    } */
     /*Web Design Section*/
     .intro {
         font-size: 40px;
@@ -193,6 +194,26 @@
     }
 }
 @media screen and (max-width: 600px) {
+    /*graphic design section*/
+    .mastersMarketing {
+        margin-top: 15%;
+        padding: 5%;
+        margin: 5%;
+    }
+    .webDesignEntry {
+        width: 55%;
+    }
+    .mastersDesignIntro {
+        margin-top: 20%;
+    }
+    .webBanner {
+        width: 77%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        margin-top: -13%;
+    }
     /*General*/
     .logo-nav {
         width: 25%;
@@ -201,6 +222,9 @@
     .homeConnectButton {
         margin-top: 7%;
         margin-right: 7%;
+    }
+    .intro {
+        border-radius: 0px;
     }
     /* Homepage */
     .homepageHeader {
@@ -266,13 +290,6 @@
     }
     .flowersGraphic {
         margin-top: 8%;
-    }
-    /*science page */
-    .comingSoon {
-        padding-bottom: 10%;
-    }
-    .scienceTitle {
-        font-size: 40px;
     }
     /*web design section*/
     .mastersIntro {
