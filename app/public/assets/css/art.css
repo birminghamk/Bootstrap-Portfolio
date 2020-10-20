@@ -158,6 +158,12 @@ div.modal-footer {
     padding: 3%;
     border-radius: 2%;
 }
+.seeMastersMarketing {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: -3%;
+}
 .cricket {
     width: 100%;
     display: block;
@@ -214,7 +220,7 @@ margin-top: 6%;
 }
 .mastersDesignWebIntro {
     margin-top: 5%;
-    border-top: 15px dotted white;
+    border-top: 15px solid white;
     padding-top: 5%;
 }
 .mastersDesignIntro, 
