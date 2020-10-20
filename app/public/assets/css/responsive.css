@@ -146,11 +146,8 @@
 }
 @media screen and (max-width: 650px) {
     /*web design section*/
-    .intro {
-        font-size: 28px;
-    }
     .art-link {
-        font-size: 19px;
+        font-size: 21px;
     }
     .introGraphic-masters {
         width: 86%;
@@ -201,6 +198,10 @@
     }
     .mastersDesignIntro {
         margin-top: 20%;
+        font-size: 20px;
+    }
+    .mastersDesignWebIntro {
+        font-size: 20px;
     }
     .connectModal {
         max-height: 300px;
@@ -223,7 +224,7 @@
     /*General*/
     .art-nav {
         text-align: left;
-        padding-left: 12%;
+        padding-left: 10%;
     }
     .logo-nav {
         width: 25%;
@@ -312,16 +313,20 @@
     }
     /*web design section*/
     .mastersIntro {
-        width: 80%;
+        width: 100%;
         border-bottom: 6px solid white;
         padding-bottom: 2%;
+        font-size: 20px;
     }
     .introGraphic-masters {
-        width: 95%;
-        margin-top: 5%;
+        width: 100%;
+        margin-top: 9%;
+    }
+    .overviewSpacing {
+        margin-top: 10%;
     }
     .ontheartists {
-        font-size: 35px;
+        font-size: 45px;
     }
     .mastersOverview, .mastersBrief {
         margin-left: 2%;
@@ -335,27 +340,34 @@
         margin-left: 2%;
     }
     .colorScheme {
-        margin-top: 37%;
-        font-size: 12px;
+        margin-top: 18%;
+        font-size: 20px;
         border-bottom: 12px double white;
+        margin-right: auto;
     }
     .artistPages {
         width: 90%;
-        margin-top: 14%;
+        margin-top: 16%;
+        border-radius: 5px;
     }
     .brittenProfile {
         margin-top: 19%;
     }
     .visualBalance {
-        font-size: 12px;
-        margin-top: 32%;
+        font-size: 18px;
+        margin-top: 2%;
+        border-left: none;
     }
     .contentAddons {
-        font-size: 12px;
-        margin-top: 21%;
+        font-size: 20px;
+        margin-top: 14%;
+        border-radius: 5px;
+    }
+    .aboutExhibitions {
+        border-radius: 15px;
     }
     .bannerGraphic {
-        margin-top: 42%;
+        margin-top: 2%;
     }
     .contentBrief {
         font-size: 16px;
@@ -368,7 +380,7 @@
     }
     .responsiveMasters {
         margin-top: 12%;
-        font-size: 14px;
+        font-size: 20px;
         border-bottom: 7px solid white;
         width: 100%;
     }
