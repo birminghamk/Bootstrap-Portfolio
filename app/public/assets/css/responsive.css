@@ -206,6 +206,10 @@
     .mastersDesignIntro {
         margin-top: 20%;
     }
+    .connectModal {
+        max-height: 200px;
+        max-width: 300px;
+    }
     .webBanner {
         width: 77%;
         margin-bottom: 10%;
