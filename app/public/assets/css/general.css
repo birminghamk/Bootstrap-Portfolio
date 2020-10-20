@@ -76,6 +76,10 @@ footer {
 .emphasis {
   font-weight: bold;
 }
+.connectModal {
+  max-height: 300px;
+  max-width: 400px;
+}
 /*navbar*/
 .nav-link {
   display: inline;
