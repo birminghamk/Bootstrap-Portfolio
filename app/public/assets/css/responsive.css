@@ -71,6 +71,13 @@
         font-size: 18px;
         margin-top: 24%;
     }
+    /*bio section*/
+    .about-pic {
+        width: 80%;
+    }
+    .life {
+        padding-top: 12%;
+    }
 @media screen and (max-width: 1000px) {
     /*general*/
     .logo-nav {
