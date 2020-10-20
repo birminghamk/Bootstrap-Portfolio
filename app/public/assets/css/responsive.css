@@ -4,7 +4,10 @@
 @media screen and (max-width: 1400px) {
     /*bioSection */
     .life {
-        padding-top: 12%;
+        padding-top: 10%;
+    }
+    .about {
+        margin-top: 4%;
     }
     /*Graphic Design Section*/
     .mastersMarketing {
