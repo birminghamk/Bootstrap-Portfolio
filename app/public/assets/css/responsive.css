@@ -2,9 +2,16 @@
       MEDIA QUERIES
   ========================*/
 @media screen and (max-width: 1400px) {
+    /*bioSection */
+    .life {
+        padding-top: 12%;
+    }
     /*Graphic Design Section*/
     .mastersMarketing {
         padding: 2%;
+    }
+    .webBanner {
+        margin-top: 5%;
     }
     /*Web Design Section*/
     .logo-nav {
@@ -74,9 +81,6 @@
     /*bio section*/
     .about-pic {
         width: 80%;
-    }
-    .life {
-        padding-top: 17%;
     }
 @media screen and (max-width: 1000px) {
     /*general*/
