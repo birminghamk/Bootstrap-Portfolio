@@ -95,14 +95,19 @@ div.modal-footer {
 }
 .cheers {
     width: 100%;
-    /* padding-top: 2%; */
     margin-top: 5%;
 }
-.abstract {
+.abstract, .abstract2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
 }
 .abstractLandscape {
-    width: 100%;
+    width: 97%;
+}
+.abstractLandscape, .abstract2 {
+    margin-top: 5%;
 }
 .ladyinredYellow, .ladyinredLightPink,
 .ladyinredPumpkin,

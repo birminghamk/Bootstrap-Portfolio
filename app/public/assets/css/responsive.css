@@ -327,10 +327,24 @@
         padding-top: 3%;
     }
     .whiteSatin {
-        padding-top: 7%;
+        margin-top: 3%;
+    }
+    .cheers {
+        margin-top: 8%;
     }
     .flowersGraphic {
+        margin-top: 16%;
+    }
+    .flowersPerspective {
         margin-top: 8%;
+    }
+    .abstractLandscape, .abstract2 {
+        margin-top: 8%;
+    }
+    .ladyinredYellow, .ladyinredLightPink,
+    .ladyinredPumpkin,
+    .ladyinredGrey {
+        margin-top: 30%;
     }
     /*web design section*/
     .mastersIntro {
