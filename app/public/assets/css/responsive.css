@@ -5,10 +5,10 @@
     /*homepage*/
     .carousel-control-next-icon, 
     .carousel-control-prev-icon {
-        margin-top: 23%;
+        margin-top: 34%;
     }
     .button-down {
-        top: 55%;
+        top: 50%;
     }
     /*bioSection */
     .life {
@@ -37,6 +37,12 @@
     /*Web Design Section*/
     .logo-nav {
         width: 7%;
+    }
+    .introGraphic-masters {
+        margin-top: 5%;
+    }
+    .overviewSpacing {
+        margin-top: 5%;
     }
     .mastersIntro {
         width: 38%;
