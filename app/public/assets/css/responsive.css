@@ -333,6 +333,9 @@
     .life {
         margin-bottom: -2%;
     }
+    .educationText {
+        font-size: 20px;
+    }
     /*art page*/
     .art-nav li {
         display: inline-block;
