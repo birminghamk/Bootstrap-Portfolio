@@ -32,7 +32,7 @@ div.modal-footer {
 .intro {
     color: lightgrey;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 1000;
     background-color: white;
     margin-top: -3%;
     border-radius: 15px;
@@ -69,6 +69,25 @@ div.modal-footer {
 .art-link:hover {
     text-decoration: none;
     color: lightgrey;
+}
+/*personal work section*/
+.personalWork, 
+.personalWorkSide {
+    border-radius: 2%;
+}
+.personalWork {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%
+}
+.personalWorkSide {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90%;
 }
 
 /*art images */
@@ -204,7 +223,6 @@ margin-top: 6%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* border-radius: 15px; */
 }
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
@@ -216,7 +234,7 @@ margin-top: 6%;
 }
 .mastersDesignIntro {
     text-align: left;
-    margin-top: 38%;
+    margin-top: 40%;
 }
 .mastersDesignWebIntro {
     margin-top: 5%;
@@ -237,7 +255,7 @@ margin-top: 6%;
     margin-right: auto;
     margin-top: 5%;
     text-align: center;
-    width: 37%;
+    width: 40%;
 }
 .webDesignEntry:hover {
     background-color: white;
@@ -269,13 +287,13 @@ margin-top: 6%;
     padding-bottom: 1%;
 }
 .introGraphic-masters {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
     width: 74%;
     height: 85%;
-    /* border-radius: 15px; */
 }
 .mastersOverview {
     border-bottom: 7px solid white;
