@@ -51,10 +51,11 @@ button.homeConnectButton:visited {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-bottom: 1%;
 }
 .homepageHeader {
     position: fixed;
-    top: 31%;
+    top: 30%;
     right: 30%;
     opacity: 0;
     animation-delay: 8s;

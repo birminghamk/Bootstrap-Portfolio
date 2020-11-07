@@ -6,7 +6,7 @@
   <title>dopamineCream | Illustration & Design</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/art.css">
   <link rel="stylesheet" type="text/css" href="assets/css/home.css">
   <link rel="stylesheet" type="text/css" href="assets/css/general.css">
@@ -76,7 +76,7 @@
       <div class="row">
         <div class="col-12 intro">
           This is <span class="dopamineCream">dopamineCream.</span><br/>
-          I am an illustrator and designer with an affinity for pastels, drinking tea, and neuroscience. 
+          I am an illustrator and designer with an a<span class="fixLetterSpacing">ff</span>inity for pastels, drinking tea, and neuroscience. 
         </div>
       </div>
   
@@ -223,7 +223,8 @@
     <section class="web-design">
       <div class="row">
         <div class="col-12">
-          <img class="introGraphic-masters" src="/assets/images/art-images/web-design/masters-intro-graphic.jpg" alt="Masters Gallery"/>
+          <img class="introGraphic-masters" id="webDesignStart" src="/assets/images/art-images/web-design/masters-intro-graphic-blank.jpg" alt="Masters Gallery"/>
+          <p class="mastersIntroText">Masters Gallery</p>
         </div>
       </div>
       <div class="row">
@@ -289,12 +290,12 @@
         <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
           <div class="row">
             <div class="col-12">
-              <img class="textcolorIllustration" src="/assets/images/art-images/web-design/colorblackCSS.jpg" />
+              <img class="textcolorIllustration" src="/assets/images/art-images/web-design/colorblackCSS.jpg"/>
             </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <img class="textalignIllustration" src="/assets/images/art-images/web-design/textalignCenter.jpg" />
+              <img class="textalignIllustration" src="/assets/images/art-images/web-design/textalignCenter.jpg"/>
             </div>
           </div>
         </div>
@@ -304,19 +305,10 @@
           <img class="artistPages" src="/assets/images/art-images/web-design/masters-gallery-artist-pages.jpg" />
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-7 col-md-7 col-xl-7 col-sm-12">
-          <img class="brittenProfile" src="/assets/images/art-images/web-design/britten-profile.JPG" />
-        </div>
-        <div class="col-lg-5 col-md-5 col-xl-5 col-sm-12">
-          <p class="visualBalance">To further emphasize the artists' work, I adjusted the distribution and alignment of various page elements
-          to remedy the uneven spacing and create <span class="strong">visual balance.</span></p>
-        </div>
-      </div>
       <div class="row contentbannerBorder">
         <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
           <p class="contentAddons">In addition to stylistic changes, there was a lack of content spanning major sections of the website, including
-            the 'About Us' and 'Exhibitions' tabs. These sections are dictated by the website's current CMS as opposed to the internal code base, with a blog-like structure. </p>
+            the 'About Us' and 'Exhibitions' pages...</p>
         </div>
         <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
           <img class="bannerGraphic" src="/assets/images/art-images/web-design/banner-graphic.png" />
@@ -350,7 +342,7 @@
       <div class="row">
         <div class="col-12">
           <p class="responsiveMasters">
-            The website makeover was complete and looked spanking new, but it needed to be consistent, regardless of how the user was viewing it; 
+            The website makeover was complete, but it needed to be consistent; 
             using CSS Media Queries, I made the site responsive across all screen sizes.
           </p>
         </div>
@@ -473,11 +465,86 @@
     </section>
   
     <section class="graphic-design">
+
+      <div class="row emailTease">
+        <div class="col-3 emailTemplate">
+          <!-- Button trigger modal -->
+            <img class="emailTemplateEntry artImg" data-toggle="modal" data-target="#desjardinsModal" src="/assets/images/art-images/desjardins-email-intro-graphic.jpg" alt="Email Entry Graphic"/>
+
+        <!-- Modal -->
+        <div class="modal fade" id="desjardinsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-body emailTemplateModal">
+                <img class="emailTemplateImage" src="/assets/images/art-images/desjardins-email-template-2020.jpg" alt="Web Banner"/>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 emailTemplate">
+        <!-- Button trigger modal -->
+        <img class="emailTemplateEntry artImg" data-toggle="modal" data-target="#brittenModal" src="/assets/images/art-images/britten-email-intro-graphic.jpg" alt="Email Entry Graphic"/>
+
+        <!-- Modal -->
+        <div class="modal fade" id="brittenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-body emailTemplateModal">
+                <img class="emailTemplateImage" src="/assets/images/art-images/britten-email-template-2020.jpg" alt="Web Banner"/>
+              </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-3 emailTemplate">
+            <!-- Button trigger modal -->
+            <img class="emailTemplateEntry artImg" data-toggle="modal" data-target="#lewisModal" src="/assets/images/art-images/lewis-email-intro-graphic.jpg" alt="Email Entry Graphic"/>
+
+            <!-- Modal -->
+            <div class="modal fade" id="lewisModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-body emailTemplateModal">
+                    <img class="emailTemplateImage" src="/assets/images/art-images/lewis-email-template-2020.jpg" alt="Web Banner"/>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-3 emailTemplate">
+            <!-- Button trigger modal -->
+            <img class="emailTemplateEntry artImg" data-toggle="modal" data-target="#aguiarModal" src="/assets/images/art-images/aguiar-email-intro-graphic.jpg" alt="Email Entry Graphic"/>
+
+            <!-- Modal -->
+            <div class="modal fade" id="aguiarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-body emailTemplateModal">
+                    <img class="emailTemplateImage" src="/assets/images/art-images/aguiar-email-template-2020.jpg" alt="Web Banner"/>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
       <div class="row">
+        <div class="col-12">
+          <p class="emailTemplates">EMAIL TEMPLATE DESIGN</p>
+          <p class="clickEmailTemplates">Click to view the whole email...</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <!-- <p class="emailTemplates">EMAIL TEMPLATE DESIGN</p> -->
+          <p class="webBannerText">Landing Page Web Banners for Masters Gallery</p>
+        </div>
+      </div>
+
+      <div class="row webBannerSection">
         <div class="col-12">
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-interval="3000">
+                <a href="/assets/images/art-images/schofield_november_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
+                  <img class="webBanner artImg" src="/assets/images/art-images/schofield_november_2020.jpg" alt="Web Banner"/>
+                </a>
+              </div>
+              <div class="carousel-item">
                 <a href="/assets/images/art-images/lotton_october_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                   <img class="webBanner artImg" src="/assets/images/art-images/lotton_october_2020.jpg" alt="Web Banner"/>
                 </a>
@@ -490,6 +557,11 @@
               <div class="carousel-item">
                 <a href="/assets/images/art-images/chan_june_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                   <img class="webBanner artImg" src="/assets/images/art-images/chan_june_2020.jpg" alt="Web Banner"/>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="/assets/images/art-images/jensen_april_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
+                  <img class="webBanner artImg" src="/assets/images/art-images/jensen_november_2020.jpg" alt="Web Banner"/>
                 </a>
               </div>
               <div class="carousel-item">
@@ -510,6 +582,11 @@
               <div class="carousel-item">
                 <a href="/assets/images/art-images/creason_october_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                   <img class="webBanner artImg" src="/assets/images/art-images/creason_october_2020.jpg" alt="Web Banner"/>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="/assets/images/art-images/devon_april_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
+                  <img class="webBanner artImg" src="/assets/images/art-images/devon_april_2020.jpg" alt="Web Banner"/>
                 </a>
               </div>
               <div class="carousel-item">
@@ -542,19 +619,14 @@
                   <img class="webBanner artImg" src="/assets/images/art-images/gorg_september_2020.jpg" alt="Web Banner"/>
                 </a>
               </div>
-              <div class="carousel-item">
+              <!-- <div class="carousel-item">
                 <a href="/assets/images/art-images/feir_october_2019.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                   <img class="webBanner artImg" src="/assets/images/art-images/feir_october_2019.jpg" alt="Web Banner"/>
                 </a>
-              </div>
-              <div class="carousel-item">
+              </div> -->
+              <!-- <div class="carousel-item">
                 <a href="/assets/images/art-images/fransbergen_january_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                   <img class="webBanner artImg" src="/assets/images/art-images/fransbergen_january_2020.jpg" alt="Web Banner"/>
-                </a>
-              </div>
-              <!-- <div class="carousel-item">
-                <a href="/assets/images/art-images/jensen_april_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
-                  <img class="webBanner artImg" src="/assets/images/art-images/jensen_april_2020.jpg" alt="Web Banner"/>
                 </a>
               </div> -->
               <div class="carousel-item">
@@ -562,16 +634,16 @@
                   <img class="webBanner artImg" src="/assets/images/art-images/devon_october_2020-2.jpg" alt="Web Banner"/>
                 </a>
               </div>
-              <div class="carousel-item">
+              <!-- <div class="carousel-item">
                 <a href="/assets/images/art-images/lewis_august_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                   <img class="webBanner artImg" src="/assets/images/art-images/lewis_august_2020.jpg" alt="Web Banner"/>
                 </a>
-              </div>
-              <div class="carousel-item">
+              </div> -->
+              <!-- <div class="carousel-item">
                 <a href="/assets/images/art-images/holiday-open-house.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                   <img class="webBanner artImg" src="/assets/images/art-images/holiday-open-house.jpg" alt="Web Banner"/>
                 </a>
-              </div>
+              </div> -->
             </div>
             <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -611,7 +683,7 @@
               </a>
             </div>
             <div class="col-4">
-              <a href="/assets/images/art-images/estella-email.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Email Template for Masters Gallery">
+              <a href="/assets/images/art-images/estella-email.jpg" data-gallery="art-gallery" data-toggle="lightbox">
                 <img class="estellaEmail artImg" src="/assets/images/art-images/estella-email.jpg" alt="Email template"/>
               </a>
             </div>
@@ -637,12 +709,12 @@
     </div>
 
     <br/>
-    <!-- <br/>
     <br/>
     <br/>
-    <hr/> -->
+    <br/>
+    <hr/>
 
-    <!-- <div class="row">
+    <div class="row">
       <div class="col-3">
         <img class="personalWorkSide" src="/assets/images/art-images/personal-left.jpg" alt="personal work"/>
       </div>
@@ -652,7 +724,57 @@
       <div class="col-3">
         <img class="personalWorkSide" src="/assets/images/art-images/personal-right.jpg" alt="personal work"/>
       </div>
-    </div> -->
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleFade" class="carousel trueTeaCarousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="trueTea" src="/assets/images/art-images/truetea-1-intro.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-2.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-3.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-4.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-5.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-6.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-7.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-8.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-9.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-10.jpg" alt="True Tea"/>
+            </div>
+            <div class="carousel-item">
+              <img class="trueTea" src="/assets/images/art-images/truetea-11.jpg" alt="True Tea"/>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
     </section>
 

@@ -128,8 +128,18 @@ $(function() {
 
 	artNav();
 
+	//click web design button, scroll to top of web design section
 	$(".webDesignEntry").click(function() {
 		$(".graphic-design").hide();
 		$(".web-design").fadeIn('slow');
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#webDesignStart").offset().top
+		}, 1000);
 	});
+
+	//stop true tea carousel from automatically scrolling
+	$('.trueTeaCarousel').carousel({
+		interval: false
+	  })
+
 });

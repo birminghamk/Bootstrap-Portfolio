@@ -15,10 +15,10 @@
 }
 .bioIntro {
     border-bottom: 10px solid white;
-    font-size: 16px;
+    font-size: 17px;
 }
 .bioEducation {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: -3%;
 }
 .about-pic {
@@ -27,6 +27,7 @@
     margin-left: auto;
     /* margin-right: auto; */
     margin-bottom: 4%;
+    border-radius: 15px;
 }
 .chartHeader {
     text-align: center;
@@ -55,6 +56,7 @@
     background-color: #fff;
     border: 4px solid lightgrey;
     padding-bottom: 10%;
+    border-radius: 15px;
 }
 .bio-description {
     text-align: left;
@@ -64,7 +66,8 @@
     font-style: bold;
     font-size: 25px;
     border-bottom: 5px solid white;
+    font-weight: bold;
 }
 .educationText {
-    font-size: 17px;
+    font-size: 20px;
 }

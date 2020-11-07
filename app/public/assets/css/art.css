@@ -31,14 +31,16 @@ div.modal-footer {
 
 .intro {
     color: lightgrey;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 1000;
     background-color: white;
     margin-top: -3%;
     border-radius: 15px;
     padding: 1%;
 }
-
+.fixLetterSpacing {
+    letter-spacing: -1px;
+}
 .ekko-lightbox, .modal-footer {
     text-align: center;
 }
@@ -63,7 +65,7 @@ div.modal-footer {
     text-decoration: none;
     color: grey;
     padding: 20px;
-    font-size: 25px;
+    font-size: 23px;
     padding-bottom: 5px;
 }
 .art-link:hover {
@@ -80,16 +82,23 @@ div.modal-footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%
+    margin-top: 15%;
 }
 .personalWorkSide {
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90%;
+    margin-top: 80%;
 }
-
+.trueTea {
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 2%;
+}
 /*art images */
 .explorerStudy {
     width: 100%;
@@ -166,9 +175,10 @@ div.modal-footer {
 .eventInvitation {
     margin-top: 5%;
     width: 100%;
+
 }
 .estellaEmail {
-    margin-top: 15%;
+    margin-top: 13%;
 }
 .mastersMarketing {
     width: 100%;
@@ -223,6 +233,19 @@ margin-top: 6%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+}
+.webBannerSection {
+    border-bottom: 10px solid white;
+    padding-bottom: 6%;
+}
+.webBannerText {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 7%;
+    font-size: 30px;
+    border-top: 10px solid white;
+    padding-top: 5%;
 }
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
@@ -234,7 +257,7 @@ margin-top: 6%;
 }
 .mastersDesignIntro {
     text-align: left;
-    margin-top: 40%;
+    margin-top: 36%;
 }
 .mastersDesignWebIntro {
     margin-top: 5%;
@@ -246,6 +269,47 @@ margin-top: 6%;
     text-align: left;
     font-size: 22px;
 }
+.emailTemplates {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 3%;
+}
+.clickEmailTemplates {
+    font-size: 19px;
+    text-align: center;
+    margin-top: -1%;
+}
+.emailTemplate {
+    margin-top: 5%;
+}
+.emailTemplateImage {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.emailTemplateEntry {
+    width: 100%;
+    border-radius: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.emailTease {
+    margin-top: -2%;
+}
+#desjardinsModal,
+#lewisModal,
+#brittenModal,
+#aguiarModal {
+    background-color: rgb(245,245,245);
+}
+.emailTemplateModal {
+    margin: -8%;
+    margin-top: 20%;
+    padding: 0%;
+}
 .webDesignEntry {
     font-size: 25px;
     padding: 3%;
@@ -255,7 +319,8 @@ margin-top: 6%;
     margin-right: auto;
     margin-top: 5%;
     text-align: center;
-    width: 40%;
+    width: 45%;
+    font-weight: bold;
 }
 .webDesignEntry:hover {
     background-color: white;
@@ -282,7 +347,7 @@ margin-top: 6%;
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 40%;
     border-bottom: 7px solid white;
     padding-bottom: 1%;
 }
@@ -292,8 +357,16 @@ margin-top: 6%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
-    width: 74%;
+    width: 70%;
     height: 85%;
+}
+.mastersIntroText {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-size: 60px;
 }
 .mastersOverview {
     border-bottom: 7px solid white;
@@ -316,14 +389,15 @@ ul.objectiveList {
     font-size: 25px;
 }
 .mastersOverview, .mastersBrief {
-    margin-left: 13%;
+    margin-left: 15%;
 }
 .ontheartists {
     color: #f4c4a0;
-    font-size: 90px;
+    font-size: 85px;
     text-align: center;
     text-shadow: 4px 1px white;
     margin-top: 1%;
+    font-weight: bold;
 }
 .textcolorIllustration, .textalignIllustration {
     width: 80%;
@@ -332,6 +406,7 @@ ul.objectiveList {
     margin-left: 20%;
     margin-right: auto;
     border-radius: 15px;
+    position: relative;
 }
 .artistPages {
     width: 75%;
@@ -354,13 +429,6 @@ ul.objectiveList {
     font-size: 25px;
     border-left: 10px solid white;
     padding-left: 3%;
-}
-.marginPaddinggraphic {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
 }
 .responsiveMasters {
     font-size: 25px;
@@ -407,16 +475,16 @@ ul.objectiveList {
 .contentbannerBorder {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
-    margin-top: 5%;
+    margin-top: 10%;
     padding-bottom: 5%;
     margin-bottom: 3%;
 }
 .contentBrief {
-    font-size: 30px;
+    font-size: 28px;
     border-left: 5px solid white;
     border-right: 5px solid white;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     text-align: center;
 }
 .findUs, .mastersFooter {
