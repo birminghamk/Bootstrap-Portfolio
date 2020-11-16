@@ -23,7 +23,7 @@
         padding: 2%;
     }
     .webDesignEntry {
-        width: 40%;
+        width: 50%;
     }
     .mastersDesignIntro {
         margin-top: 31%;
@@ -32,7 +32,12 @@
         margin-top: -2%;
     }
     .webBanner {
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .emailTemplateModal {
+        margin: -6%;
+        margin-top: 25%;
     }
     /*Web Design Section*/
     .logo-nav {
@@ -45,7 +50,7 @@
         margin-top: 5%;
     }
     .mastersIntro {
-        width: 38%;
+        width: 45%;
     }
     .visualBalance {
         margin-top: 45%;
@@ -55,7 +60,7 @@
         margin-top: 42%;
     }
     .contentBrief {
-        font-size: 28px;
+        font-size: 24px;
     }
     .responsiveMasters {
         width: 83%;
