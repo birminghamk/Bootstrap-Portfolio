@@ -40,6 +40,10 @@
         margin-top: 25%;
     }
     /*Web Design Section*/
+    .mastersIntroText {
+        top: 61%;
+        font-size: 61px;
+    }
     .logo-nav {
         width: 7%;
     }
