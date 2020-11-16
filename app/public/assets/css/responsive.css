@@ -38,13 +38,13 @@
         margin-top: 10%;
     }
     .emailTemplateModal {
-        margin: -10%;
-        margin-top: 25%;
+        margin: -12%;
+        margin-top: 28%;
     }
     /*Web Design Section*/
     .mastersIntroText {
-        top: 65%;
-        font-size: 61px;
+        top: 62%;
+        font-size: 63px;
     }
     .logo-nav {
         width: 7%;
@@ -65,8 +65,15 @@
     .colorScheme {
         margin-top: 42%;
     }
+    .introGraphic-masters {
+        width: 82%;
+    }
     .contentBrief {
-        font-size: 24px;
+        font-size: 30px;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .responsiveMasters {
         width: 83%;
