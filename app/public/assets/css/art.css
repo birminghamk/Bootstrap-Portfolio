@@ -386,7 +386,7 @@ margin-top: 6%;
     left: 50%;
     transform: translate(-50% , -50%);
     -webkit-transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 65px;
 }
 .mastersOverview {
     border-bottom: 7px solid white;
@@ -413,12 +413,11 @@ ul.objectiveList {
 }
 .ontheartists {
     color: #f4c4a0;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     text-shadow: 4px 1px white;
     margin-top: 4%;
-    margin-bottom: 3%;
-    font-weight: bold;
+    margin-bottom: 4%;
 }
 .textcolorIllustration, .textalignIllustration {
     width: 80%;
