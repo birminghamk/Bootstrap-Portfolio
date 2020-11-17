@@ -117,7 +117,10 @@ div.modal-footer {
     margin-right: auto;
     margin-top: 5%;
     border-radius: 2%;
-    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+.trueTeaControls {
+    padding: 5%;
 }
 /*art images */
 .explorerStudy {
