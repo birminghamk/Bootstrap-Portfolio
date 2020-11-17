@@ -511,8 +511,11 @@
         margin-top: 30%;
         border-radius: 5px;
     }
-    .aboutexhibitions {
+    .aboutexhibitions,
+    .mastersDesign {
         border-radius: 5px;
+    }
+    .aboutexhibitions {
         margin-top: 20%;
     }
     .bannerGraphic {
