@@ -38,13 +38,17 @@
         margin-top: 10%;
         padding-top: 9%;
     }
+    .webBannerSection {
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
     .emailTemplateModal {
         margin: -12%;
         margin-top: 28%;
     }
     /*Web Design Section*/
     .mastersIntroText {
-        top: 62%;
+        top: 55%;
         font-size: 63px;
     }
     .landingPage {
@@ -55,19 +59,23 @@
     }
     .artistPages {
         margin-top: 15%;
+        width: 80%;
     }
     .introGraphic-masters {
         margin-top: 3%;
     }
     .contentBannerBorder {
-        margin-top: 15%;
+        margin-top: 17%;
         margin-bottom: 10%;
+        padding-bottom: 10%;
+        padding-top: 10%;
     }
     .overviewSpacing {
         margin-top: 5%;
     }
     .mastersIntro {
         width: 45%;
+        margin-top: 3%;
     }
     .visualBalance {
         margin-top: 45%;
@@ -75,6 +83,9 @@
     }
     .colorScheme {
         margin-top: 42%;
+    }
+    .textAlignIllustration {
+        margin-top: 20%;
     }
     .contentBrief {
         font-size: 30px;
