@@ -5,7 +5,7 @@
     /*homepage*/
     .carousel-control-next-icon, 
     .carousel-control-prev-icon {
-        margin-top: 34%;
+        margin-top: -10%;
     }
     .button-down {
         top: 35%;
@@ -33,6 +33,7 @@
     }
     .webBanner {
         margin-bottom: 5%;
+        width: 80%;
     }
     .webBannerText {
         margin-top: 10%;
