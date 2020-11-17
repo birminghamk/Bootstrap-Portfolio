@@ -40,15 +40,12 @@
     }
     .emailTemplateModal {
         margin: -12%;
-        margin-top: 35%;
+        margin-top: 50%;
     }
     /*Web Design Section*/
     .mastersIntroText {
         top: 55%;
         font-size: 62px;
-    }
-    .landingPage {
-        margin-bottom: 10%;
     }
     .logo-nav {
         width: 7%;
@@ -466,13 +463,14 @@
         margin-top: 10%;
     }
     .ontheartists {
-        font-size: 36px;
+        font-size: 40px;
         margin-top: 17%;
     }
     .landingPage {
         padding-left: 2%;
         padding-right: 2%;
         margin-top: 12%;
+        margin-bottom: 15%;
     }
     .mastersOverview, .mastersBrief {
         margin-left: 0%;
