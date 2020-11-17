@@ -274,6 +274,9 @@
 }
 @media screen and (max-width: 600px) {
     /*graphic design section*/
+    .artImg {
+        margin-top: 3%;
+    }
     .emailTemplateEntry {
         width: 90%;
     }
@@ -283,7 +286,7 @@
     }
     .emailTemplateModal {
         margin: 0%;
-        margin-top: 40%;
+        margin-top: 50%;
         padding: 3%;
     }
     .clickEmailTemplates {
@@ -294,8 +297,14 @@
         padding: 5%;
         margin: 5%;
     }
+    .eventInvitation {
+        margin-top: 10%;
+    }
+    .estellaEmail {
+        margin-top: 33%;
+    }
     .webDesignEntry {
-        width: 70%;
+        width: 72%;
     }
     .mastersDesignIntro {
         margin-top: 20%;
@@ -321,7 +330,7 @@
         margin-bottom: 20%;
     }
     .carousel-control-next-icon, .carousel-control-prev-icon {
-        margin-top: -13%;
+        margin-top: -10%;
     }
     .estellaEmail {
         margin-top: 26%;
@@ -424,9 +433,6 @@
         padding-bottom: 5%;
         margin-bottom: 10%;
     }
-    .artImg {
-        margin-top: 3%;
-    }
     .whiteSatin {
         margin-top: 3%;
     }
@@ -453,16 +459,15 @@
         border-bottom: 6px solid white;
         padding-bottom: 2%;
         font-size: 16px;
-        margin-top: 16%;
+        margin-top: 11%;
     }
     .mastersIntroText {
         font-size: 30px;
-        top: 67%;
+        top: 53%;
     }
     .introGraphic-masters {
         width: 100%;
-        margin-top: 9%;
-        /* height: 90%; */
+        margin-bottom: 4%;
     }
     .overviewSpacing {
         margin-top: 10%;
@@ -481,7 +486,7 @@
         font-size: 12px;
     }
     .textcolorIllustration, .textalignIllustration {
-        width:86%;
+        width:60%;
         margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
