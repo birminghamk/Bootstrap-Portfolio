@@ -248,7 +248,7 @@
         font-size: 17px;
     }
     .mastersIntro {
-        font-size: 16px;
+        font-size: 18px;
     }
     .ontheartists {
         font-size: 50px;
@@ -467,6 +467,7 @@
     }
     .ontheartists {
         font-size: 36px;
+        margin-top: 17%;
     }
     .landingPage {
         padding-left: 2%;
@@ -480,7 +481,7 @@
         font-size: 12px;
     }
     .textcolorIllustration, .textalignIllustration {
-        width: 60%;
+        width: 70%;
         margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
