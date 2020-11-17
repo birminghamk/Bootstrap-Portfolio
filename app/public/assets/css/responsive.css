@@ -40,12 +40,12 @@
     }
     .emailTemplateModal {
         margin: -12%;
-        margin-top: 28%;
+        margin-top: 35%;
     }
     /*Web Design Section*/
     .mastersIntroText {
         top: 55%;
-        font-size: 63px;
+        font-size: 62px;
     }
     .landingPage {
         margin-bottom: 10%;
@@ -90,7 +90,14 @@
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-        padding-left: 3%;
+        padding-left: 2%;
+    }
+    .bannerGraphic {
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .contentAddons {
+        margin-top: 35%;
     }
     .findUs {
         margin-top: 10%;
