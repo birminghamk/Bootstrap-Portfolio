@@ -340,7 +340,7 @@
     }
     .mastersDesignIntro,
     .mastersDesignWebIntro {
-        font-size: 15px;
+        font-size: 18px;
     }
     .seeMastersMarketing {
         font-size: 20px;
@@ -486,7 +486,7 @@
         font-size: 12px;
     }
     .textcolorIllustration, .textalignIllustration {
-        width:60%;
+        width: 60%;
         margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
@@ -495,8 +495,8 @@
         margin-top: 5%;
     }
     .colorScheme {
-        margin-top: 18%;
-        font-size: 16px;
+        margin-top: 18%; 
+        font-size: 18px;
         border-bottom: 12px double white;
         margin-right: auto;
     }
@@ -504,10 +504,11 @@
         width: 95%;
         margin-top: 20%;
         border-radius: 5px;
+        margin-bottom: 5%;
     }
     .contentAddons {
-        font-size: 20px;
-        margin-top: 15%;
+        font-size: 18px;
+        margin-top: 30%;
         border-radius: 5px;
     }
     .aboutexhibitions {
@@ -516,21 +517,23 @@
     }
     .bannerGraphic {
         margin-top: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 15%;
     }
     .contentBrief {
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 14%;
         margin-bottom: 8%;
-        padding: 2%;
-        padding-left: 4%;
+        border-right: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .findUs, .mastersFooter {
         width: 75%;
     }
     .responsiveMasters {
         margin-top: 12%;
-        font-size: 16px;
+        font-size: 18px;
         border-bottom: 7px solid white;
         width: 100%;
     }
