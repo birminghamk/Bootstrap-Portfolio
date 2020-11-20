@@ -315,7 +315,7 @@ margin-top: 6%;
 }
 .emailTemplateEntry {
     width: 100%;
-    border-radius: 2%;
+    border-radius: 3%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -364,6 +364,7 @@ margin-top: 6%;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
+    margin-bottom: 4%;
 }
 .mastersIntro {
     font-size: 25px;
