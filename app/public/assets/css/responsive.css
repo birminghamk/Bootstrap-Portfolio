@@ -330,7 +330,7 @@
         margin-bottom: 20%;
     }
     .carousel-control-next-icon, .carousel-control-prev-icon {
-        margin-top: -8%;
+        margin-top: -55%;
     }
     .estellaEmail {
         margin-top: 26%;
@@ -344,6 +344,31 @@
     }
     .seeMastersMarketing {
         font-size: 20px;
+    }
+    .personalWork {
+        width: 100%;
+    }
+    .personalWorkSide {
+        width: 60%;
+        margin-top: 15%;
+    }
+    .styleDescription {
+        width: 80%;
+        font-size: 18px;
+        padding-left: 2%;
+        margin-top: 15%;
+        display: block;
+        margin-right: auto;
+    }
+    .trueTea {
+        width: 75%;
+        margin-top: 15%;
+    }
+    .trueTeaControls {
+        margin-top: 100%;
+    }
+    .artTypography {
+        width: 50%;
     }
     /*General*/
     .art-nav {
