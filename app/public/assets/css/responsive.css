@@ -273,7 +273,7 @@
 @media screen and (max-width: 600px) {
     /*graphic design section*/
     .artImg {
-        margin-top: 3%;
+        margin-top: 5%;
     }
     .emailTemplateEntry {
         width: 90%;
@@ -466,6 +466,16 @@
     }
     .abstractLandscape, .abstract2 {
         margin-top: 8%;
+    }
+    .spring {
+        margin-top: -2%;
+    }
+    .patternMarker, .patternOrange, .paintbrushPattern,
+    .geometricSnowflake {
+        margin-top: 9%;
+    }
+    .patternOrange {
+        margin-top: 17%;
     }
     .ladyinredYellow, .ladyinredLightPink,
     .ladyinredPumpkin,
