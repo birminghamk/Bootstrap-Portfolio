@@ -120,8 +120,16 @@ div.modal-footer {
     border-radius: 2%;
     margin-bottom: 1%;
 }
-.trueTeaControls {
-    padding: 5%;
+#trueTeaControls {
+    padding: 10%;
+    margin-top: 28%;
+    padding-top: 15%;
+}
+.prevIconTrueTea {
+    margin-left: 100%;
+}
+.nextIconTrueTea {
+    margin-right: 100%;
 }
 /*art images */
 .explorerStudy {
@@ -277,7 +285,7 @@ margin-top: 6%;
     background-color: lightgrey;
     padding-top: 19%;
     padding-left: 15%;
-    margin-top: 7%;
+    margin-top: 2%;
     border-radius: 12%;
 }
 .mastersDesignIntro {
