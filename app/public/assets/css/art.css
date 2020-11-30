@@ -165,6 +165,8 @@ div.modal-footer {
 }
 .abstractLandscape {
     width: 97%;
+    display: block;
+    margin-left: auto;
 }
 .abstractLandscape, .abstract2 {
     margin-top: 5%;
