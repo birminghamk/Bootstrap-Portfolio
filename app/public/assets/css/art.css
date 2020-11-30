@@ -28,7 +28,23 @@ div.modal-footer {
     margin-left: auto;
     margin-right: auto;
 }
-
+.modal-body {
+    padding: 0%;
+}
+.ekko-lightbox {
+   background-color: rgb(245,245,245);
+   border: none;
+}
+.modal-header {
+    background-color: rgb(245,245,245);
+    border: none;
+}
+.modal-content {
+    border: none;
+}
+.modal-footer {
+    background-color: rgb(245,245,245);
+}
 .intro {
     color: lightgrey;
     font-size: 45px;
@@ -119,6 +135,9 @@ div.modal-footer {
     margin-top: 5%;
     border-radius: 2%;
     margin-bottom: 1%;
+}
+.trueTea:hover {
+    opacity: 0.7;
 }
 #trueTeaControls {
     padding: 10%;
