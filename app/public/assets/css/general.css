@@ -63,11 +63,10 @@ footer {
 }
 .logo-nav {
     display: block;
-    align-self: center;
-    width: 6%;
-    margin-right: auto;
     margin-left: auto;
-    margin-bottom: 1%;
+    margin-right: auto;
+    width: 6%;
+    margin-top: 1%;
 }
 .bio-footer {
   padding-top: 30px;
@@ -80,46 +79,16 @@ footer {
   max-width: 400px;
   border-radius: 2%;
 }
-.connect {
-  font-weight: bold;
-  margin-top: 5px;
-  letter-spacing: 1px;
-}
 /*navbar*/
 .nav-link {
   display: inline;
   font-weight: bold;
   font-size: 23px;
 }
-a.mainPortfolio-link {
-  color: grey;
+a.text-muted.nav-link:hover {
+  color: lightgrey;
 }
-button.navbar-toggler {
-  background-color: none;
-}
-span.navbar-toggler-icon:hover {
-  box-shadow: -5px -5px white;
-  outline: none;
-}
-button.navbar-toggler:visited {
-  outline: none;
-}
-span.navbar-toggler-icon {
-  background-color: white;
-  border: 4px solid lightgrey;
-  padding: 12px;
-}
-button.navbar-toggler:focus {
-  text-shadow: -5px -5px white;
-  text-decoration: none;
-}
-button.navbar-toggler:active,
-button.navbar-toggler:visited,
-button.navbar-toggler:focus {
-  outline: none !important;
-  box-shadow: none;
-}
-button.navbar-right {
+/* button.navbar-right {
   color: grey;
   background-color: rgb(0,0,0,0.0);
   border: 4px solid white;
@@ -128,7 +97,7 @@ button.navbar-right:hover {
   color: lightgrey;
   background-color: white;
   border: 4px solid lightgrey;
-}
+} */
 
 /*connect modal*/
 .toAboutButton {

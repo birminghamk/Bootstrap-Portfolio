@@ -3,6 +3,7 @@ $(function() {
 	//only loads home section
 	function onPageLoad() {
 		$(".siteNav").hide();
+		$(".aboutSection").hide();
 	}
 
 	onPageLoad();
@@ -10,6 +11,21 @@ $(function() {
 	//home section hides, art section show
 	$(".siteEntry").click(function(){
 		$(".container-home").hide();
+		$(".aboutSection").hide();
+		$(".siteNav").fadeIn('slow');
+	});
+
+	//click about button, show about/hide art
+	$(".aboutButton").click(function(){
+		$(".container-home").hide();
+		$(".siteNav").hide();
+		$(".aboutSection").fadeIn('slow');
+	});
+
+	//click home button, show home/hide about
+	$(".home").click(function(){
+		$(".container-home").hide();
+		$(".aboutSection").hide();
 		$(".siteNav").fadeIn('slow');
 	});
 

@@ -6,9 +6,10 @@
     padding-bottom: 5%;
 }
 .about {
-    margin-top: -2%;
+    margin-top: -4%;
     padding: 30px;
     border-top: 20px double white;
+    padding-top: 5%;
 }
 .site-description {
     text-align: left;
