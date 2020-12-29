@@ -3,6 +3,7 @@ $(function() {
 	//only loads home section
 	function onPageLoad() {
 		$(".siteNav").hide();
+		$(".portfolioSection").hide();
 		$(".aboutSection").hide();
 	}
 
@@ -13,12 +14,13 @@ $(function() {
 		$(".container-home").hide();
 		$(".aboutSection").hide();
 		$(".siteNav").fadeIn('slow');
+		$(".portfolioSection").fadeIn('slow');
 	});
 
 	//click about button, show about/hide art
 	$(".aboutButton").click(function(){
 		$(".container-home").hide();
-		$(".siteNav").hide();
+		$(".portfolioSection").hide();
 		$(".aboutSection").fadeIn('slow');
 	});
 
@@ -26,7 +28,7 @@ $(function() {
 	$(".home").click(function(){
 		$(".container-home").hide();
 		$(".aboutSection").hide();
-		$(".siteNav").fadeIn('slow');
+		$(".portfolioSection").fadeIn('slow');
 	});
 
 	
