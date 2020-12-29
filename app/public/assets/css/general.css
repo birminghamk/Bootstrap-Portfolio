@@ -55,11 +55,11 @@ footer {
   right: 0;
   left: 0;
   width: 100%;
-
   color: grey;
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
+  margin-bottom: -2%;
 }
 .logo-nav {
     display: block;
