@@ -130,7 +130,7 @@
     .contentBrief {
         font-size: 24px;
     }
-    .mastersOverview {
+    .overviewText {
         font-size: 30px;
     }
     .colorScheme {
@@ -194,10 +194,10 @@
     .introGraphic-masters {
         width: 80%;
     }
-    .mastersOverview, .mastersBrief {
+    .overviewText, .mastersBrief {
         margin-left: 10%;
     }
-    .mastersOverview {
+    .overviewText {
         font-size: 25px;
     }
     .objective, .role, .challenges {
@@ -240,7 +240,7 @@
     .introGraphic-masters {
         width: 86%;
     }
-    .mastersOverview {
+    .overviewText {
         font-size: 20px;
     }
     .mastersOverview, .mastersBrief {
@@ -544,6 +544,10 @@
         margin-bottom: 15%;
     }
     .mastersOverview, .mastersBrief {
+        margin-left: -3%;
+    }
+    .overviewText {
+        border-bottom: 4px solid white;
         margin-left: 0%;
     }
     .objectiveList, .roleList, .challengeList {
