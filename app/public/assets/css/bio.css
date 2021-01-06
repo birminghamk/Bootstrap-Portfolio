@@ -20,7 +20,7 @@
 }
 .bioEducation {
     font-size: 18px;
-    margin-top: -3%;
+    margin-top: -1%;
 }
 .about-pic {
     width: 75%;
@@ -63,7 +63,7 @@
     text-align: left;
     margin-top: 5%;
 }
-.welcome {
+.welcomeText {
     font-style: bold;
     font-size: 25px;
     border-bottom: 5px solid white;

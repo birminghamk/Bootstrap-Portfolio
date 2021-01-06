@@ -6,7 +6,7 @@ $(function() {
     var thingsIdoChart = new Chart(controls, {
         type: 'pie',
         data: {
-            labels: ["Working at Local Coffee Shops", "Looking for New Coffee Shops", "Drinking Tea", "Watching Tutorials", "Writing & Sketching"],
+            labels: ["Working at Local Coffee Shops", "Mindful Breaks/Yoga", "Drinking Tea", "Watching Tutorials", "Writing & Sketching"],
             datasets: [{
                 label: 'doing things(%)',
                 data: ["35", "10", "30", "15", "10"],

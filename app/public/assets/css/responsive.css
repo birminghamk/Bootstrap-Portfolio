@@ -308,7 +308,7 @@
     .eventInvitation {
         margin-top: 10%;
     }
-    .estellaEmail {
+    .evite {
         margin-top: 33%;
     }
     .webDesignEntry {
@@ -340,8 +340,9 @@
     .carousel-control-next-icon, .carousel-control-prev-icon {
         margin-top: -55%;
     }
-    .estellaEmail {
+    .evite {
         margin-top: 26%;
+        width: 100%;
     }
     .mastersDesignIntro {
         margin-top: 7%;
@@ -367,6 +368,10 @@
         margin-top: 15%;
         display: block;
         margin-right: auto;
+    }
+    .yearTypography {
+        width: 60%;
+        margin-top: 10%;
     }
     .trueTea {
         width: 75%;
@@ -405,7 +410,7 @@
         border-radius: 0px;
         font-size: 30px;
         padding: 4%;
-        margin-top: 2%;
+        margin-top: 1%;
     }
     /* Homepage */
     .homepageHeader {
@@ -427,19 +432,26 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 2%;
+        margin-top: 10%;
+    }
+    .welcome {
+        text-align: center;
+        margin-bottom: -6%;
     }
     #productiveChart, #interestsChart {
         border-right: none;
         margin-top: 10px;
     }
     .interests {
-        margin-bottom: 50px;
+        margin-bottom: 5%;
         margin-top: 5%;
     }
     .interests, .productive {
         width: 275px;
         height: 350px;
+    }
+    .bioEducation {
+        margin-top: 0%;
     }
     .bio-description {
         margin-top: 3%;
