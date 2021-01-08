@@ -18,7 +18,7 @@
         padding-top: 10%;
     }
     .about {
-        margin-top: 4%;
+        margin-top: -3%;
         padding-top: 5%;
     }
     /*Graphic Design Section*/
@@ -568,12 +568,21 @@
         font-size: 18px;
         border-bottom: none;
         margin-right: auto;
+        padding-bottom: 1%;
+        border-bottom: 5px solid white;
     }
     .artistPages {
         width: 95%;
         margin-top: 15%;
         border-radius: 5px;
         margin-bottom: 10%;
+    }
+    .beforeafterText {
+        font-size: 18px;
+        margin-bottom: 15%;
+    }
+    .beforeAfter {
+        font-size: 18px;
     }
     .contentAddons {
         font-size: 18px;

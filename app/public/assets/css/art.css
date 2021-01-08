@@ -486,6 +486,30 @@ ul.objectiveList {
     margin-top: 8%;
     border-radius: 15px;
 }
+.beforeafterText {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    margin-top: 10%;
+    padding: 2%;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-bottom: 3%;
+}
+.beforeafterLanding {
+    margin-top: 10%;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.beforeAfter {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 2%;
+}
 .brittenProfile {
     width: 100%;
     display: block;
