@@ -441,6 +441,9 @@
     .productive {
         margin-top: 15%;
     }
+    .spacingBio {
+        margin-top: 10%;
+    }
     #productiveChart, #interestsChart {
         border-right: none;
         margin-top: 10px;
