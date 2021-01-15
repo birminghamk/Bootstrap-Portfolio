@@ -9,7 +9,13 @@
 .artImg:hover {
     opacity: 0.7;
 }
-
+nav.navbar {
+    display: inline;
+}
+ul.nav {
+    margin-top: 1%;
+    margin-bottom: -2%;
+}
 .artImg {
     margin-top: 3%;
 }
@@ -53,6 +59,7 @@ div.modal-footer {
     margin-top: -3%;
     border-radius: 15px;
     padding: 1%;
+    /* margin-top: 7%; */
 }
 .moreSpace {
     letter-spacing: 2px;
@@ -531,7 +538,7 @@ ul.objectiveList {
     margin-top: 7%;
     padding-bottom: 1%;
     width: 71%;
-    text-align: left;
+    /* text-align: left; */
     margin-left: auto;
     margin-right: auto;
 }

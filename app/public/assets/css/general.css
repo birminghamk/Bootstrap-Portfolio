@@ -26,6 +26,13 @@ body {
 body.all-loaded {
   opacity: 1;
 }
+/* .siteNav {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(245,245,245,0.8);
+  padding-bottom: 1%;
+} */
 .container-art, .container-bio,
 .container-portfolio {
   margin: 5%;
@@ -35,6 +42,9 @@ body.all-loaded {
   margin: 4%;
   margin-top: 5%;
   margin-bottom: 0%;
+}
+.container-bio {
+  margin-top: 2%;
 }
 .container {
   width: 100%;
@@ -66,7 +76,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 6%;
-    margin-top: 1%;
+    margin-bottom: -5px;
+}
+navbar {
+  position: fixed;
+  top: 0;
 }
 .bio-footer {
   padding-top: 30px;

@@ -137,6 +137,19 @@ $(function() {
 		}, 1000);
 	});
 
+	// //click home button, go back to web design section
+	// $(".backtoGraphicDesign").click(function() {
+	// 	$(".cocktailIllustration").hide();
+	// 	$(".cocktailIllustration").hide();
+	// 	$(".cocktailIllustration").hide();
+	// 	$(".cocktailIllustration").hide();
+	// 	$(".graphic-design").fadeIn('slow');
+	// 	$(".web-design").hide();
+	// 	$([document.documentElement, document.body]).animate({
+	// 		scrollTop: $("#toHome").offset().top
+	// 	}, 1000);
+	// });
+
 	//stop true tea carousel from automatically scrolling
 	$('.trueTeaCarousel').carousel({
 		interval: false

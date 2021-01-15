@@ -3,10 +3,9 @@
 ==========================*/
 .container-bio {
     background-repeat: round;
-    padding-bottom: 5%;
 }
 .about {
-    margin-top: -4%;
+    /* margin-top: 12%; */
     padding: 30px;
     border-top: 20px double white;
     padding-top: 5%;
@@ -39,7 +38,7 @@
 }
 .life {
     padding-top: 6%;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
 }
 .education {
     text-align: center;
