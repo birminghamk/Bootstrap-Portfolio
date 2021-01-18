@@ -584,9 +584,9 @@
     }
     .artistPages {
         width: 95%;
-        margin-top: 15%;
+        margin-top: 35%;
         border-radius: 5px;
-        margin-bottom: 10%;
+        margin-bottom: 40%;
     }
     .beforeafterText {
         font-size: 18px;
@@ -597,11 +597,7 @@
     }
     .contentAddons {
         font-size: 18px;
-        margin-top: 30%;
-        border-radius: 5px;
-    }
-    .aboutexhibitions,
-    .mastersDesign {
+        margin-top: 40%;
         border-radius: 5px;
     }
     .aboutexhibitions {
@@ -609,11 +605,11 @@
     }
     .bannerGraphic {
         margin-top: 2%;
-        margin-bottom: 15%;
+        margin-bottom: 25%;
     }
     .contentBrief {
         font-size: 18px;
-        margin-top: 14%;
+        margin-top: 15%;
         margin-bottom: 8%;
         border-right: none;
         display: block;
@@ -623,6 +619,12 @@
     }
     .findUs, .mastersFooter {
         width: 75%;
+    }
+    .findUs {
+        margin-top: 15%;
+    }
+    .mastersFooter {
+        margin-bottom: 10%;
     }
     .responsiveMasters {
         margin-top: 12%;
