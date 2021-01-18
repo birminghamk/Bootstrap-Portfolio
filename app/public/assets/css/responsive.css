@@ -24,7 +24,6 @@
     /*Graphic Design Section*/
     .mastersMarketing {
         padding: 2%;
-        /* max-height: 550px; */
     }
     .webDesignEntry {
         width: 50%;
@@ -114,7 +113,13 @@
 @media screen and (max-width: 1200px) {
     /*graphic design section*/
     .webDesignEntry {
-        width: 40%;
+        width: 60%;
+    }
+    .mastersMarketing {
+        max-height: 490px;
+    }
+    .mastersDesignIntro {
+        margin-top: 27%;
     }
     /*Web Design Section*/
     .intro {
