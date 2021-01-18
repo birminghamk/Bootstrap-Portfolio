@@ -442,12 +442,13 @@
     .welcome {
         text-align: center;
         margin-bottom: -6%;
+        margin-top: 4%;
     }
     .productive {
         margin-top: 15%;
     }
     .spacingBio {
-        margin-top: 15%;
+        margin-top: 20%;
     }
     #productiveChart, #interestsChart {
         border-right: none;
