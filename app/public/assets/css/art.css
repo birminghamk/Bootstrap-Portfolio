@@ -137,6 +137,15 @@ div.modal-footer {
     /* border-radius: 2%; */
     margin-bottom: 5%;
 }
+.moonlightGlow {
+    width: 120%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    /* border-radius: 2%; */
+    margin-bottom: 5%;
+}
 .trueTea {
     width: 45%;
     display: block;
@@ -333,6 +342,13 @@ margin-top: 6%;
     text-align: left;
     font-size: 22px;
 }
+.bannerGraphic-2 {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
 .emailTemplates {
     text-align: center;
     font-weight: bold;
@@ -359,6 +375,7 @@ margin-top: 6%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /* box-shadow: 10px 8px rgb(128,128,128,0.1); */
 }
 .emailTease {
     margin-top: -3%;
