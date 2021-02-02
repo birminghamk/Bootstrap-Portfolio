@@ -102,6 +102,7 @@ button.homeConnectButton:visited {
     right: 48%;
     opacity: 0;
     animation-delay: 6s;
+    padding-right: 1%;
 }
 
 .dot {
