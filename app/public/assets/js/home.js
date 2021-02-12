@@ -15,6 +15,7 @@ $(function() {
 		$(".aboutSection").hide();
 		$(".siteNav").fadeIn('slow');
 		$(".portfolioSection").fadeIn('slow');
+		$(".art-nav").hide();
 	});
 
 	//click about button, show about/hide art
@@ -24,11 +25,17 @@ $(function() {
 		$(".aboutSection").fadeIn('slow');
 	});
 
-	//click home button, show home/hide about
+	//click home button, show home/hide everything else
 	$(".home").click(function(){
 		$(".container-home").hide();
 		$(".aboutSection").hide();
 		$(".portfolioSection").fadeIn('slow');
+		$(".main-page").fadeIn('slow');
+		$(".web-design").hide();
+		$(".graphic-design").hide();
+		$(".geometric-design").hide();
+		$(".cocktailIllustration").hide();
+		$(".art-nav").hide();
 	});
 
 	

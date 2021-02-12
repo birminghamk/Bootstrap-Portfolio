@@ -1,7 +1,8 @@
 $(function() {
 
 	function onSiteEntry() {
-		$(".graphic-design").fadeIn('slow');
+		$(".main-page").fadeIn('slow');
+		$(".graphic-design").hide();
 		$(".cocktailIllustration").hide();
 		$(".watercolor").hide();
 		$(".colorImages").hide();
@@ -26,6 +27,8 @@ $(function() {
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
 			$(".web-design").hide();
+			$(".main-page").hide();
+			$(".art-nav").fadeIn('slow');
 		  });
 
 		  $("#webDesign").click(function(){
@@ -38,6 +41,7 @@ $(function() {
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
 			$(".cocktailIllustration").hide();
+			$(".main-page").hide();
 		  });
 
 		  $("#graphicDesign").click(function(){
@@ -50,68 +54,71 @@ $(function() {
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
 			$(".web-design").hide();
+			$(".main-page").hide();
 		  });
 
-		  $("#colorStudies").click(function(){
-			$(".colorImages").fadeIn('slow');
-			$(".cocktailIllustration").hide();
-			$(".blackandwhite").hide();
-			$(".lettering").hide();
-			$(".mixed-media").hide();
-			$(".watercolor").hide();
-			$(".geometric-design").hide();
-			$(".graphic-design").hide();
-			$(".web-design").hide();
-		  });
+		//   $("#colorStudies").click(function(){
+		// 	$(".colorImages").fadeIn('slow');
+		// 	$(".cocktailIllustration").hide();
+		// 	$(".blackandwhite").hide();
+		// 	$(".lettering").hide();
+		// 	$(".mixed-media").hide();
+		// 	$(".watercolor").hide();
+		// 	$(".geometric-design").hide();
+		// 	$(".graphic-design").hide();
+		// 	$(".web-design").hide();
+		// 	$(".main-page").hide();
+		//   });
 
-		  $("#blackAndwhite").click(function(){
-			$(".blackandwhite").fadeIn('slow');
-			$(".colorImages").hide();
-			$(".cocktailIllustration").hide();
-			$(".lettering").hide();
-			$(".mixed-media").hide();
-			$(".watercolor").hide();
-			$(".geometric-design").hide();
-			$(".graphic-design").hide();
-			$(".web-design").hide();
+		//   $("#blackAndwhite").click(function(){
+		// 	$(".blackandwhite").fadeIn('slow');
+		// 	$(".colorImages").hide();
+		// 	$(".cocktailIllustration").hide();
+		// 	$(".lettering").hide();
+		// 	$(".mixed-media").hide();
+		// 	$(".watercolor").hide();
+		// 	$(".geometric-design").hide();
+		// 	$(".graphic-design").hide();
+		// 	$(".web-design").hide();
+			
 
-		  });
-		  $("#Lettering").click(function(){
-			$(".lettering").fadeIn('slow');
-			$(".colorImages").hide();
-			$(".cocktailIllustration").hide();
-			$(".blackandwhite").hide();
-			$(".mixed-media").hide();
-			$(".watercolor").hide();
-			$(".geometric-design").hide();
-			$(".graphic-design").hide();
-			$(".web-design").hide();
+		//   });
+		//   $("#Lettering").click(function(){
+		// 	$(".lettering").fadeIn('slow');
+		// 	$(".colorImages").hide();
+		// 	$(".cocktailIllustration").hide();
+		// 	$(".blackandwhite").hide();
+		// 	$(".mixed-media").hide();
+		// 	$(".watercolor").hide();
+		// 	$(".geometric-design").hide();
+		// 	$(".graphic-design").hide();
+		// 	$(".web-design").hide();
 
-		  });
-		  $("#mixedMedia").click(function(){
-			$(".mixed-media").fadeIn('slow');
-			$(".colorImages").hide();
-			$(".cocktailIllustration").hide();
-			$(".blackandwhite").hide();
-			$(".lettering").hide();
-			$(".watercolor").hide();
-			$(".geometric-design").hide();
-			$(".graphic-design").hide();
-			$(".web-design").hide();
+		//   });
+		//   $("#mixedMedia").click(function(){
+		// 	$(".mixed-media").fadeIn('slow');
+		// 	$(".colorImages").hide();
+		// 	$(".cocktailIllustration").hide();
+		// 	$(".blackandwhite").hide();
+		// 	$(".lettering").hide();
+		// 	$(".watercolor").hide();
+		// 	$(".geometric-design").hide();
+		// 	$(".graphic-design").hide();
+		// 	$(".web-design").hide();
 
-		  });
-		  $("#Watercolor").click(function(){
-			$(".watercolor").fadeIn('slow');
-			$(".mixed-media").hide();
-			$(".colorImages").hide();
-			$(".cocktailIllustration").hide();
-			$(".blackandwhite").hide();
-			$(".lettering").hide();
-			$(".geometric-design").hide();
-			$(".graphic-design").hide();
-			$(".web-design").hide();
+		//   });
+		//   $("#Watercolor").click(function(){
+		// 	$(".watercolor").fadeIn('slow');
+		// 	$(".mixed-media").hide();
+		// 	$(".colorImages").hide();
+		// 	$(".cocktailIllustration").hide();
+		// 	$(".blackandwhite").hide();
+		// 	$(".lettering").hide();
+		// 	$(".geometric-design").hide();
+		// 	$(".graphic-design").hide();
+		// 	$(".web-design").hide();
 
-		  });
+		//   });
 		  $("#geometricDesign").click(function(){
 			$(".geometric-design").fadeIn('slow');
 			$(".watercolor").hide();
@@ -130,10 +137,33 @@ $(function() {
 
 	//click web design button, scroll to top of web design section
 	$(".webDesignEntry").click(function() {
+		$(".main-page").hide();
 		$(".graphic-design").hide();
 		$(".web-design").fadeIn('slow');
+		$(".art-nav").fadeIn('slow');
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $("#webDesignStart").offset().top
+		}, 1000);
+	});
+
+	$(".viewGraphicDesign").click(function() {
+		$(".main-page").hide();
+		$(".web-design").hide();
+		$(".graphic-design").fadeIn('slow');
+		$(".art-nav").fadeIn('slow');
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#GraphicDesignStart").offset().top
+		}, 1000);
+	});
+
+	$(".viewIllustration").click(function() {
+		$(".main-page").hide();
+		$(".web-design").hide();
+		$(".graphic-design").hide();
+		$(".cocktailIllustration").fadeIn('slow');
+		$(".art-nav").fadeIn('slow');
+		$([document.documentElement, document.body]).animate({
+			scrollTop: $("#IllustrationStart").offset().top
 		}, 1000);
 	});
 
