@@ -87,7 +87,7 @@ div.modal-footer {
 .viewGraphicDesign,
 .webDesignEntry,
 .viewIllustration {
-    font-size: 25px;
+    font-size: 2em;
     padding: 3%;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -98,11 +98,14 @@ div.modal-footer {
     text-align: center;
     width: 45%;
     font-weight: bold;
+    -webkit-text-stroke: 0.15px grey;
+    -webkit-text-fill-color: white;
 }
 .viewGraphicDesign:hover,
 .webDesignEntry:hover,
 .viewIllustration:hover {
-    font-size: 30px;
+    /* font-size: 30px;
+    color: grey; */
 }
 /* .webDesignEntry {
     font-size: 25px;

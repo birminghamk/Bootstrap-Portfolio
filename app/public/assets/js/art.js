@@ -3,7 +3,7 @@ $(function() {
 	function onSiteEntry() {
 		$(".main-page").fadeIn('slow');
 		$(".graphic-design").hide();
-		$(".cocktailIllustration").hide();
+		$(".Illustration").hide();
 		$(".watercolor").hide();
 		$(".colorImages").hide();
 		$(".blackandwhite").hide();
@@ -17,8 +17,8 @@ $(function() {
 
 	//nav control for art images
 	function artNav () {
-		$("#cocktails").click(function(){
-			$(".cocktailIllustration").fadeIn('slow');
+		$("#illustration").click(function(){
+			$(".Illustration").fadeIn('slow');
 			$(".colorImages").hide();
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
@@ -40,13 +40,13 @@ $(function() {
 			$(".watercolor").hide();
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
-			$(".cocktailIllustration").hide();
+			$(".Illustration").hide();
 			$(".main-page").hide();
 		  });
 
 		  $("#graphicDesign").click(function(){
 			$(".graphic-design").fadeIn('slow');
-			$(".cocktailIllustration").hide();
+			$(".Illustration").hide();
 			$(".colorImages").hide();
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
@@ -124,7 +124,7 @@ $(function() {
 			$(".watercolor").hide();
 			$(".mixed-media").hide();
 			$(".colorImages").hide();
-			$(".cocktailIllustration").hide();
+			$(".Illustration").hide();
 			$(".blackandwhite").hide();
 			$(".lettering").hide();
 			$(".graphic-design").hide();
@@ -160,7 +160,7 @@ $(function() {
 		$(".main-page").hide();
 		$(".web-design").hide();
 		$(".graphic-design").hide();
-		$(".cocktailIllustration").fadeIn('slow');
+		$(".Illustration").fadeIn('slow');
 		$(".art-nav").fadeIn('slow');
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $("#IllustrationStart").offset().top
