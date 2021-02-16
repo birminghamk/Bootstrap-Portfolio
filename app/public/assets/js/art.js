@@ -28,7 +28,6 @@ $(function() {
 			$(".graphic-design").hide();
 			$(".web-design").hide();
 			$(".main-page").hide();
-			$(".art-nav").fadeIn('slow');
 		  });
 
 		  $("#webDesign").click(function(){
@@ -57,68 +56,6 @@ $(function() {
 			$(".main-page").hide();
 		  });
 
-		//   $("#colorStudies").click(function(){
-		// 	$(".colorImages").fadeIn('slow');
-		// 	$(".cocktailIllustration").hide();
-		// 	$(".blackandwhite").hide();
-		// 	$(".lettering").hide();
-		// 	$(".mixed-media").hide();
-		// 	$(".watercolor").hide();
-		// 	$(".geometric-design").hide();
-		// 	$(".graphic-design").hide();
-		// 	$(".web-design").hide();
-		// 	$(".main-page").hide();
-		//   });
-
-		//   $("#blackAndwhite").click(function(){
-		// 	$(".blackandwhite").fadeIn('slow');
-		// 	$(".colorImages").hide();
-		// 	$(".cocktailIllustration").hide();
-		// 	$(".lettering").hide();
-		// 	$(".mixed-media").hide();
-		// 	$(".watercolor").hide();
-		// 	$(".geometric-design").hide();
-		// 	$(".graphic-design").hide();
-		// 	$(".web-design").hide();
-			
-
-		//   });
-		//   $("#Lettering").click(function(){
-		// 	$(".lettering").fadeIn('slow');
-		// 	$(".colorImages").hide();
-		// 	$(".cocktailIllustration").hide();
-		// 	$(".blackandwhite").hide();
-		// 	$(".mixed-media").hide();
-		// 	$(".watercolor").hide();
-		// 	$(".geometric-design").hide();
-		// 	$(".graphic-design").hide();
-		// 	$(".web-design").hide();
-
-		//   });
-		//   $("#mixedMedia").click(function(){
-		// 	$(".mixed-media").fadeIn('slow');
-		// 	$(".colorImages").hide();
-		// 	$(".cocktailIllustration").hide();
-		// 	$(".blackandwhite").hide();
-		// 	$(".lettering").hide();
-		// 	$(".watercolor").hide();
-		// 	$(".geometric-design").hide();
-		// 	$(".graphic-design").hide();
-		// 	$(".web-design").hide();
-
-		//   });
-		//   $("#Watercolor").click(function(){
-		// 	$(".watercolor").fadeIn('slow');
-		// 	$(".mixed-media").hide();
-		// 	$(".colorImages").hide();
-		// 	$(".cocktailIllustration").hide();
-		// 	$(".blackandwhite").hide();
-		// 	$(".lettering").hide();
-		// 	$(".geometric-design").hide();
-		// 	$(".graphic-design").hide();
-		// 	$(".web-design").hide();
-
-		//   });
 		  $("#geometricDesign").click(function(){
 			$(".geometric-design").fadeIn('slow');
 			$(".watercolor").hide();
@@ -129,6 +66,7 @@ $(function() {
 			$(".lettering").hide();
 			$(".graphic-design").hide();
 			$(".web-design").hide();
+			$(".main-page").hide();
 
 		  });
 	}

@@ -13,7 +13,7 @@ nav.navbar {
     display: inline;
 }
 ul.nav {
-    margin-top: 1%;
+    margin-top: 20px;
     margin-bottom: -2%;
 }
 .artImg {
@@ -71,11 +71,14 @@ div.modal-footer {
     text-align: center;
 }
 
+/* .dropdown-menu {
+    position: fixed;
+} */
 /*main page section*/
 
 .homeDesignRow {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .viewGraphicDesign,
@@ -94,49 +97,69 @@ div.modal-footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 7%;
     text-align: center;
     width: 45%;
     font-weight: bold;
-    -webkit-text-stroke: 0.15px grey;
-    -webkit-text-fill-color: white;
 }
 .viewGraphicDesign:hover,
 .webDesignEntry:hover,
 .viewIllustration:hover {
-    /* font-size: 30px;
-    color: grey; */
-}
-/* .webDesignEntry {
-    font-size: 25px;
-    padding: 3%;
-    border: 5px solid white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    text-align: center;
-    width: 45%;
-    font-weight: bold;
-}
-.webDesignEntry:hover {
-    background-color: white;
-    color: lightgrey;
-    border: 5px solid lightgrey;
-} */
+    -webkit-mask-image: linear-gradient(-75deg, rgba(128,128,128,.6) 30%, rgb(128,128,128) 50%, rgba(128,128,128,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
 .homeEvite {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 90%;
 }
 
 .homeLadyinRed {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 90%;
+    margin-top: 7%;
+}
+
+.homeYearTypography {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
     margin-top: -5%;
+}
+
+.homeWebBanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 11%;
+}
+
+.homeDevonBanner {
+    margin-top: 5%;
+}
+
+.homeAbstractLandscape {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .homeLastNightOut {
@@ -250,7 +273,7 @@ div.modal-footer {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4%;
+    margin-top: -3%;
 }
 .flowersPerspective {
     display: block;
@@ -502,13 +525,13 @@ margin-top: 6%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
+    margin-top: -1%;
     width: 70%;
-    height: 85%;
+    height: 100%;
 }
 .mastersIntroText {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     -webkit-transform: translate(-50%, -50%);

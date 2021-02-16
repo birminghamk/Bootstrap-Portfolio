@@ -31,14 +31,6 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-12">
-                <div class="fadeInRight header-animation siteEntry-container">
-                  <div class="button-down siteEntry"></div>
-                </div>
-              </div>
-          </div>
-    
           <div class="row dotsAlign">
             <div class="col-12">
                   <span class="dot"></span>
@@ -46,6 +38,14 @@
                   <span class="dot"></span>
                   <span class="dot dotSwitch"></span>
             </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+                <div class="fadeInRight header-animation siteEntry-container">
+                  <div class="button-down siteEntry"></div>
+                </div>
+              </div>
           </div>
       </div>
     </div>
@@ -58,16 +58,33 @@
       <a href="/" class="navbar-left"><img class="logo-nav" src="/assets/images/favicon.png" alt="logo"/></a>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <h4><a class="text-muted nav-link home backtoGraphicDesign">Home</a></h4>
+          <h4><a class="text-muted nav-link home">Home</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a id="one" class="text-muted nav-link connect">Connect</a></h4>
         </li>
         <!-- <li class="nav-item">
           <h4><a class="text-muted aboutButton nav-link">About</a></h4>
         </li> -->
-        <li class="nav-item">
-          <h4><a id="one" class="text-muted nav-link connect">Connect</a></h4>
-        </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <h4><a href="http://society6.com/dopaminecream" target="_blank" class="text-muted nav-link">Shop</a></h4>
+        </li> -->
+        <li class="nav-item">
+          <!-- Split dropright button -->
+          <div class=dropright">
+            <h4 class="text-muted nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Work
+            </h4>
+            <!-- <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropright</span>
+            </button> -->
+            <div class="dropdown-menu">
+              <p class="artCategory art-link" id="graphicDesign">Graphic Design</p>
+              <p class="artCategory art-link" id="webDesign">Web Design</p>
+              <p class="artCategory art-link" id="illustration">Illustration</p>
+              <p class="artCategory art-link" id="geometricDesign">Geometric Design</p>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>
@@ -86,7 +103,7 @@
           </div>
         </div> -->
     
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12">
                 <ul class="art-nav">
                   <li class="artCategory art-link" id="graphicDesign">Graphic Design</li>
@@ -95,20 +112,45 @@
                   <li class="artCategory art-link" id="geometricDesign">Geometric Design</li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
       <section class="main-page">
 
         <div class="row homeDesignRow">
           <div class="col-6">
-            <a href="/assets/images/art-images/devon_evite_dec-2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="E-Invitation for Galerie Zuger Vail">
-              <img class="homeEvite artImg" src="/assets/images/art-images/devon_evite_dec-2020.jpg" alt="E-Invitation"/>
-            </a>
+            <div class="row">
+              <div class="col-12">
+                <a href="/assets/images/art-images/devon_evite_dec-2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="E-Invitation for Galerie Zuger Vail">
+                  <img class="homeEvite artImg" src="/assets/images/art-images/devon_evite_dec-2020.jpg" alt="E-Invitation"/>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a href="/assets/images/art-images/britten_masters_january-2021.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
+                  <img class="homeWebBanner artImg" src="/assets/images/art-images/britten_masters_january-2021.jpg" alt="Web Banner"/>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a href="/assets/images/art-images/devon_vail_december-2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
+                  <img class="homeWebBanner homeDevonBanner artImg" src="/assets/images/art-images/devon_vail_december-2020.jpg" alt="Web Banner"/>
+                </a>
+              </div>
+            </div>
           </div>
           <div class="col-6">
-            <a href="/assets/images/art-images/ladyinred-purple.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Lady in Red" data-footer="Illustration for Valentine's Day Cocktail">
-              <img class="homeLadyinRed artImg" src="/assets/images/art-images/ladyinred-purple.jpg" alt="Illustration made for a Valentine's Day cocktail"/>
-            </a>
+            <div class="row">
+              <a href="/assets/images/art-images/2021-typography.JPG" data-gallery="art-gallery" data-toggle="lightbox" data-title="Personal Work">
+                <img class="homeYearTypography artImg" src="/assets/images/art-images/2021-typography.JPG" alt="ART"/>
+              </a>
+            </div>
+            <div class="row">
+              <a href="/assets/images/art-images/ladyinred-purple.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Lady in Red" data-footer="Illustration for Valentine's Day Cocktail">
+                <img class="homeLadyinRed artImg" src="/assets/images/art-images/ladyinred-purple.jpg" alt="Illustration made for a Valentine's Day cocktail"/>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -199,6 +241,14 @@
           <div class="col-5">
             <a href="/assets/images/art-images/moonlight-glow.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Personal Work">
               <img class="moonlightGlow artImg" src="/assets/images/art-images/moonlight-glow.jpg" alt="ART"/>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <a href="/assets/images/art-images/abstract-landscape.jpg" data-disable-external-check="true" data-gallery="art-gallery" data-toggle="lightbox" data-title="Abstract Landscape" data-height="20">
+              <img class="homeAbstractLandscape artImg" src="/assets/images/art-images/abstract-landscape.jpg" alt="Abstract Landscape"/>
             </a>
           </div>
         </div>
@@ -781,11 +831,11 @@
                     <img class="webBanner artImg" src="/assets/images/art-images/schofield_november_2020.jpg" alt="Web Banner"/>
                   </a>
                 </div>
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                   <a href="/assets/images/art-images/lewis_tiny_treasures_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                     <img class="webBanner artImg" src="/assets/images/art-images/lewis_tiny_treasures_2020.jpg" alt="Web Banner"/>
                   </a>
-                </div>
+                </div> -->
                 <div class="carousel-item">
                   <a href="/assets/images/art-images/lotton_december_2020.jpg" data-gallery="art-gallery" data-toggle="lightbox" data-title="Web Banner for Masters Gallery">
                     <img class="webBanner artImg" src="/assets/images/art-images/lotton_december_2020.jpg" alt="Web Banner"/>

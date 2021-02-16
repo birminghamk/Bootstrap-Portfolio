@@ -55,17 +55,18 @@ button.homeConnectButton:visited {
 }
 .homepageHeader {
     position: fixed;
-    top: 30%;
-    right: 30%;
+    top: 22%;
+    right: 22%;
     opacity: 0;
     animation-delay: 8s;
-    width: 40%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20%;
 }
 .button-down {
   position: fixed;
-  top: 60%;
+  top: 100%;
   right: 48%;
   padding: 5px;
   margin: 35px auto;
