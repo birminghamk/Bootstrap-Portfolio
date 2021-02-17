@@ -56,10 +56,10 @@ button.homeConnectButton:visited {
 .homepageHeader {
     position: fixed;
     top: 22%;
-    right: 22%;
+    right: 25%;
     opacity: 0;
     animation-delay: 8s;
-    width: 55%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20%;

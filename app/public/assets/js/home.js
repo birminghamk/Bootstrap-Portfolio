@@ -34,7 +34,7 @@ $(function() {
 		$(".web-design").hide();
 		$(".graphic-design").hide();
 		$(".geometric-design").hide();
-		$(".cocktailIllustration").hide();
+		$(".Illustration").hide();
 		$(".art-nav").hide();
 	});
 
