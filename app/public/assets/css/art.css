@@ -9,6 +9,9 @@
 .artImg:hover {
     opacity: 0.7;
 }
+.mobileNav {
+    display: none;
+}
 nav.navbar {
     display: inline;
 }
@@ -25,7 +28,9 @@ ul.nav {
     margin-left: auto;
     margin-right: auto;
 }
-
+div.modal-footer {
+    text-align: center;
+}
 button.close {
     display: none;
 }
@@ -112,7 +117,7 @@ div.modal-footer {
     -webkit-mask-size: 200%;
     animation: shine 2s infinite;
   }
-  
+
   @-webkit-keyframes shine {
     from {
       -webkit-mask-position: 150%;
@@ -122,7 +127,88 @@ div.modal-footer {
       -webkit-mask-position: -50%;
     }
   }
+  .fill-closing-vertical {
+    display: inline;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 10px;
+    transition: color 1s ease;
+}
 
+.fill-closing-vertical:after,
+.fill-closing-vertical:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.fill-closing-vertical:focus,
+.fill-closing-vertical:hover,
+.fill-top-left {
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -ms-transition: color 1s ease;
+    -o-transition: color 1s ease;
+}
+
+.fill-closing-vertical:focus,
+.fill-closing-vertical:hover {
+    outline: 0;
+    color: grey;
+    transition: color 1s ease;
+    cursor: pointer;
+}
+
+.fill-closing-vertical:after,
+.fill-closing-vertical:before {
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.fill-closing-vertical:focus:after,
+.fill-closing-vertical:focus:before,
+.fill-closing-vertical:hover:after,
+.fill-closing-vertical:hover:before {
+    outline: 0;
+    background-color: rgb(255,255,255);
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.fill-closing-vertical:before {
+    height: 3px;
+    top: 0;
+    right: 0;
+}
+
+.fill-closing-vertical:focus:before,
+.fill-closing-vertical:hover:before {
+    width: 100%;
+    height: 50%;
+}
+
+.fill-closing-vertical:after {
+    height: 3px;
+    bottom: 0;
+    left: 0;
+}
+.fill-closing-vertical:focus:after,
+.fill-closing-vertical:hover:after {
+    width: 100%;
+    height: 50%
+}
 .homeEvite {
     display: block;
     margin-left: auto;
@@ -345,6 +431,19 @@ div.modal-footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    margin-top: 6%;
+}
+.holdingPlant-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.eyes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 .flowersGraphic {
     display: block;
@@ -381,7 +480,7 @@ div.modal-footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-top: -3%;
+    margin-top: -1%;
 }
 .ladyinredPurple {
     display: block;
@@ -428,7 +527,7 @@ div.modal-footer {
     width: 100%;
     /* background-color: rgb(211,211,211,0.7);
     border: 5px solid lightgrey; */
-    margin-top: -3%;
+    margin-top: 15%;
     padding: 1%;
 }
 .seeMastersMarketing {
@@ -471,6 +570,10 @@ margin-top: 6%;
 }
 .patternMarker {
     margin-top: -5%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .patternOrange {
     margin-top: 9%;
@@ -505,7 +608,7 @@ margin-top: 6%;
 }
 .mastersDesignIntro {
     text-align: left;
-    margin-top: 25%;
+    margin-top: 65%;
 }
 .mastersDesignWebIntro {
     margin-top: 5%;

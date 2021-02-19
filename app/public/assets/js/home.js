@@ -38,7 +38,6 @@ $(function() {
 		$(".art-nav").hide();
 	});
 
-	
 	//color gradient
 	var colors = new Array(
 	  [62,35,255],

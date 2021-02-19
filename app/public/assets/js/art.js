@@ -15,6 +15,7 @@ $(function() {
 
 	onSiteEntry();
 
+
 	//nav control for art images
 	function artNav () {
 		$("#illustration").click(function(){
