@@ -58,7 +58,7 @@
         width: 100%;
     }
     .personalWorkSide {
-        width: 100%;
+        margin-top: 103%;
     }
     /*Web Design Section*/
     .mastersIntroText {
@@ -142,6 +142,9 @@
     .mastersIntro {
         font-size: 20px;
         width: 70%;
+    }
+    .emailTemplates {
+        margin-top: 55%;
     }
     .ontheartists {
         font-size: 80px;
