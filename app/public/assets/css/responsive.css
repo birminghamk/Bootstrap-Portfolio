@@ -36,9 +36,6 @@
     .webDesignEntry {
         width: 55%;
     }
-    .mastersDesignIntro {
-        margin-top: 65%;
-    }
     .seeMastersMarketing {
         margin-top: -2%;
     }
@@ -136,7 +133,7 @@
         max-height: 490px;
     }
     .mastersDesignIntro {
-        margin-top: 27%;
+        margin-top: 15%;
     }
     /*Web Design Section*/
     .intro {
@@ -374,14 +371,6 @@
     }
     .webDesignEntry {
         width: 72%;
-    }
-    .mastersDesignIntro {
-        margin-top: 20%;
-        font-size: 20px;
-    }
-    .mastersDesignWebIntro {
-        font-size: 20px;
-        margin-bottom: 25%;
     }
     .connectModal {
         max-height: 300px;
