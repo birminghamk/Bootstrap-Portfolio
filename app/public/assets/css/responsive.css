@@ -178,6 +178,9 @@
     .about-pic {
         width: 80%;
     }
+    .personalWorkSide {
+        margin-top: 100%;
+    }
 @media screen and (max-width: 1000px) {
     /*general*/
     .logo-nav {
