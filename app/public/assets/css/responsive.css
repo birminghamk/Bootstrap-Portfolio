@@ -325,7 +325,7 @@
         width: 90%;
     }
     .homeEvite {
-        margin-top: 30%;
+        margin-top: 20%;
     }
     .homeLadyinRed {
         margin-top: 10%;
@@ -358,13 +358,16 @@
         margin-top: 50%;
         padding: 3%;
     }
+    .mastersDesignIntro {
+        width: 75%;
+        margin-bottom: 10%;
+    }
     .clickEmailTemplates {
         margin-bottom: 15%;
     }
     .mastersMarketing {
-        margin-top: 40%;
-        padding: 5%;
-        margin: 5%;
+        margin-top: 15%;
+        margin-bottom: 15%;
     }
     .eventInvitation {
         margin-top: 10%;
