@@ -11,17 +11,21 @@
         margin-top: 40%;
     }
     .button-down {
-        top: 25%;
+        top: 20%;
     }
     /*bioSection */
     .life {
         padding-top: 10%;
     }
     .about {
-        margin-top: -1%;
         padding-top: 5%;
     }
     /*Graphic Design Section*/
+    .ladyinredYellow, .ladyinredLightPink,
+    .ladyinredPumpkin,
+    .ladyinredGrey {
+        margin-top: 1%;
+    }
     .mastersMarketing {
         padding: 2%;
     }
@@ -111,6 +115,9 @@
     }
     .responsiveMasters {
         width: 83%;
+    }
+    .patterMarker {
+        width: 100%;
     }
 }
 @media screen and (max-width: 1200px) {
