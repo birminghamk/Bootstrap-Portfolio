@@ -19,43 +19,43 @@ $(function() {
 	//nav control for art images
 	function artNav () {
 		$("#illustration").click(function(){
-			$(".Illustration").fadeIn('slow');
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
 			$(".web-design").hide();
 			$(".main-page").hide();
 			$(".aboutSection").hide();
 			$(".portfolioSection").fadeIn('slow');
+			$(".Illustration").fadeIn('slow');
 		  });
 
 		  $("#webDesign").click(function(){
-			$(".web-design").fadeIn('slow');
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
 			$(".Illustration").hide();
 			$(".main-page").hide();
 			$(".aboutSection").hide();
 			$(".portfolioSection").fadeIn('slow');
+			$(".web-design").fadeIn('slow');
 		  });
 
 		  $("#graphicDesign").click(function(){
-			$(".graphic-design").fadeIn('slow');
 			$(".Illustration").hide();
 			$(".geometric-design").hide();
 			$(".web-design").hide();
 			$(".main-page").hide();
 			$(".aboutSection").hide();
 			$(".portfolioSection").fadeIn('slow');
+			$(".graphic-design").fadeIn('slow');
 		  });
 
 		  $("#geometricDesign").click(function(){
-			$(".geometric-design").fadeIn('slow');
 			$(".Illustration").hide();
 			$(".graphic-design").hide();
 			$(".web-design").hide();
 			$(".main-page").hide();
 			$(".aboutSection").hide();
 			$(".portfolioSection").fadeIn('slow');
+			$(".geometric-design").fadeIn('slow');
 
 		  });
 	}
