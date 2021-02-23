@@ -311,6 +311,7 @@ div.modal-footer {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    margin-top: 5%;
 }
 
 .homeBlueCrayon {
@@ -593,7 +594,7 @@ margin-top: 6%;
 .webBannerText {
     text-align: center;
     font-weight: bold;
-    margin-top: 10%;
+    margin-top: 15%;
     font-size: 30px;
     border-top: 10px solid white;
     padding-top: 5%;
