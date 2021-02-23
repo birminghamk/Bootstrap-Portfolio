@@ -18,7 +18,7 @@ $(function() {
 
 	//nav control for art images
 	function artNav () {
-		$("#illustration").click(function(){
+		$(".illustration").click(function(){
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
 			$(".web-design").hide();
@@ -28,7 +28,7 @@ $(function() {
 			$(".Illustration").fadeIn('slow');
 		  });
 
-		  $("#webDesign").click(function(){
+		  $(".webDesign").click(function(){
 			$(".geometric-design").hide();
 			$(".graphic-design").hide();
 			$(".Illustration").hide();
@@ -38,7 +38,7 @@ $(function() {
 			$(".web-design").fadeIn('slow');
 		  });
 
-		  $("#graphicDesign").click(function(){
+		  $(".graphicDesign").click(function(){
 			$(".Illustration").hide();
 			$(".geometric-design").hide();
 			$(".web-design").hide();
@@ -48,7 +48,7 @@ $(function() {
 			$(".graphic-design").fadeIn('slow');
 		  });
 
-		  $("#geometricDesign").click(function(){
+		  $(".geometricDesign").click(function(){
 			$(".Illustration").hide();
 			$(".graphic-design").hide();
 			$(".web-design").hide();
