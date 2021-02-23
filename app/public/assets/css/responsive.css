@@ -28,13 +28,13 @@
     .ladyinredYellow, .ladyinredLightPink,
     .ladyinredPumpkin,
     .ladyinredGrey {
-        margin-top: 1%;
+        margin-top: 5%;
     }
     .mastersMarketing {
         padding: 2%;
     }
     .webDesignEntry {
-        width: 50%;
+        width: 55%;
     }
     .mastersDesignIntro {
         margin-top: 65%;
@@ -58,6 +58,9 @@
         margin-top: 20%;
     }
     .personalWork {
+        width: 100%;
+    }
+    .personalWorkSide {
         width: 100%;
     }
     /*Web Design Section*/
@@ -412,6 +415,7 @@
     }
     .seeMastersMarketing {
         font-size: 20px;
+        display: block;
     }
     .personalWork {
         width: 90%;
@@ -596,7 +600,7 @@
     }
     .mastersIntroText {
         font-size: 30px;
-        top: 53%;
+        top: 48%;
     }
     .introGraphic-masters {
         width: 100%;

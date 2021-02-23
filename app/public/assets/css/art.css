@@ -488,7 +488,8 @@ div.modal-footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-top: 10%;
 }
 .brainCream, .eyes {
     margin-left: auto;
@@ -522,7 +523,7 @@ div.modal-footer {
 }
 .evite {
     margin-top: 11%;
-    width: 95%;
+    width: 91%;
 }
 .mastersMarketing {
     width: 100%;
@@ -608,18 +609,16 @@ margin-top: 6%;
     border-radius: 12%;
 }
 .mastersDesignIntro {
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
-    margin-top: 65%;
+    margin-top: 15%;
+    font-size: 30px;
 }
-.mastersDesignWebIntro {
-    margin-top: 5%;
-    border-top: 15px solid white;
-    padding-top: 5%;
-}
-.mastersDesignIntro, 
-.mastersDesignWebIntro {
-    text-align: left;
-    font-size: 22px;
+.seeMastersMarketing {
+    display: none;
 }
 .bannerGraphic-2 {
     width: 100%;
@@ -671,9 +670,7 @@ margin-top: 6%;
     margin-top: 20%;
     padding: 0%;
 }
-.mastersDesignText {
-    padding-left: 5%;
-}
+
 
 /*Web Design Section*/
 .landingPage {
