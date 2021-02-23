@@ -370,14 +370,14 @@ div.modal-footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 .personalWorkSide {
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 90%;
+    margin-top: 115%;
 }
 .yearTypography {
     width: 100%;
@@ -631,7 +631,7 @@ margin-top: 6%;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 .clickEmailTemplates {
     font-size: 19px;
