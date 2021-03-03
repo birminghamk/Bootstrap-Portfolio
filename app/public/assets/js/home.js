@@ -27,7 +27,7 @@ $(function() {
 
 	//click home button, show home/hide everything else
 	$(".home").click(function(){
-		$(".container-home").hide();
+		// $(".container-home").hide();
 		$(".aboutSection").hide();
 		$(".portfolioSection").fadeIn('slow');
 		$(".main-page").fadeIn('slow');

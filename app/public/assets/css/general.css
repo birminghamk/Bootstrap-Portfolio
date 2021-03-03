@@ -76,7 +76,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 6%;
-    /* margin-bottom: -5px; */
+    /* padding: 20px; */
+    /* background-color: rgb(255,255,255,0.3); */
+    /* margin-top: 6%; */
+    /* border-radius: 35%; */
+    margin-bottom: -5px;
 }
 navbar {
   position: fixed;
@@ -98,9 +102,13 @@ navbar {
   display: inline;
   font-weight: bold;
   font-size: 23px;
+  color: white;
 }
 a.text-muted.nav-link:hover {
   color: lightgrey;
+}
+a.text-muted {
+  color: white;
 }
 /* button.navbar-right {
   color: grey;
