@@ -55,7 +55,7 @@ button.homeConnectButton:visited {
 }
 .homepageHeader {
     position: fixed;
-    top: 30%;
+    top: 20%;
     right: 20%;
     opacity: 0;
     animation-delay: 8s;
@@ -99,7 +99,7 @@ button.homeConnectButton:visited {
 }
 .siteEntry-container {
     position: fixed;
-    top: 55%;
+    top: 65%;
     right: 48%;
     opacity: 0;
     animation-delay: 6s;

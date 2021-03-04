@@ -20,7 +20,7 @@ body {
   margin: 0;
   font-family: 'Jost', sans-serif;
   color: grey;
-  background-color: rgb(245,245,245);
+  background-color: rgb(245,245,245,0.4);
   opacity: 0;
 }
 body.all-loaded {
@@ -102,13 +102,11 @@ navbar {
   display: inline;
   font-weight: bold;
   font-size: 23px;
-  color: white;
+  color: grey;
+  text-decoration: none;
 }
-a.text-muted.nav-link:hover {
+a.nav-link:hover {
   color: lightgrey;
-}
-a.text-muted {
-  color: white;
 }
 /* button.navbar-right {
   color: grey;

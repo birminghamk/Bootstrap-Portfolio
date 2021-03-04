@@ -2,7 +2,7 @@
         PORTFOLIO PAGE
  ==========================*/
  .container-art {
-    background-color: rgb(245,245,245);
+    background-color: rgb(245,245,245,0.4);
     background-repeat: round;
     padding-bottom: 15px;
 }
@@ -56,16 +56,6 @@ div.modal-footer {
 }
 .modal-footer {
     background-color: rgb(245,245,245);
-}
-.intro {
-    color: lightgrey;
-    font-size: 45px;
-    font-weight: 1000;
-    background-color: white;
-    margin-top: -3%;
-    border-radius: 15px;
-    padding: 1%;
-    /* margin-top: 7%; */
 }
 .moreSpace {
     letter-spacing: 2px;
@@ -180,7 +170,7 @@ div.modal-footer {
 .fill-closing-vertical:hover:after,
 .fill-closing-vertical:hover:before {
     outline: 0;
-    background-color: rgb(255,255,255);
+    background-color: white;
     -webkit-transition: all 1s ease 0s;
     -moz-transition: all 1s ease 0s;
     -ms-transition: all 1s ease 0s;
@@ -341,7 +331,7 @@ div.modal-footer {
 }
 .art-link {
     text-decoration: none;
-    color: grey;
+    color: #999999;
     padding: 20px;
     font-size: 20px;
     padding-bottom: 5px;
