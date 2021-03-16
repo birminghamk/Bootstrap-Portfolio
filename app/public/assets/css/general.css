@@ -191,11 +191,29 @@ html.modal-active, body.modal-active {
   font-weight: 300;
   position: relative;
 }
-.social {
-  width: 75px;
-  height: 75px;
-  padding-right: 2px;
+.socialLinkedIn {
+  color: rgb(226,174,205);
 }
+.socialInsta {
+  color: rgb(188,226,181);
+}
+.socialDribbble {
+  color: rgb(154,203,232);
+}
+.socialLinkedIn,
+.socialInsta,
+.socialDribbble {
+  display: block;
+  font-size: 22px; 
+  text-decoration: none;
+}
+.socialLinkedIn:hover,
+.socialInsta:hover,
+.socialDribbble:hover {
+  color: lightgrey;
+  text-decoration: none;
+}
+
 .email {
   text-align: center;
 }
